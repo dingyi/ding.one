@@ -1,20 +1,43 @@
+@font-face {
+  font-family: GerstnerProgWeb;
+  src: url(fonts/GerstnerProgWeb-Bold.eot);
+  src: url(fonts/GerstnerProgWeb-Bold.eot?#iefix) format("embedded-opentype"), url(fonts/GerstnerProgWeb-Bold.woff2) format("woff2"), url(fonts/GerstnerProgWeb-Bold.woff) format("woff");
+  font-weight: 700;
+  font-style: normal
+}
+
+@font-face {
+  font-family: GerstnerProgWeb;
+  src: url(fonts/GerstnerProgWeb-Light.eot);
+  src: url(fonts/GerstnerProgWeb-Light.eot?#iefix) format("embedded-opentype"), url(fonts/GerstnerProgWeb-Light.woff2) format("woff2"), url(fonts/GerstnerProgWeb-Light.woff) format("woff");
+  font-weight: 300;
+  font-style: normal
+}
+
+@font-face {
+  font-family: GerstnerProgWeb;
+  src: url(fonts/GerstnerProgWeb-Regular.eot);
+  src: url(fonts/GerstnerProgWeb-Regular.eot?#iefix) format("embedded-opentype"), url(fonts/GerstnerProgWeb-Regular.woff2) format("woff2"), url(fonts/GerstnerProgWeb-Regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal
+}
+
 html {
   height: 100%
 }
 
 body {
-  cursor: -webkit-image-set( 
-    url('hi.svg') 1x, 
-    url('hi.svg') 2x), 
-    auto
+  cursor: -webkit-image-set( url('hi.svg') 1x, url('hi.svg') 2x), auto
 }
 
 body {
-  font: 14px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+  font-family: GerstnerProgWeb, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
   color: #fff;
-  font-size: 100%;
   text-align: left;
-  line-height: 1.52;
   text-rendering: optimizeLegibility;
   background: #000;
   min-height: 100%;
@@ -34,11 +57,11 @@ a, a:active, a:visited {
   color: rgba(255, 255, 255, .3);
   text-decoration: none;
   -webkit-transition: color .2s ease-out, background 1s ease-in;
-  transition: color .2s ease-out, background 1s ease-in;
+  transition: color .2s ease-out, background 1s ease-in
 }
 
 a:hover {
-  color: rgba(255, 255, 255, .7);
+  color: rgba(255, 255, 255, .7)
 }
 
 a:after {
@@ -50,23 +73,23 @@ a:after {
   transition: width .2s ease, background-color .2s ease;
   margin: 0;
   position: absolute;
-  top: 50%;
+  top: 50%
 }
 
 a:hover:after {
-  width: 100%;
+  width: 100%
 }
 
 p {
-  font-size: 1.4em;
-  font-weight: 400;
+  font-size: 1.8rem;
+  font-weight: 700;
   margin: 0;
   padding: 2em 0 .6em 0;
   text-align: center
 }
 
 ul {
-  padding: 0;
+  padding: 0
 }
 
 ul li {
@@ -74,7 +97,7 @@ ul li {
   font-weight: 300;
   padding: 0 .6em 0 .6em;
   font-size: 1em;
-  letter-spacing: .1;
+  letter-spacing: .1
 }
 
 .raft {
@@ -90,7 +113,7 @@ span {
 }
 
 main {
-  --width: 324px;
+  --width: 500px;
   --height: 260px;
   --center-left: calc(50% - var(--width) / 2);
   --center-top: calc(50% - var(--height) / 2);
