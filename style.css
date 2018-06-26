@@ -81,7 +81,7 @@ a:hover:after {
 }
 
 p {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 700;
   margin: 0;
   padding: 2em 0 .6em 0;
@@ -113,7 +113,7 @@ span {
 }
 
 main {
-  --width: 500px;
+  --width: 340px;
   --height: 260px;
   --center-left: calc(50% - var(--width) / 2);
   --center-top: calc(50% - var(--height) / 2);
