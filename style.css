@@ -113,7 +113,7 @@ span {
 }
 
 main {
-  --width: 340px;
+  --width: 336px;
   --height: 260px;
   --center-left: calc(50% - var(--width) / 2);
   --center-top: calc(50% - var(--height) / 2);
