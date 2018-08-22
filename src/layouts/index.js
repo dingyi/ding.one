@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import '../static/style.css'
 import config from '../utils/siteConfig'
 import Footer from '../components/footer'
+import Source from '../components/source'
 import favicon from '../static/favicon.ico'
 
 const Layout = ({ children }) => (
@@ -22,6 +23,7 @@ const Layout = ({ children }) => (
     </Helmet>
     {children()}
     <Footer />
+    <Source />
   </div>
 )
 
