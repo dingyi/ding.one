@@ -9,13 +9,16 @@ const ShowCode = styled.a`
   position: absolute;
   top: 30px;
   right: 30px;
-  ::after {
+  :hover .code {
+    fill: #fff;
+  }
+  :after {
     display: none;
   }
 `
 
 export default () => (
-  <ShowCode href="https://github.com/dingyi/ding.one">
+  <ShowCode href="https://github.com/dingyi/ding.one" target="_blank">
     <SourceIcon />
   </ShowCode>
 )
