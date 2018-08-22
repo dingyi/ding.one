@@ -4,7 +4,7 @@ module.exports = {
   publisher: 'Ding Yi', // Organization name used for SEO schema
   siteDescription: 'Ding, digital nomad.',
   siteUrl: 'https://ding.one',
-  author: 'RΛFT', // Author for RSS author segment and SEO schema
+  author: 'Ding Yi', // Author for RSS author segment and SEO schema
   authorUrl: 'https://ding.one', // URL used for author and publisher schema, can be a social profile or other personal site
   userTwitter: '@dingyi', // Change for Twitter Cards
   shortTitle: 'Ding', // Used for App manifest e.g. Mobile Home Screen
