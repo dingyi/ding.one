@@ -40,7 +40,7 @@ module.exports = {
         start_url: '/',
         background_color: config.backgroundColor,
         display: 'minimal-ui',
-        icon: `static${config.siteLogo}`,
+        icon: `${config.siteLogo}`,
       },
     },
 
@@ -54,7 +54,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "YOUR_GOOGLE_ANALYTICS_TRACKING_ID",
+        trackingId: "UA-101469255-1",
       },
     },
     'gatsby-plugin-netlify',
