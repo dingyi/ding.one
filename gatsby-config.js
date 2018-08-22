@@ -14,7 +14,8 @@ module.exports = {
       copyright: config.copyright,
     },
   },
-  plugins: [{
+  plugins: [
+    {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
         siteUrl: config.siteUrl,
@@ -26,7 +27,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/posts`,
+        path: `${__dirname}/src/posts/`,
         name: "markdown-pages",
       },
     },
