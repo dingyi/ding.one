@@ -1,6 +1,6 @@
 {
-  "name": "Ding.",
-  "description": "Gatsby default starter",
+  "name": "ding.one",
+  "description": "Ding, a digital nomad.",
   "version": "1.0.0",
   "author": "Ding Yi <dingyimac@gmail.com>",
   "dependencies": {
@@ -10,7 +10,7 @@
     "gatsby-link": "^1.6.46",
     "gatsby-plugin-canonical-urls": "^1.0.18",
     "gatsby-plugin-google-analytics": "^1.0.31",
-    "gatsby-plugin-mailchimp": "^2.2.3",
+    "gatsby-plugin-mailchimp": "^3.0.0",
     "gatsby-plugin-manifest": "^1.0.27",
     "gatsby-plugin-netlify": "^1.0.21",
     "gatsby-plugin-nprogress": "^1.0.14",
@@ -26,7 +26,7 @@
     "gatsby-transformer-sharp": "^1.6.27",
     "postcss-custom-properties": "^7.0.0",
     "react-helmet": "^5.2.0",
-    "styled-components": "^3.4.2"
+    "styled-components": "^3.4.4"
   },
   "keywords": [
     "gatsby"
@@ -39,7 +39,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "prettier": "^1.13.7"
+    "prettier": "^1.14.2"
   },
   "repository": {
     "type": "git",

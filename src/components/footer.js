@@ -5,6 +5,10 @@ const Footer = styled.footer`
   grid-row-start: 2;
   grid-row-end: 3;
   margin: 0 auto;
+  font-size: .9rem;
+  ul:hover a {
+    opacity: .6;
+  }
 `
 
 export default () => (

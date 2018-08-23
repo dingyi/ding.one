@@ -77,10 +77,6 @@ a, a:active, a:visited {
   transition: color .2s ease-out, background 1s ease-in
 }
 
-a:hover {
-  color: rgba(255, 255, 255, .7)
-}
-
 a:after {
   content: '';
   display: block;
@@ -90,7 +86,11 @@ a:after {
   transition: width .2s ease, background-color .2s ease;
   margin: 0;
   position: absolute;
-  top: 50%
+  top: 45%
+}
+
+a:hover {
+  color: rgba(255, 255, 255, .9);
 }
 
 a:hover:after {
