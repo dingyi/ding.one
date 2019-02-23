@@ -23,14 +23,6 @@ module.exports = {
     },
     'gatsby-plugin-styled-components',
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-offline',
-    // {
-    //   resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     path: `${__dirname}/src/posts/`,
-    //     name: "markdown-pages",
-    //   },
-    // },
     `gatsby-transformer-remark`,
     {
       resolve: 'gatsby-plugin-manifest',

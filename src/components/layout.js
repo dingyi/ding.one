@@ -3,8 +3,8 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import '../static/style.css'
 import config from '../utils/siteConfig'
-import Footer from '../components/footer'
-import Source from '../components/source'
+import Footer from './footer'
+import Source from './source'
 import favicon from '../static/favicon.ico'
 
 const Layout = ({ children }) => (
@@ -21,7 +21,9 @@ const Layout = ({ children }) => (
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content={config.siteTitle} />
     </Helmet>
-    {children()}
+    <main>
+      {children}
+    </main>
     <Footer />
     <Source />
   </div>

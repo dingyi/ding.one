@@ -36,9 +36,9 @@ body {
   background: #000;
   overflow: hidden
 }
-
-#___gatsby {
-  height: 100%
+#___gatsby,
+#___gatsby > * {
+  height: 100%;
 }
 
 .wrapper {
@@ -51,7 +51,7 @@ body {
 
 :root {
   --width: 336px;
-  --height: 260px;
+  --height: 280px;
   --center-left: calc(50% - var(--width) / 2);
   --center-top: calc(50% - var(--height) / 2);
   --ease-in-out-quart: cubic-bezier(.77, 0, .175, 1)
