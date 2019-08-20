@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import SourceIcon from '-!svg-react-loader?name=SourceIcon!../static/images/source.svg'
+import CodeIcon from '../icons/code'
 
 const ShowCode = styled.a`
   width: 20px;
@@ -19,6 +19,6 @@ const ShowCode = styled.a`
 
 export default () => (
   <ShowCode href="https://github.com/dingyi/ding.one" target="_blank">
-    <SourceIcon />
+    <CodeIcon />
   </ShowCode>
 )
