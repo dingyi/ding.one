@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import LogoIcon from '-!svg-react-loader?name=LogoIcon!../static/images/logo.svg'
+import LogoIcon from '../icons/logo'
 
 const Logo = styled.div`
   width: 109px;

@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Ding.',
+  siteTitle: '小丁丁',
   siteTitleAlt: 'Ding.', // This allows an alternative site title for SEO schema.
   publisher: 'Ding Yi', // Organization name used for SEO schema
   siteDescription: 'Ding, digital nomad.',
@@ -14,5 +14,4 @@ module.exports = {
   siteLogo: 'src/static/logo-512.png', // Logo used for SEO, RSS, and App manifest
   backgroundColor: '#e9e9e9', // Used for Offline Manifest
   themeColor: '#121212', // Used for Offline Manifest
-  copyright: 'Copyright © 2018 Ding Inc', // Copyright string for the RSS feed
 }
