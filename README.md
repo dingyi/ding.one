@@ -1,5 +1,5 @@
 <h1 align="center">
-  Ding. (ding.one)
+  Personal site of Ding Yi. V2018.
 </h1>
 
 Power by Gatsby.

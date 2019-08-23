@@ -90,7 +90,7 @@ a:after {
 }
 
 a:hover {
-  color: rgba(255, 255, 255, .9);
+  color: rgba(255, 255, 255, .9)
 }
 
 a:hover:after {
@@ -111,9 +111,9 @@ ul li {
 
 @keyframes fadein {
   from {
-    opacity: 0;
+    opacity: 0
   }
   to {
-    opacity: 1;
+    opacity: 1
   }
 }

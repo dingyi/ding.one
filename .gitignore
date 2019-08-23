@@ -1,11 +1,9 @@
 # Project dependencies
 .cache
+.vscode
 
 # dependencies
 /node_modules
-
-# testing
-/coverage
 
 # production
 .cache
