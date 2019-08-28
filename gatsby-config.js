@@ -37,13 +37,6 @@ module.exports = {
     },
 
     {
-      resolve: 'gatsby-plugin-react-svg',
-      options: {
-        include: /images/
-      }
-    },
-
-    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: "UA-101469255-1",
