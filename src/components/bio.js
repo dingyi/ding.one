@@ -7,19 +7,16 @@ const Bio = styled.p`
   margin: 0;
   padding: 2em 0 .6em 0;
   text-align: center;
-  .raft {
-    color: #F9D989 !important;
-  }
-  .dex {
+  .r3 {
     color: #43E7FD !important;
   }
-  span {
-    color: #F7417A;
+  .dex {
+    color: #F7417A!important;
   }
 `
 
 export default () => (
   <Bio>
-    Designer, Coder, Minimalist. Digital Nomad. Making <a href="https://raft.design"className="raft">RΛFT</a> & <a     href="https://dex.group"className="dex">DE<span>X</span></a>.
+    Designer, Coder, Minimalist. Digital Nomad. Now making <a href="https://r3.design"className="r3">R3</a> & <a     href="https://dex.group"className="dex">DEX</a>.
   </Bio>
 )

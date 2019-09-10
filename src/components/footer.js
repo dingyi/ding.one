@@ -18,7 +18,7 @@ export default () => (
       <li><a href="https://instagram.com/dingyi/">Instagram</a></li>
       <li><a href="https://dribbble.com/dingyi">Dribbble</a></li>
       <li><a href="https://open.spotify.com/user/dingyi">Spotify</a></li>
-      <li><a href="mailto:dingyi@me.com">Contact</a></li>
+      <li><a href="mailto:d@ding.one">Contact</a></li>
     </ul>
   </Footer>
 )
