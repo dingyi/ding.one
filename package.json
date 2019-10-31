@@ -5,19 +5,19 @@
   "author": "Ding Yi <d@ding.one>",
   "dependencies": {
     "babel-plugin-styled-components": "latest",
-    "gatsby": "^2.17.2",
+    "gatsby": "^2.17.7",
     "gatsby-plugin-canonical-urls": "^2.1.13",
     "gatsby-plugin-google-analytics": "^2.1.23",
-    "gatsby-plugin-manifest": "^2.2.23",
-    "gatsby-plugin-netlify": "^2.1.22",
+    "gatsby-plugin-manifest": "^2.2.26",
+    "gatsby-plugin-netlify": "^2.1.23",
     "gatsby-plugin-react-helmet": "^3.1.13",
     "gatsby-plugin-styled-components": "^3.1.11",
-    "gatsby-source-filesystem": "^2.1.33",
+    "gatsby-source-filesystem": "^2.1.35",
     "postcss-custom-properties": "latest",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-helmet": "^5.2.1",
-    "styled-components": "^4.4.0"
+    "styled-components": "^4.4.1"
   },
   "keywords": [
     "gatsby"
