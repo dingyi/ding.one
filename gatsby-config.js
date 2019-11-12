@@ -43,6 +43,12 @@ module.exports = {
         head: false,
       },
     },
+    {
+      resolve: 'gatsby-plugin-fathom',
+      options: {
+        siteId: 'BBBASTVG'
+      },
+    },
     'gatsby-plugin-netlify',
   ],
 }
