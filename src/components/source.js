@@ -22,6 +22,7 @@ export default () => (
     href="https://github.com/dingyi/ding.one"
     target="_blank"
     rel="noreferrer"
+    aria-label="Fork it"
   >
     <CodeIcon />
   </ShowCode>
