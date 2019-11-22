@@ -7,7 +7,7 @@ const Footer = styled.footer`
   margin: 0 auto;
   font-size: .9rem;
   ul:hover a {
-    opacity: .6;
+    opacity: .8;
   }
 `
 

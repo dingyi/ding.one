@@ -18,7 +18,11 @@ const ShowCode = styled.a`
 `
 
 export default () => (
-  <ShowCode href="https://github.com/dingyi/ding.one" target="_blank">
+  <ShowCode
+    href="https://github.com/dingyi/ding.one"
+    target="_blank"
+    rel="noreferrer"
+  >
     <CodeIcon />
   </ShowCode>
 )

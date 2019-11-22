@@ -72,7 +72,7 @@ a {
 }
 
 a, a:active, a:visited {
-  color: rgba(255, 255, 255, .3);
+  color: rgba(255, 255, 255, .6);
   text-decoration: none;
   transition: color .2s ease-out, background 1s ease-in
 }
