@@ -1,24 +1,25 @@
 {
   "name": "ding.one",
   "description": "Ding, a digital nomad.",
-  "version": "1.0.0",
+  "version": "3.0.0",
   "author": "Ding Yi <d@ding.one>",
   "dependencies": {
     "babel-plugin-styled-components": "latest",
-    "gatsby": "^2.24.57",
-    "gatsby-plugin-canonical-urls": "^2.3.10",
-    "gatsby-plugin-fathom": "^1.3.0",
-    "gatsby-plugin-google-analytics": "^2.3.13",
-    "gatsby-plugin-manifest": "^2.4.28",
-    "gatsby-plugin-netlify": "^2.3.14",
-    "gatsby-plugin-react-helmet": "^3.3.10",
-    "gatsby-plugin-styled-components": "^3.3.10",
-    "gatsby-source-filesystem": "^2.3.29",
+    "gatsby": "^3.0.0",
+    "gatsby-plugin-canonical-urls": "^3.0.0",
+    "gatsby-plugin-gatsby-cloud": "^2.0.0",
+    "gatsby-plugin-google-analytics": "^3.0.0",
+    "gatsby-plugin-manifest": "^3.0.0",
+    "gatsby-plugin-netlify": "^3.0.0",
+    "gatsby-plugin-plausible": "^0.0.7",
+    "gatsby-plugin-react-helmet": "^4.0.0",
+    "gatsby-plugin-styled-components": "^4.0.0",
+    "gatsby-source-filesystem": "^3.0.0",
     "postcss-custom-properties": "latest",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-helmet": "^6.0.0",
-    "styled-components": "^5.2.0"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "styled-components": "^5.2.1"
   },
   "keywords": [
     "gatsby"
@@ -34,7 +35,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "prettier": "^2.2.1"
   },
   "repository": {
     "type": "git",

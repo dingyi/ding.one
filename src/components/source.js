@@ -17,7 +17,7 @@ const ShowCode = styled.a`
   }
 `
 
-export default () => (
+const Source = () => (
   <ShowCode
     href="https://github.com/dingyi/ding.one"
     target="_blank"
@@ -27,3 +27,5 @@ export default () => (
     <CodeIcon />
   </ShowCode>
 )
+
+export default Source

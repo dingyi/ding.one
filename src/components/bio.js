@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Bio = styled.p`
+const Wrapper = styled.p`
   font-size: 1.6rem;
   font-weight: 700;
   margin: 0;
@@ -15,8 +15,10 @@ const Bio = styled.p`
   }
 `
 
-export default () => (
-  <Bio>
+const Bio = () => (
+  <Wrapper>
     Designer, Coder, Minimalist. Digital Nomad. Now making <a href="https://r3.design"className="r3">R3</a> & <a     href="https://dex.group"className="dex">DEX</a>.
-  </Bio>
+  </Wrapper>
 )
+
+export default Bio

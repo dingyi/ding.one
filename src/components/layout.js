@@ -5,7 +5,6 @@ import '../static/style.css'
 import config from '../utils/siteConfig'
 import Footer from './footer'
 import Source from './source'
-import favicon from '../static/favicon.ico'
 
 const Layout = ({ children }) => (
   <div className="wrapper">
@@ -13,7 +12,6 @@ const Layout = ({ children }) => (
       <title>{config.siteTitle}</title>
       <meta charSet="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link rel="icon" href={favicon} />
       <meta name="description" content={config.siteDescription} />
       <meta property="og:title" content={config.siteTitle} />
       <meta property="og:url" content={config.siteUrl} />

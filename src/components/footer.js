@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Footer = styled.footer`
+const Wrapper = styled.footer`
   grid-row-start: 2;
   grid-row-end: 3;
   margin: 0 auto;
@@ -11,8 +11,8 @@ const Footer = styled.footer`
   }
 `
 
-export default () => (
-  <Footer>
+const Footer = () => (
+  <Wrapper>
     <ul>
       <li><a href="https://twitter.com/dingyi">Twitter</a></li>
       <li><a href="https://instagram.com/dingyi/">Instagram</a></li>
@@ -20,5 +20,7 @@ export default () => (
       <li><a href="https://open.spotify.com/user/dingyi">Spotify</a></li>
       <li><a href="mailto:d@ding.one">Contact</a></li>
     </ul>
-  </Footer>
+  </Wrapper>
 )
+
+export default Footer

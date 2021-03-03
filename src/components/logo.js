@@ -2,14 +2,16 @@ import React from 'react'
 import styled from 'styled-components'
 import LogoIcon from '../icons/logo'
 
-const Logo = styled.div`
+const Wrapper = styled.div`
   width: 109px;
   height: 114px;
   margin: 0 auto;
 `
 
-export default () => (
-  <Logo>
+const Logo = () => (
+  <Wrapper>
     <LogoIcon />
-  </Logo>
+  </Wrapper>
 )
+
+export default Logo

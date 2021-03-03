@@ -16,13 +16,13 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: 'gatsby-plugin-canonical-urls',
+      resolve: `gatsby-plugin-canonical-urls`,
       options: {
         siteUrl: config.siteUrl,
       },
     },
-    'gatsby-plugin-styled-components',
-    'gatsby-plugin-react-helmet',
+    `gatsby-plugin-styled-components`,
+    `gatsby-plugin-react-helmet`,
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
@@ -44,11 +44,12 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-fathom',
+      resolve: `gatsby-plugin-plausible`,
       options: {
-        siteId: 'BBBASTVG'
+        domain: `ding.one`,
       },
     },
-    'gatsby-plugin-netlify',
+    `gatsby-plugin-netlify`,
+    `gatsby-plugin-gatsby-cloud`
   ],
 }
