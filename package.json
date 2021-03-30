@@ -5,7 +5,7 @@
   "author": "Ding Yi <dingyi@hey.com>",
   "dependencies": {
     "babel-plugin-styled-components": "latest",
-    "gatsby": "3.1.2",
+    "gatsby": "3.1.3",
     "gatsby-plugin-canonical-urls": "3.1.0",
     "gatsby-plugin-gatsby-cloud": "2.1.0",
     "gatsby-plugin-google-analytics": "3.1.0",
