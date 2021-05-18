@@ -5,7 +5,7 @@ import { link } from '@styles/link'
 export const Box = styled('footer', {
   margin: '0 auto',
   gridRow: '2 / 3',
-  fontSize: '$2',
+  fontSize: '$1',
   'ul&:hover a': {
     opacity: .8,
   }
