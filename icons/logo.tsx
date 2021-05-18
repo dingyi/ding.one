@@ -10,13 +10,13 @@ const LogoIcon = () => (
   >
     <defs>
       <linearGradient x1="164.261102%" y1="228.815483%" x2="50%" y2="50%" id="linearGradient">
-        <stop stop-color="#000000" offset="0%"></stop>
-        <stop stop-color="#FFFFFF" offset="100%"></stop>
+        <stop stopColor="#000000" offset="0%"></stop>
+        <stop stopColor="#FFFFFF" offset="100%"></stop>
       </linearGradient>
     </defs>
     <g
       stroke="none"
-      stroke-width="1"
+      strokeWidth="1"
       fill="none"
       fill-rule="evenodd"
     >
