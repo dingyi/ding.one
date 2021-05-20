@@ -18,7 +18,7 @@ const Footer = () => {
         <li><a className={link()} href="https://twitter.com/dingyi" target="_blank" rel="noopener">Twitter</a></li>
         <li><a className={link()} href="https://instagram.com/dingyi/" target="_blank" rel="noopener">Instagram</a></li>
         <li><a className={link()} href="https://dribbble.com/dingyi" target="_blank" rel="noopener">Dribbble</a></li>
-        <li><a className={link()} href="https://figma.com/dingyi" target="_blank" rel="noopener">Figma</a></li>
+        <li><a className={link()} href="https://figma.com/@ding" target="_blank" rel="noopener">Figma</a></li>
         <li><a className={link()} href="https://open.spotify.com/user/dingyi" target="_blank" rel="noopener">Spotify</a></li>
         <li><a className={link()} href="mailto:dingyi@hey.com">Contact</a></li>
       </ul>
