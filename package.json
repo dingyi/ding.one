@@ -18,7 +18,7 @@
     "url": "https://github.com/dingyi/ding.one"
   },
   "dependencies": {
-    "@stitches/react": "0.2.1",
+    "@stitches/react": "0.2.2",
     "mdx-bundler": "4.1.0",
     "next": "11.0.0",
     "next-plausible": "^1.6.1",
@@ -28,6 +28,6 @@
   "devDependencies": {
     "@types/react": "17.0.11",
     "prettier": "2.3.1",
-    "typescript": "4.3.2"
+    "typescript": "4.3.3"
   }
 }
