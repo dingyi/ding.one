@@ -38,7 +38,7 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.14.0":
+"@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.14.6":
   version "7.14.6"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.6.tgz#535203bc0892efc7dec60bdc27b2ecf6e409062d"
   integrity sha512-/PCB2uJ7oM44tz8YhC4Z/6PeOKXp4K588f+5M3clr1M4zbqztlo0XEfJ2LEzj/FgwfgGcIdl8n7YYjTCI0BYwg==
@@ -1152,10 +1152,10 @@ es6-object-assign@^1.1.0:
   resolved "https://registry.yarnpkg.com/es6-object-assign/-/es6-object-assign-1.1.0.tgz#c2c3582656247c39ea107cb1e6652b6f9f24523c"
   integrity sha1-wsNYJlYkfDnqEHyx5mUrb58kUjw=
 
-esbuild@^0.12.8:
-  version "0.12.9"
-  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.12.9.tgz#bed4e7087c286cd81d975631f77d47feb1660070"
-  integrity sha512-MWRhAbMOJ9RJygCrt778rz/qNYgA4ZVj6aXnNPxFjs7PmIpb0fuB9Gmg5uWrr6n++XKwwm/RmSz6RR5JL2Ocsw==
+esbuild@^0.12.11:
+  version "0.12.11"
+  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.12.11.tgz#ab24f78cabf481e7dc747e7db15f9c5091beaa14"
+  integrity sha512-h83GwI6lYOrnSv5hSY2i2XZ191v3haj2IGDzwrkfWHhuO/kVMX3RYjhwRNG9E5VSxVLPaUjTVwrv8HWLvhk2nQ==
 
 esbuild@^0.8.40:
   version "0.8.57"
@@ -2338,19 +2338,19 @@ mdurl@^1.0.0:
   resolved "https://registry.yarnpkg.com/mdurl/-/mdurl-1.0.1.tgz#fe85b2ec75a59037f2adfec100fd6c601761152e"
   integrity sha1-/oWy7HWlkDfyrf7BAP1sYBdhFS4=
 
-mdx-bundler@4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/mdx-bundler/-/mdx-bundler-4.1.0.tgz#b82de032987304a85960daf6b3282902ca82890f"
-  integrity sha512-iDLkdwn/YC5IaRcufJE92G4vSwYVNo/XIJVouJSUCVWmcLev092AAninlFttnUVMpsOUMLx+FUbu8HyRjJxE5g==
+mdx-bundler@4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/mdx-bundler/-/mdx-bundler-4.1.1.tgz#b6ee88330e57edc999a94344516acc7a34a49f15"
+  integrity sha512-+IN0LxAwxY3L/4q3FW722A+TLSuX7Dl1k75nnPXr5JlmEii5nBvjky3Cag8c8ouVo8txjQzF8lhD0OVEoPQ37w==
   dependencies:
-    "@babel/runtime" "^7.14.0"
+    "@babel/runtime" "^7.14.6"
     "@esbuild-plugins/node-resolve" "^0.1.4"
     "@fal-works/esbuild-plugin-global-externals" "^2.1.1"
-    esbuild "^0.12.8"
+    esbuild "^0.12.11"
     gray-matter "^4.0.3"
     remark-frontmatter "^3.0.0"
     remark-mdx-frontmatter "^1.0.1"
-    xdm "^1.11.0"
+    xdm "^1.11.1"
 
 merge-stream@^2.0.0:
   version "2.0.0"
@@ -3988,7 +3988,7 @@ wrappy@1:
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 
-xdm@^1.11.0:
+xdm@^1.11.1:
   version "1.11.1"
   resolved "https://registry.yarnpkg.com/xdm/-/xdm-1.11.1.tgz#9a30864635fff945bed88f232f7f5515b5e5aa42"
   integrity sha512-aC7Pau3BdeP5xxR0vA14vpHtVL4EFE8bjXX0DeNPdIKQ3GU71POFlCbptq6hF0U6OZpO+cdEQdbCL6KY+3COGg==
