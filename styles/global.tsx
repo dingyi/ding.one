@@ -1,8 +1,8 @@
-import { global } from 'stitches.config'
+import { global } from '@stitches/react'
 
 export const globalStyles = global({
   body: {
-    backgroundColor: '$black',
+    backgroundColor: '$background',
     color: '$white',
     fontFamily: '$sans',
     margin: 0,

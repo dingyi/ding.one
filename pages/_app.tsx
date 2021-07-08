@@ -3,6 +3,7 @@ import { AppProps } from 'next/app'
 import Head from 'next/head'
 import { globalStyles } from '@styles/global'
 import { styled } from 'stitches.config'
+import { ThemeProvider } from 'next-themes'
 import PlausibleProvider from 'next-plausible'
 
 export const Wrapper = styled('div', {
@@ -18,13 +19,15 @@ function App({ Component, pageProps }: AppProps) {
 
   return (
     <PlausibleProvider domain="ding.one">
-      <Head>
-        <title>Ding</title>
-        <meta name="description" content="A product designer & maker." />
-      </Head>
-      <Wrapper>
-        <Component {...pageProps} />
-      </Wrapper>
+      <ThemeProvider attribute="class">
+        <Head>
+          <title>Ding</title>
+          <meta name="description" content="A product designer & maker." />
+        </Head>
+        <Wrapper>
+          <Component {...pageProps} />
+        </Wrapper>
+      </ThemeProvider>
     </PlausibleProvider>
   )
 }

@@ -1,6 +1,6 @@
 import React from "react"
 
-const CodeIcon = ({ fill = "#888888" }) => (
+const CodeIcon = ({ fill = "#c0c0c0a4" }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 20 20"

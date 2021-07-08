@@ -1,6 +1,7 @@
 import { createCss, StitchesCss } from '@stitches/react'
+import { mint, mintDark, whiteA, blackA } from '@radix-ui/colors'
 
-const stitchesConfig = createCss({
+export const stitches = createCss({
   theme: {
     fonts: {
       system: 'system-ui',
@@ -8,9 +9,11 @@ const stitchesConfig = createCss({
       mono: 'Fira Mono, monospace',
     },
     colors: {
-      black: 'rgba(19, 19, 21, 1)',
-      white: 'rgba(255, 255, 255, 1)',
-      gray: 'hsla(0,0%,100%,.6)',
+      ...mintDark,
+      ...whiteA,
+      background: '$mint1',
+      link: '$mint12',
+      highlight: '$whiteA12',
     },
     fontSizes: {
       1: '12px',
@@ -58,7 +61,12 @@ const stitchesConfig = createCss({
     letterSpacings: {},
     borderWidths: {},
     borderStyles: {},
-    shadows: {},
+    shadows: {
+      ...mintDark,
+      ...whiteA,
+      lightShadow: '$whiteA11',
+      mint: '$mint11',
+    },
     zIndices: {},
     transitions: {},
     // media: {
@@ -70,6 +78,16 @@ const stitchesConfig = createCss({
   }
 })
 
-export type CSS = StitchesCss<typeof stitchesConfig>
+export type CSS = StitchesCss<typeof stitches>
 
-export const { css, styled, global, keyframes, getCssString } = stitchesConfig
+export const { css, styled, global, keyframes, getCssString, theme } = stitches
+
+export const lightTheme = theme('light', {
+  colors: {
+    ...mint,
+    ...blackA,
+    background: '$mint3',
+    link: '$mint12',
+    highlight: '$blackA12',
+  },
+})
