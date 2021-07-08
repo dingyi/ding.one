@@ -1171,11 +1171,6 @@ es6-object-assign@^1.1.0:
   resolved "https://registry.yarnpkg.com/es6-object-assign/-/es6-object-assign-1.1.0.tgz#c2c3582656247c39ea107cb1e6652b6f9f24523c"
   integrity sha1-wsNYJlYkfDnqEHyx5mUrb58kUjw=
 
-esbuild@^0.12.11:
-  version "0.12.11"
-  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.12.11.tgz#ab24f78cabf481e7dc747e7db15f9c5091beaa14"
-  integrity sha512-h83GwI6lYOrnSv5hSY2i2XZ191v3haj2IGDzwrkfWHhuO/kVMX3RYjhwRNG9E5VSxVLPaUjTVwrv8HWLvhk2nQ==
-
 esbuild@^0.8.40:
   version "0.8.57"
   resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.8.57.tgz#a42d02bc2b57c70bcd0ef897fe244766bb6dd926"
@@ -2358,15 +2353,14 @@ mdurl@^1.0.0:
   resolved "https://registry.yarnpkg.com/mdurl/-/mdurl-1.0.1.tgz#fe85b2ec75a59037f2adfec100fd6c601761152e"
   integrity sha1-/oWy7HWlkDfyrf7BAP1sYBdhFS4=
 
-mdx-bundler@4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/mdx-bundler/-/mdx-bundler-4.1.1.tgz#b6ee88330e57edc999a94344516acc7a34a49f15"
-  integrity sha512-+IN0LxAwxY3L/4q3FW722A+TLSuX7Dl1k75nnPXr5JlmEii5nBvjky3Cag8c8ouVo8txjQzF8lhD0OVEoPQ37w==
+mdx-bundler@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/mdx-bundler/-/mdx-bundler-5.0.0.tgz#fffac2f47b942901d379ccb2a8c99bb5558b18fd"
+  integrity sha512-fH0U6uy6ZafodfMS5bFhGTmKdTzlBnnanKbnjiW4uQNAR5Ak7vgxrfzDvQ4sXT71jSVmdTgDfyJRBmFUX3SCgA==
   dependencies:
     "@babel/runtime" "^7.14.6"
     "@esbuild-plugins/node-resolve" "^0.1.4"
     "@fal-works/esbuild-plugin-global-externals" "^2.1.1"
-    esbuild "^0.12.11"
     gray-matter "^4.0.3"
     remark-frontmatter "^3.0.0"
     remark-mdx-frontmatter "^1.0.1"
