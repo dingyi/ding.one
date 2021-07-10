@@ -2353,10 +2353,10 @@ mdurl@^1.0.0:
   resolved "https://registry.yarnpkg.com/mdurl/-/mdurl-1.0.1.tgz#fe85b2ec75a59037f2adfec100fd6c601761152e"
   integrity sha1-/oWy7HWlkDfyrf7BAP1sYBdhFS4=
 
-mdx-bundler@5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/mdx-bundler/-/mdx-bundler-5.0.0.tgz#fffac2f47b942901d379ccb2a8c99bb5558b18fd"
-  integrity sha512-fH0U6uy6ZafodfMS5bFhGTmKdTzlBnnanKbnjiW4uQNAR5Ak7vgxrfzDvQ4sXT71jSVmdTgDfyJRBmFUX3SCgA==
+mdx-bundler@5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/mdx-bundler/-/mdx-bundler-5.1.0.tgz#76ba17845c932c237a8d19ad5acacdb069c343d1"
+  integrity sha512-GyZYjKQmGSVOSWaF1mC0zcZUPTFfHzQwqPwMomv9ouDYeBQIn9BSb1BjVV8dROAnZx9LQfdTugdCOT5Og94BjQ==
   dependencies:
     "@babel/runtime" "^7.14.6"
     "@esbuild-plugins/node-resolve" "^0.1.4"
