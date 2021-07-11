@@ -2511,10 +2511,10 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-plausible@1.7.0:
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/next-plausible/-/next-plausible-1.7.0.tgz#04601d36d46ce0feca7a0792ef807b110db1057a"
-  integrity sha512-ndbuyJOgW4DPhbysBIsqut57mBORU0fEhu7oDOK6L6kvmS4HdR2b6CPD8lmeNkb3vrRrfdGVI2bQZPP+jizldg==
+next-plausible@1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/next-plausible/-/next-plausible-1.9.0.tgz#7672e0fd366bcfe22648b0173bd6f207603261ad"
+  integrity sha512-7YaK/Rb1wNa7lne105LF+WbMG9VTsyf3iCXXuzzMQ930mUIMLXRcf5ZCaqtj6bjq9JbczdHe46wdW0frPfzkrA==
 
 next-themes@0.0.15:
   version "0.0.15"
