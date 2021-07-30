@@ -2432,10 +2432,10 @@ mdurl@^1.0.0:
   resolved "https://registry.yarnpkg.com/mdurl/-/mdurl-1.0.1.tgz#fe85b2ec75a59037f2adfec100fd6c601761152e"
   integrity sha1-/oWy7HWlkDfyrf7BAP1sYBdhFS4=
 
-mdx-bundler@5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/mdx-bundler/-/mdx-bundler-5.2.0.tgz#80a5980cdcf7e13e90a04e122625ada729388789"
-  integrity sha512-83YkBoA/w1Fv605wNuRIJr1rKyTNq6wzGYhhQAsDKlsBKhDfbtb9hBrX+mENCrKidqOJuHOUlzTrIi7LywMahA==
+mdx-bundler@5.2.1:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/mdx-bundler/-/mdx-bundler-5.2.1.tgz#0582b80601af3a8f84cfac543df4a3113494c94d"
+  integrity sha512-YHM+4NMuYf+LHV6E/gy6fZrTJY3INeprYc5OicSIdH/iVQi5pnlv/YyzvHlzMmUmkoRSpouIF1u0igJORFqC5Q==
   dependencies:
     "@babel/runtime" "^7.14.6"
     "@esbuild-plugins/node-resolve" "^0.1.4"
@@ -2444,7 +2444,7 @@ mdx-bundler@5.2.0:
     remark-frontmatter "^3.0.0"
     remark-mdx-frontmatter "^1.0.1"
     uuid "^8.3.2"
-    xdm "^1.12.1"
+    xdm "^1.12.2"
 
 merge-stream@^2.0.0:
   version "2.0.0"
@@ -4137,10 +4137,10 @@ wrappy@1:
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 
-xdm@^1.12.1:
-  version "1.12.1"
-  resolved "https://registry.yarnpkg.com/xdm/-/xdm-1.12.1.tgz#4e084b330263cee940bf0241d48da219a06b26f3"
-  integrity sha512-mAMqRH3HDqjXpiMt8rNnbIF+X6oy/hmUc/tBx5PDMNWQAfro+Xt5Zym8wqvoSsXtqWW++p1uOL/Dbn9P6U+C8Q==
+xdm@^1.12.2:
+  version "1.12.2"
+  resolved "https://registry.yarnpkg.com/xdm/-/xdm-1.12.2.tgz#b43114840de03a2754ef6a16aaacedf1ff6f710c"
+  integrity sha512-gVoq5BUYEmEDduA2GSKYv8dYeSYDYZO3TqFs0HXHKOJeAWQ9r2onkiZWYpBu+FjxombCll67e4hf8XyNGybKYA==
   dependencies:
     "@rollup/pluginutils" "^4.0.0"
     "@types/estree-jsx" "^0.0.1"
