@@ -1,6 +1,6 @@
 import * as React from 'react'
 import NextDocument, { Html, Head, Main, NextScript, DocumentContext } from 'next/document'
-import { getCssString } from 'stitches.config'
+import { getCssText } from 'stitches.config'
 
 const FONT_FIRA_CODE = 'https://fonts.googleapis.com/css?family=Fira+Mono&display=swap';
 
@@ -14,7 +14,7 @@ export default class Document extends NextDocument {
         styles: (
           <>
             {initialProps.styles}
-            <style id="stitches" dangerouslySetInnerHTML={{ __html: getCssString() }} />
+            <style id="stitches" dangerouslySetInnerHTML={{ __html: getCssText() }} />
           </>
         ),
       }

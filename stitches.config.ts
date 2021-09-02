@@ -1,7 +1,7 @@
-import { createCss, StitchesCss } from '@stitches/react'
+import { createStitches } from '@stitches/react'
 import { mint, mintDark, whiteA, blackA } from '@radix-ui/colors'
 
-export const stitches = createCss({
+export const stitches = createStitches({
   theme: {
     fonts: {
       system: 'system-ui',
@@ -79,17 +79,15 @@ export const stitches = createCss({
   }
 })
 
-export type CSS = StitchesCss<typeof stitches>
+// const lightTheme = theme({
+//   colors: {
+//     ...mint,
+//     ...blackA,
+//     background: '$mint3',
+//     footerlink: '$blackA8',
+//     link: '$mint12',
+//     highlight: '$blackA12',
+//   },
+// })
 
-export const { css, styled, global, keyframes, getCssString, theme } = stitches
-
-export const lightTheme = theme('light', {
-  colors: {
-    ...mint,
-    ...blackA,
-    background: '$mint3',
-    footerlink: '$blackA8',
-    link: '$mint12',
-    highlight: '$blackA12',
-  },
-})
+export const { css, styled, globalCss, keyframes, getCssText, theme } = stitches

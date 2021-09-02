@@ -1,6 +1,6 @@
-import { global } from '@stitches/react'
+import { globalCss } from '@stitches/react'
 
-export const globalStyles = global({
+export const globalStyles = globalCss({
   body: {
     backgroundColor: '$background',
     color: '$white',
