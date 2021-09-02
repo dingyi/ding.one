@@ -7,11 +7,11 @@ import { ThemeProvider } from 'next-themes'
 import PlausibleProvider from 'next-plausible'
 
 export const Wrapper = styled('div', {
-  display: 'grid',
   minHeight: '100vh',
   margin: 0,
   padding: 0,
-  gridTemplateRows: '1fr auto'
+  display: 'grid',
+  alignContent: 'space-between',
 })
 
 function App({ Component, pageProps }: AppProps) {
@@ -22,7 +22,7 @@ function App({ Component, pageProps }: AppProps) {
       <ThemeProvider attribute="class">
         <Head>
           <title>Ding</title>
-          <meta name="description" content="A product designer & maker." />
+          <meta name="description" content="A product designer & developer." />
         </Head>
         <Wrapper>
           <Component {...pageProps} />

@@ -18,8 +18,6 @@ export const globalStyles = global({
       display: 'inline',
       fontWeight: '$1',
       padding: '0 .6em',
-      fontSize: '$3',
-      letterSpacing: .1
     },
   },
 
