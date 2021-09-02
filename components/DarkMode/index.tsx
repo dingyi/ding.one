@@ -1,4 +1,4 @@
-import React from 'react'
+/* import React from 'react'
 import { useTheme } from 'next-themes'
 import { styled, lightTheme } from 'stitches.config'
 
@@ -85,4 +85,4 @@ export const Toggle = styled('label', {
   }
 })
 
-export default DarkMode
+export default DarkMode */
