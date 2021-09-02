@@ -1,12 +1,12 @@
-/* import React from 'react'
+import React from 'react'
 import { useTheme } from 'next-themes'
-import { styled, lightTheme } from 'stitches.config'
+import { styled } from 'stitches.config'
 
 const DarkMode = () => {
   const { theme, setTheme } = useTheme()
 
   const toggle = () => {
-    setTheme(theme === 'dark' ? lightTheme : 'dark')
+    //setTheme(theme === 'dark' ? lightTheme : 'dark')
   }
 
   return (
@@ -18,7 +18,7 @@ const DarkMode = () => {
           title="toggle"
           placeholder="toggle"
           onChange={toggle}
-          checked={theme === lightTheme}
+          //checked={theme === lightTheme}
         />
         <div></div>
       </Toggle>
@@ -85,4 +85,4 @@ export const Toggle = styled('label', {
   }
 })
 
-export default DarkMode */
+export default DarkMode
