@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@radix-ui/colors": "0.1.7",
-    "@stitches/react": "1.2.3",
+    "@stitches/react": "1.2.4",
     "mdx-bundler": "6.0.2",
     "next": "11.1.2",
     "next-plausible": "2.1.3",
