@@ -2875,10 +2875,10 @@ neo-async@^2.6.1:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-next-plausible@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/next-plausible/-/next-plausible-3.0.0.tgz#6c10d5fa450fbbc519d52f31a2c51be7b146799c"
-  integrity sha512-9G26U29+VgpJQFO5Lcg1uzQcLDDYMlPbqWj3F5pYwzVrr/dN1GgxQPvxAJ+TlsZJFyBvnGLTBHHmEe6lG0+mIQ==
+next-plausible@3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/next-plausible/-/next-plausible-3.0.1.tgz#4aff886f438b79c2f7767f204e0ca1fd4ebdc387"
+  integrity sha512-DA7MgmLf68HWkUdncQwok/auALuZR6G2OkgDydy0ADncRIjmX5nv+E3ia8C3LJ5jLvoNRwX5eUeuna0Ao+exuQ==
 
 next-themes@0.0.15:
   version "0.0.15"
