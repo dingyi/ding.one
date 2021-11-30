@@ -18,7 +18,7 @@
     "url": "https://github.com/dingyi/ding.one"
   },
   "dependencies": {
-    "@radix-ui/colors": "0.1.7",
+    "@radix-ui/colors": "0.1.8",
     "@stitches/react": "1.2.5",
     "mdx-bundler": "8.0.0",
     "next": "12.0.4",
