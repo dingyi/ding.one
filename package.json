@@ -21,7 +21,7 @@
     "@radix-ui/colors": "0.1.8",
     "@stitches/react": "1.2.7",
     "mdx-bundler": "9.0.0",
-    "next": "12.1.2",
+    "next": "12.1.4",
     "next-plausible": "3.1.8",
     "next-themes": "0.1.1",
     "react": "18.0.0",
@@ -30,7 +30,7 @@
   "devDependencies": {
     "@types/react": "17.0.43",
     "eslint": "8.11.0",
-    "eslint-config-next": "12.1.2",
+    "eslint-config-next": "12.1.4",
     "prettier": "2.6.0",
     "typescript": "4.6.3"
   }
