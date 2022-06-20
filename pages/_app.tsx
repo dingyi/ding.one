@@ -24,9 +24,11 @@ function App({ Component, pageProps }: AppProps) {
           <title>Ding</title>
           <meta name="description" content="A product designer & developer." />
         </Head>
-        <Wrapper>
+        <div className={util.container}>
+          <h3 className={util.mobileTitle}>Yi Ding</h3>
+          <Menu />
           <Component {...pageProps} />
-        </Wrapper>
+        </div>
       </ThemeProvider>
     </PlausibleProvider>
   )

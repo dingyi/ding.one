@@ -1,0 +1,100 @@
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0.575rem 0.5rem 0.875rem;
+  position: static;
+  width: 100%;
+  height: 2.25rem;
+
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin-top: 2px;
+  border: 0.5px solid transparent;
+  transition: all 0.1s ease;
+}
+.item:hover {
+  background: var(--highlighthover);
+}
+.item:active {
+  background: var(--highlighthover);
+  transform: scaleX(0.985) scaleY(0.985) translateY(0.5px);
+}
+.item[aria-current="page"] {
+  background: var(--highlight);
+  border: 0.5px solid var(--highlightActiveBorder);
+}
+.left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.label {
+  font-weight: 500;
+  font-size: 13.2px;
+  margin: 0px 0px 0px 10px;
+  color: var(--menuLabel);
+  /* font-family: "Aktiv Grotesk"; */
+  font-weight: 480;
+  letter-spacing: 0.2px;
+  transition: color 0.2s ease;
+}
+.shortcut {
+  background: var(--tabbg);
+  border-radius: 3px;
+  width: 16px;
+  height: 16px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.shortcutText {
+  font-weight: 390;
+  font-size: 11px;
+  color: var(--tabText);
+}
+.logoIcon {
+  border-radius: 3.5px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+.externalIcon {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  width: 16px;
+  height: 16px;
+  color: var(--tabText);
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 700px) {
+  .shortcut {
+    display: none;
+  }
+  .label {
+    display: none;
+  }
+  .item {
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    height: 3rem;
+    width: 3rem;
+    flex-shrink: 0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+  }
+  .desktopOnly {
+    display: none;
+  }
+  .logoIcon {
+    border-radius: 4px;
+    width: 22px;
+    height: 22px;
+  }
+}
