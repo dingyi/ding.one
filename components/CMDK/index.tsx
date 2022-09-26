@@ -16,7 +16,7 @@ function CommandWrapper(
       exit={{ opacity: 0, scale: 0.96 }}
       transition={{ duration: 0.2 }}
       style={{
-        height: 475,
+        //height: 475,
         width: 500,
         position: 'absolute',
         zIndex: '9999',
