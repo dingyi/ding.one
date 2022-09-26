@@ -1,26 +1,13 @@
-import { styled } from 'stitches.config'
-import Logo from '@components/Logo'
-import Bio from '@components/Bio'
-import Footer from '@components/Footer'
-import Header from '@components/Header'
-
-export const Wrapper = styled('main', {
-  display: 'flex',
-  flexDirection: 'column',
-  justifyContent: 'center',
-  alignItems: 'center'
-})
+import React from "react"
+import Layout from "@components/Layouts/Global"
+import GridList from "@components/GridList"
 
 export default function Home() {
   return (
     <>
-      <Header />
-      <Wrapper>
-        <Logo />
-        <Bio />
-      </Wrapper>
-      <Footer />
-      {/* <DarkMode /> */}
+      <Layout>
+          <GridList />
+      </Layout>
     </>
   )
 }

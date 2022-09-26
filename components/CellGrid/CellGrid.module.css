@@ -1,0 +1,96 @@
+
+.cell {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.cell:nth-child(10n + 1):hover ~ .blur {
+  --positionX: 0 !important;
+}
+
+.cell:nth-child(n + 1):nth-child(-n + 10):hover ~ .blur {
+  --positionY: 0 !important;
+}
+
+.cell:nth-child(10n + 2):hover ~ .blur {
+  --positionX: 1 !important;
+}
+
+.cell:nth-child(n + 11):nth-child(-n + 20):hover ~ .blur {
+  --positionY: 1 !important;
+}
+
+.cell:nth-child(10n + 3):hover ~ .blur {
+  --positionX: 2 !important;
+}
+
+.cell:nth-child(n + 21):nth-child(-n + 30):hover ~ .blur {
+  --positionY: 2 !important;
+}
+
+.cell:nth-child(10n + 4):hover ~ .blur {
+  --positionX: 3 !important;
+}
+
+.cell:nth-child(n + 31):nth-child(-n + 40):hover ~ .blur {
+  --positionY: 3 !important;
+}
+
+.cell:nth-child(10n + 5):hover ~ .blur {
+  --positionX: 4 !important;
+}
+
+.cell:nth-child(n + 41):nth-child(-n + 50):hover ~ .blur {
+  --positionY: 4 !important;
+}
+
+.cell:nth-child(10n + 6):hover ~ .blur {
+  --positionX: 5 !important;
+}
+
+.cell:nth-child(n + 51):nth-child(-n + 60):hover ~ .blur {
+  --positionY: 5 !important;
+}
+
+.cell:nth-child(10n + 7):hover ~ .blur {
+  --positionX: 6 !important;
+}
+
+.cell:nth-child(n + 61):nth-child(-n + 70):hover ~ .blur {
+  --positionY: 6 !important;
+}
+
+.cell:nth-child(10n + 8):hover ~ .blur {
+  --positionX: 7 !important;
+}
+
+.cell:nth-child(n + 71):nth-child(-n + 80):hover ~ .blur {
+  --positionY: 7 !important;
+}
+
+.cell:nth-child(10n + 9):hover ~ .blur {
+  --positionX: 8 !important;
+}
+
+.cell:nth-child(n + 81):nth-child(-n + 90):hover ~ .blur {
+  --positionY: 8 !important;
+}
+
+.cell:nth-child(10n + 10):hover ~ .blur {
+  --positionX: 9 !important;
+}
+
+.cell:nth-child(n + 91):nth-child(-n + 100):hover ~ .blur {
+  --positionY: 9 !important;
+}
+
+.blur {
+  pointer-events: none;
+  width: 600px;
+  height: 600px;
+  transition: all 0.2s ease 0s;
+  position: absolute;
+  border-radius: 64px;
+  transform: translate3d( calc((var(--positionX) * 30px) - 45%),calc((var(--positionY) * 30px) - 45%),0 );
+}

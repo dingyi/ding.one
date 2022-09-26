@@ -1,10 +1,16 @@
 import React from 'react'
 import { AppProps } from 'next/app'
 import Head from 'next/head'
-import { globalStyles } from '@styles/global'
+import Menu from "@components/Menu"
+import CMDK from "@components/CMDK"
 import { styled } from 'stitches.config'
+import { globalStyles } from '@styles/global'
 import { ThemeProvider } from 'next-themes'
 import PlausibleProvider from 'next-plausible'
+import { DefaultSeo } from 'next-seo'
+import SEO from '../next-seo.config'
+import '@styles/reset.css'
+import "@styles/CommandMenu.scss"
 
 export const Wrapper = styled('div', {
   minHeight: '100vh',
@@ -14,24 +20,17 @@ export const Wrapper = styled('div', {
   alignContent: 'space-between',
 })
 
-function App({ Component, pageProps }: AppProps) {
+export default function App({ Component, pageProps }: AppProps) {
   globalStyles()
 
   return (
     <PlausibleProvider domain="ding.one">
       <ThemeProvider attribute="class">
-        <Head>
-          <title>Ding</title>
-          <meta name="description" content="A product designer & developer." />
-        </Head>
-        <div className={util.container}>
-          <h3 className={util.mobileTitle}>Yi Ding</h3>
-          <Menu />
-          <Component {...pageProps} />
-        </div>
+        <DefaultSeo {...SEO} />
+        <CMDK />
+        <Menu />
+        <Component {...pageProps} />
       </ThemeProvider>
     </PlausibleProvider>
   )
 }
-
-export default App

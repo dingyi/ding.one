@@ -36,6 +36,7 @@ html {
   block-size: 100%;
   /* Making sure text size is only controlled by font-size */
   -webkit-text-size-adjust: none;
+  text-size-adjust: none;
 }
 
 /* Smooth scrolling for users that don't prefer reduced motion */
@@ -73,8 +74,6 @@ body {
 
 /* SVG's without a fill attribute */
 :where(svg):where(:not([fill])) {
-  /* Remove fill and set stroke colour to the inherited font colour */
-  stroke: currentColor;
   fill: none;
   /* Rounded stroke */
   stroke-linecap: round;

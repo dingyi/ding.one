@@ -1,0 +1,61 @@
+.container {
+  /* width: 100%; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* padding: 1.5rem 0rem 1.5rem 0rem; */
+  position: relative;
+  margin: 0rem -1rem;
+  padding: 0rem 1rem;
+  transition: background-color 0.15s ease;
+  border-radius: 6px;
+}
+.container:hover {
+  background-color: var(--linkContainerBgHover);
+  cursor: pointer;
+}
+.inline {
+  display: inline;
+}
+.container .externalIcon {
+  opacity: 0;
+  transition: opacity 0.2s ease, color 0.2s ease;
+}
+
+.container:hover .externalIcon {
+  opacity: 1;
+}
+.externalIcon {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  margin-left: 3px;
+  font-weight: 300;
+}
+.stack {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px;
+  margin-left: 2rem;
+  padding: 1.5rem 0rem 1.5rem 0rem;
+  /* height: 6rem; */
+  width: 100%;
+  border-bottom: 1px solid var(--linkContainerBorder);
+  transition: border 0.2s ease;
+}
+.image {
+  border-radius: 8px;
+  overflow: hidden;
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+}
+@media (max-width: 700px) {
+  .container {
+    margin: 0rem -0.5rem;
+    padding: 0rem 0.5rem;
+  }
+}

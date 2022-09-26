@@ -1,0 +1,32 @@
+
+.left {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  overflow: visible;
+}
+
+.type {
+  font-size: 12px;
+  font-weight: 390;
+  color: var(--gray9);
+}
+
+.titleLink {
+  transition: background-color 0.15s ease;
+}
+.titleLink:hover {
+  border-radius: 4px;
+  background-color: var(--gray4);
+  padding: 2px 5px 2px 5px;
+  margin: -2px -5px -2px -5px;
+}
+
+@media (max-width: 700px) {
+  .date {
+    width: 76px;
+  }
+  .container {
+    flex-direction: column;
+  }
+}

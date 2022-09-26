@@ -1,7 +1,7 @@
 import React from 'react'
 import { styled } from 'stitches.config'
 import { link } from '@styles/link'
-import CodeIcon from '../../icons/code'
+import CodeIcon from '@ui/Icons/code'
 
 export const Box = styled('div', {
   marginTop: '$3',

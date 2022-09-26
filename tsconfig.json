@@ -2,9 +2,11 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@components/*": ["components/*"],
-      "@styles/*": ["styles/*"],
-      "@lib/*": ["lib/*"]
+      "@components/*": [ "components/*" ],
+      "@styles/*": [ "styles/*" ],
+      "@lib/*": [ "lib/*" ],
+      "@public/*": [ "./public/*" ],
+      "@ui/*": [ "components/UI/*" ],
     },
     "target": "ESNext",
     "module": "ESNext",
@@ -27,7 +29,8 @@
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+    "incremental": true
   },
   "exclude": [
     "node_modules",

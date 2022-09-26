@@ -1,9 +1,6 @@
 import * as React from 'react'
 import NextDocument, { Html, Head, Main, NextScript, DocumentContext } from 'next/document'
 import { getCssText } from 'stitches.config'
-
-const FONT_FIRA_CODE = 'https://fonts.googleapis.com/css?family=Fira+Mono&display=swap';
-
 export default class Document extends NextDocument {
   static async getInitialProps(ctx: DocumentContext) {
     try {
@@ -27,13 +24,10 @@ export default class Document extends NextDocument {
       <Html lang="en">
         <Head>
           <link rel="icon" href="/favicon.png" />
-
+          <link rel="stylesheet" href="https://use.typekit.net/gxo7gwj.css" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-          <link href={FONT_FIRA_CODE} rel="preload" as="style" />
-          <link href={FONT_FIRA_CODE} rel="stylesheet" media="all" />
-          <noscript>
-            <link href={FONT_FIRA_CODE} rel="stylesheet" />
-          </noscript>
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
         </Head>
         <body>
           <Main />
