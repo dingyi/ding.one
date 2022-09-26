@@ -2,7 +2,7 @@ import React from 'react'
 import { AppProps } from 'next/app'
 import Head from 'next/head'
 import Menu from "@components/Menu"
-import CMDK from "@components/CMDK"
+//import CMDK from "@components/CMDK"
 import { styled } from 'stitches.config'
 import { globalStyles } from '@styles/global'
 import { ThemeProvider } from 'next-themes'
@@ -27,7 +27,6 @@ export default function App({ Component, pageProps }: AppProps) {
     <PlausibleProvider domain="ding.one">
       <ThemeProvider attribute="class">
         <DefaultSeo {...SEO} />
-        <CMDK />
         <Menu />
         <Component {...pageProps} />
       </ThemeProvider>
