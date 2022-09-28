@@ -14,6 +14,7 @@ export const globalStyles = globalCss({
     fontSize: '$3',
     fontWeight: '$2',
     overflow: 'hidden',
+    height: "100%",
   },
 
   'html, body, p, h1, h2, h3, h4, h5, button': {

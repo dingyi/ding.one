@@ -6,13 +6,13 @@ const siteUrl = 'https://ding.one'
 
 export default {
   title: title,
-  titleTemplate: "%s | a other product designer.",
+  titleTemplate: "%s | Designer, developer, and entrepreneur.",
   defaultTitle: "Ding",
   description: description,
   canonical: "https://ding.one",
   openGraph: {
     type: 'website',
-    locale: 'en_IE',
+    locale: 'en_US',
     url: siteUrl,
     site_name: 'Ding',
     title,
@@ -32,4 +32,15 @@ export default {
     site: '@site',
     cardType: 'summary_large_image',
   },
+  additionalLinkTags: [
+    {
+      rel: "icon",
+      href: "/favicon.svg",
+    },
+    {
+      rel: "apple-touch-icon",
+      href: "/apple-touch-icon.png",
+      sizes: "180x180",
+    },
+  ],
 }

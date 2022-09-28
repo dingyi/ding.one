@@ -23,7 +23,6 @@ export default class Document extends NextDocument {
     return (
       <Html lang="en">
         <Head>
-          <link rel="icon" href="/favicon.png" />
           <link rel="stylesheet" href="https://use.typekit.net/gxo7gwj.css" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />

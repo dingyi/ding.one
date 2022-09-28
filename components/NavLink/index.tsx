@@ -51,7 +51,7 @@ export const Label = styled('p', {
 })
 
 export const Shortcut = styled('div', {
-  background: '$whiteA4',
+  background: '$numberBackground',
   borderRadius: '$2',
   width: '16px',
   height: '16px',

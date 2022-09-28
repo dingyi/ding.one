@@ -1,16 +1,15 @@
 import React from 'react'
 import { AppProps } from 'next/app'
-import Head from 'next/head'
 import Menu from "@components/Menu"
-//import CMDK from "@components/CMDK"
+import CommandMenu from "@components/CommandMenu"
 import { styled } from 'stitches.config'
 import { globalStyles } from '@styles/global'
+import { CMDK } from '@styles/CommandMenu'
 import { ThemeProvider } from 'next-themes'
 import PlausibleProvider from 'next-plausible'
 import { DefaultSeo } from 'next-seo'
 import SEO from '../next-seo.config'
 import '@styles/reset.css'
-import "@styles/CommandMenu.scss"
 
 export const Wrapper = styled('div', {
   minHeight: '100vh',
@@ -22,6 +21,9 @@ export const Wrapper = styled('div', {
 
 export default function App({ Component, pageProps }: AppProps) {
   globalStyles()
+  CMDK()
+
+  const [open, setOpen] = React.useState(false)
 
   return (
     <PlausibleProvider domain="ding.one">
@@ -29,6 +31,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <DefaultSeo {...SEO} />
         <Menu />
         <Component {...pageProps} />
+        <CommandMenu open={open} setOpen={setOpen} />
       </ThemeProvider>
     </PlausibleProvider>
   )

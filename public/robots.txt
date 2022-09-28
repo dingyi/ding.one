@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://ding.one/sitemap.xml

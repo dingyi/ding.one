@@ -148,7 +148,7 @@ export const tooltip = css({
   fontSize: '$1',
   lineHeight: 1,
   color: '$highlightText',
-  backgroundColor: '$mint1',
+  backgroundColor: '$contentBackground',
   boxShadow: 'hsl(206 22% 7% / 80%) 0px 6px 18px -10px, hsl(206 22% 7% / 50%) 0px 10px 20px -15px',
   zIndex: '9999',
 })

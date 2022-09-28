@@ -49,6 +49,7 @@
     "sharp": "^0.31.0",
     "shiki": "^0.11.1",
     "swr": "^1.3.0",
+    "tinykeys": "^1.4.0",
     "use-onclickoutside": "^0.4.1"
   },
   "devDependencies": {

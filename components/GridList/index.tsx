@@ -208,7 +208,7 @@ export default function GridList() {
         <div>
           <GridLink
             href="https://cal.com/dingyi"
-            label="Book 1-on-1"
+            label="Book"
             external="true"
           />
         </div>
@@ -228,7 +228,7 @@ export default function GridList() {
         <div>
           <GridLink
             href="mailto:d@ding.one"
-            label="Send a mail"
+            label="Mail"
             external="true"
           />
         </div>
