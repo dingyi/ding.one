@@ -114,6 +114,10 @@ h1 {
   font-size: 2em;
 }
 
+button {
+  background: none;
+}
+
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
 :where(ul, ol)[role="list"] {
   list-style: none;

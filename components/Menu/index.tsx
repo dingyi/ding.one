@@ -1,4 +1,3 @@
-import Link from "next/link"
 import { styled } from 'stitches.config'
 import NavLink from "@components/NavLink"
 import Logo from "@ui/Icons/logo"
@@ -18,7 +17,6 @@ import Instagram from "@ui/Icons/instagram"
 import Github from "@ui/Icons/github"
 import Figma from "@ui/Icons/figma"
 import styles from "./menu.module.css"
-import * as util from '@styles/util'
 
 export const SiteTitle = styled('div', {
   margin: '0.5rem 0 1rem 0.5rem',
@@ -62,11 +60,7 @@ export default function Menu() {
     <Container>
       <Upper>
         <SiteTitle>
-          <Link href="/">
-            <a>
-              <Logo />
-            </a>
-          </Link>
+          <Logo />
         </SiteTitle>
         <nav className={styles.nav}>
           <NavLink
