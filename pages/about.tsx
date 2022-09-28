@@ -43,7 +43,7 @@ export default function About() {
             />
             <ExpTile
               date="2016-2019"
-              title="Freelancer and CEO at DEX Group"
+              title="Freelancer at DEX Group"
               url={"https://dex.group"}
               content={
                 "A tiny digital design agency works closely with clients, design products for startups and founders. It is also an online design community, runs events, design trips and courses."
@@ -96,7 +96,7 @@ export default function About() {
               >
                 Vercel
               </a>
-              . Resoucres managed in{" "}
+              . Data stored in{" "}
               <a
                 href="http://notion.com/"
                 target="_blank"
@@ -104,8 +104,16 @@ export default function About() {
                 className={link.externalLink()}
               >
                 Notion
-              </a>{" "}
-              . I chosen {" "}
+              </a>,{" "}
+              <a
+                href="https://raindrop.io/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={link.externalLink()}
+              >
+                Raindrop
+              </a>{" "} and JSON.{" "}
+              I perfer {" "}
               <a
                 href="https://stitches.dev/"
                 target="_blank"
@@ -114,16 +122,7 @@ export default function About() {
               >
                 Stitches
               </a>{" "}
-              as my CSS Framework, and{" "}
-              <a
-                href="https://www.radix-ui.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={link.externalLink()}
-              >
-                Radix UI
-              </a>{" "}
-              is used for some components, Colors System based on{" "}
+              as my CSS Framework, and Colors System based on{" "}
               <a
                 href="https://www.radix-ui.com/docs/colors/getting-started/installation"
                 target="_blank"
@@ -140,7 +139,10 @@ export default function About() {
               >
                 ⌘K
               </a>{" "}
-              is used for Command Menu.
+              is used for Command Menu.{" "}
+            </p>
+            <p>
+              FYI: this site is NOT done yet, tons of stuff and data need to polish.
             </p>
           </div>
         </div>
