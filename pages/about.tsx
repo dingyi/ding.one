@@ -113,7 +113,7 @@ export default function About() {
               >
                 Raindrop
               </a>{" "} and JSON.{" "}
-              I perfer {" "}
+              I prefer {" "}
               <a
                 href="https://stitches.dev/"
                 target="_blank"

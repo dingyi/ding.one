@@ -169,7 +169,7 @@ export default function GridList() {
         <div>
           <GridLink
             href="https://open.spotify.com/user/dingyi"
-            label="Litsen"
+            label="Listen"
             external="true"
           />
         </div>
