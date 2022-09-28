@@ -126,7 +126,7 @@ export default function NavLink({ svg, label, href, shortcut, external }: any) {
         {shortcut ? (
           <Tooltip.Provider delayDuration={200} skipDelayDuration={300}>
             <Tooltip.Root>
-              <Tooltip.Trigger>
+              <Tooltip.Trigger asChild>
                 <Shortcut>
                   <ShortcutText>{shortcut}</ShortcutText>
                 </Shortcut>
