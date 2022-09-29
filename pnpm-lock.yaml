@@ -2,52 +2,52 @@ lockfileVersion: 5.4
 
 specifiers:
   '@notionhq/client': 1.0.4
-  '@plaiceholder/next': ^2.5.0
+  '@plaiceholder/next': 2.5.0
   '@radix-ui/colors': 0.1.8
-  '@radix-ui/react-checkbox': ^1.0.0
-  '@radix-ui/react-dialog': ^1.0.0
-  '@radix-ui/react-popover': ^1.0.0
-  '@radix-ui/react-tooltip': ^1.0.0
+  '@radix-ui/react-checkbox': 1.0.0
+  '@radix-ui/react-dialog': 1.0.0
+  '@radix-ui/react-popover': 1.0.0
+  '@radix-ui/react-tooltip': 1.0.0
   '@stitches/react': 1.2.8
   '@types/react': 18.0.21
-  clsx: ^1.2.1
-  cmdk: ^0.1.20
-  contentlayer: ^0.2.8
-  copy-to-clipboard: ^3.3.2
-  date-fns: ^2.29.3
+  clsx: 1.2.1
+  cmdk: 0.1.20
+  contentlayer: 0.2.8
+  copy-to-clipboard: 3.3.2
+  date-fns: 2.29.3
   eslint: 8.24.0
   eslint-config-next: 12.3.1
-  eslint-config-prettier: ^8.5.0
-  eslint-plugin-prettier: ^4.2.1
-  eslint-plugin-react: ^7.31.8
-  framer-motion: ^7.4.0
+  eslint-config-prettier: 8.5.0
+  eslint-plugin-prettier: 4.2.1
+  eslint-plugin-react: 7.31.8
+  framer-motion: 7.4.0
   next: 12.3.1
-  next-contentlayer: ^0.2.8
+  next-contentlayer: 0.2.8
   next-plausible: 3.6.3
-  next-restore-scroll: ^1.2.1
-  next-seo: ^5.5.0
+  next-restore-scroll: 1.2.1
+  next-seo: 5.5.0
   next-themes: 0.2.1
-  plaiceholder: ^2.5.0
+  plaiceholder: 2.5.0
   prettier: 2.7.1
   react: 18.2.0
-  react-calendly: ^4.1.0
+  react-calendly: 4.1.0
   react-dom: 18.2.0
-  react-use: ^17.4.0
-  rehype-autolink-headings: ^6.1.1
-  rehype-pretty-code: ^0.3.2
-  rehype-slug: ^5.0.1
-  remark-gfm: ^3.0.1
-  sass: ^1.55.0
-  sharp: ^0.31.0
-  shiki: ^0.11.1
-  swr: ^1.3.0
-  tinykeys: ^1.4.0
+  react-use: 17.4.0
+  rehype-autolink-headings: 6.1.1
+  rehype-pretty-code: 0.3.2
+  rehype-slug: 5.0.1
+  remark-gfm: 3.0.1
+  sass: 1.55.0
+  sharp: 0.31.1
+  shiki: 0.11.1
+  swr: 1.3.0
+  tinykeys: 1.4.0
   typescript: 4.8.4
-  use-onclickoutside: ^0.4.1
+  use-onclickoutside: 0.4.1
 
 dependencies:
   '@notionhq/client': 1.0.4
-  '@plaiceholder/next': 2.5.0_next@12.3.1+sharp@0.31.0
+  '@plaiceholder/next': 2.5.0_next@12.3.1+sharp@0.31.1
   '@radix-ui/colors': 0.1.8
   '@radix-ui/react-checkbox': 1.0.0_biqbaboplfbrettd7655fr4n2y
   '@radix-ui/react-dialog': 1.0.0_rj7ozvcq3uehdlnj3cbwzbi5ce
@@ -66,14 +66,14 @@ dependencies:
   next-restore-scroll: 1.2.1_ewavxvzjhcwiowirskzbfblgqu
   next-seo: 5.5.0_azq6kxkn3od7qdylwkyksrwopy
   next-themes: 0.2.1_azq6kxkn3od7qdylwkyksrwopy
-  plaiceholder: 2.5.0_sharp@0.31.0
+  plaiceholder: 2.5.0_sharp@0.31.1
   react: 18.2.0
   react-calendly: 4.1.0_biqbaboplfbrettd7655fr4n2y
   react-dom: 18.2.0_react@18.2.0
   react-use: 17.4.0_biqbaboplfbrettd7655fr4n2y
   rehype-pretty-code: 0.3.2_shiki@0.11.1
   sass: 1.55.0
-  sharp: 0.31.0
+  sharp: 0.31.1
   shiki: 0.11.1
   swr: 1.3.0_react@18.2.0
   tinykeys: 1.4.0
@@ -927,14 +927,14 @@ packages:
     engines: {node: '>=14'}
     dev: false
 
-  /@plaiceholder/next/2.5.0_next@12.3.1+sharp@0.31.0:
+  /@plaiceholder/next/2.5.0_next@12.3.1+sharp@0.31.1:
     resolution: {integrity: sha512-vT8YtPpgQEKFtz0QiiCnH3NfyVlldYpnxR6X2sqCJvHk+pi/Be1nb62CdYQ7RoNePPcjBQoRDSPpZpGmg8mEdw==}
     peerDependencies:
       next: '>= 10.0.0'
       sharp: '>= 0.30.6'
     dependencies:
       next: 12.3.1_2mygebwfgdyopr3fy2qddu2eli
-      sharp: 0.31.0
+      sharp: 0.31.1
     dev: false
 
   /@protobufjs/aspromise/1.1.2:
@@ -5167,7 +5167,7 @@ packages:
       find-up: 4.1.0
     dev: false
 
-  /plaiceholder/2.5.0_sharp@0.31.0:
+  /plaiceholder/2.5.0_sharp@0.31.1:
     resolution: {integrity: sha512-rygdNSWuYzs1GxxGjq2FiJdJB1AUaKhUHP/M7PIrSjAAGuoJC5ACiJx+cZZ+hDmMalxsxOMw0Sbbx3LF8jemGg==}
     peerDependencies:
       sharp: '>= 0.30.6'
@@ -5177,7 +5177,7 @@ packages:
       image-size: 1.0.2
       node-cache: 5.1.2
       node-fetch: 2.6.7_encoding@0.1.13
-      sharp: 0.31.0
+      sharp: 0.31.1
     dev: false
 
   /platform/1.3.6:
@@ -5864,8 +5864,8 @@ packages:
       safe-buffer: 5.2.1
     dev: false
 
-  /sharp/0.31.0:
-    resolution: {integrity: sha512-ft96f8WzGxavg0rkLpMw90MTPMUZDyf0tHjPPh8Ob59xt6KzX8EqtotcqZGUm7kwqpX2pmYiyYX2LL0IZ/FDEw==}
+  /sharp/0.31.1:
+    resolution: {integrity: sha512-GR8M1wBwOiFKLkm9JPun27OQnNRZdHfSf9VwcdZX6UrRmM1/XnOrLFTF0GAil+y/YK4E6qcM/ugxs80QirsHxg==}
     engines: {node: '>=14.15.0'}
     requiresBuild: true
     dependencies:
