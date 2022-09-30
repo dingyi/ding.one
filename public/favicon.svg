@@ -1,9 +1,18 @@
-<svg width="109" height="114" viewBox="0 0 109 114" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V20.3571H4.87633C7.12492 20.3571 8.94775 22.18 8.94775 24.4286V114H48.7294C82.6897 114 109 92.0143 109 57.6404C109 23.1257 82.8531 0 48.7294 0H0ZM34.9776 77.3571V36.6429H52.0597C64.6563 36.6429 74.0224 44.902 74.0224 57C74.0224 69.5051 64.5978 77.3571 52.0597 77.3571H34.9776Z" fill="url(#paint0_linear_0_84)"/>
-<defs>
-<linearGradient id="paint0_linear_0_84" x1="276.499" y1="195.721" x2="143.875" y2="-2.72922" gradientUnits="userSpaceOnUse">
-<stop/>
-<stop offset="1" stop-color="white"/>
-</linearGradient>
-</defs>
+<svg
+  width="100"
+  height="100"
+  viewBox="0 0 100 100"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path class="fav" fill-rule="evenodd" clip-rule="evenodd" d="M18 17V28.9529H19.1823C21.4309 28.9529 23.2537 30.7757 23.2537 33.0243V83.9358H46.6118C66.5517 83.9358 82 71.0267 82 50.8439C82 30.5784 66.6477 17 46.6118 17H18ZM38.5373 62.4207V38.515H48.5672C55.9633 38.515 61.4627 43.3645 61.4627 50.4679C61.4627 57.8103 55.929 62.4207 48.5672 62.4207H38.5373Z"></path>
+  <style>
+    .fav {
+      fill: #021c0f;
+    }
+    @media (prefers-color-scheme: dark) {
+      .fav {
+        fill: white;
+      }
+    }
+  </style>
 </svg>
