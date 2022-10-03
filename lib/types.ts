@@ -17,7 +17,9 @@ export type TopTracks = {
   tracks: Song[]
 }
 
-export type YouTube = {
-  subscriberCount: number
-  viewCount: number
+export type Bookmark = {
+  link: string
+  title: string
+  cover: string
+  tags: string[]
 }

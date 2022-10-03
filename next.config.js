@@ -6,7 +6,6 @@
 
 const nextConfig = {
   reactStrictMode: true,
-  swcMinify: true,
   staticPageGenerationTimeout: 100,
   images: {
     domains: [
@@ -25,14 +24,14 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   experimental: {
-    images: {
+    /* images: {
       allowFutureImage: true,
       // allow next/image to serve remote images from safelisted domains
       remotePatterns: [
         { hostname: "secure.notion-static.com" },
         { hostname: "pbs.twimg.com" },
       ],
-    },
+    }, */
     legacyBrowsers: false,
     browsersListForSwc: true,
     largePageDataBytes: 128 * 100000, // 12800KB by default

@@ -50,7 +50,7 @@ export const Divider = styled('p', {
   padding: '1.25rem 0 0.5rem 0.75rem',
   fontSize: '$0',
   fontWeight: '$2',
-  color: '$whiteA8',
+  color: '$whiteA11',
   marginBottom: 0,
   textTransform: 'uppercase',
 })
@@ -124,12 +124,6 @@ export default function Menu() {
             label="Podcasts"
             shortcut="9"
           />
-          {/* <NavLink
-            svg={<Designers />}
-            href="/designers"
-            label="Designers"
-            shortcut="9"
-          /> */}
           <Divider>Social</Divider>
           <NavLink
             svg={<Twitter />}

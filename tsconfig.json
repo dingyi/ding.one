@@ -30,7 +30,8 @@
     "noEmit": true,
     "esModuleInterop": true,
     "isolatedModules": true,
-    "incremental": true
+    "incremental": true,
+    "noImplicitAny": true
   },
   "exclude": [
     "node_modules",
