@@ -47,7 +47,7 @@ const Bookmarks: NextPage<Props> = ({ bookmarks: bookmarksData }) => {
         <h1 className={util.header()}>Bookmarks</h1>
         <p className={util.description()}>{description}</p>
         <List>
-          {bookmarks && bookmarks?.map((bookmark) => (
+          {bookmarks?.map((bookmark) => (
             <BookmarkTile key={bookmark._id} bookmark={bookmark} />
           ))}
         </List>
