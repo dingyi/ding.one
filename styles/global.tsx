@@ -62,6 +62,10 @@ export const globalStyles = globalCss({
     fontSize: '$3',
   },
 
+  h4: {
+    fontSize: '$2',
+  },
+
   figure: {
     margin: 0
   },

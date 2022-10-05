@@ -13,7 +13,8 @@ const nextConfig = {
       "s3.us-west-2.amazonaws.com",
       "amazonaws.com",
       "secure.notion-static.com",
-      "i.scdn.co"
+      "i.scdn.co",
+      "www.google.com"
     ],
   },
   typescript: {
@@ -29,7 +30,7 @@ const nextConfig = {
       // allow next/image to serve remote images from safelisted domains
       remotePatterns: [
         { hostname: "secure.notion-static.com" },
-        { hostname: "pbs.twimg.com" },
+        { hostname: "google.com" },
       ],
     }, */
     legacyBrowsers: false,

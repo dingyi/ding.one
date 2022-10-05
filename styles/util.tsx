@@ -49,7 +49,6 @@ export const list = css({
 export const header = css({
   fontSize: '2.275rem',
   fontWeight: '$4',
-  marginBottom: '1.5rem',
   color: '$title',
   transition: 'color 0.25s ease',
 })

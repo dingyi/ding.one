@@ -18,8 +18,12 @@ export type TopTracks = {
 }
 
 export type Bookmark = {
+  _id: string
   link: string
   title: string
   cover: string
   tags: string[]
+  created: string
+  lastUpdate: string
+  type: string
 }

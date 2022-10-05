@@ -2,11 +2,10 @@ import { Bookmark } from "lib/types"
 
 const PER_PAGE = 50
 
-export const fetchBookmarks = async (page: number = 0) => {
-  const bookmarks: Bookmark[] = []
+export const fetchBookmarks = async (page = 0): Promise<Bookmark[]> => {
 
   const req = await fetch(
-    `https://api.raindrop.io/rest/v1/raindrops/${process.env.RAINDROP_COLLECTION}?perpage=${PER_PAGE}&page=${page}`,
+    `https://api.raindrop.io/rest/v1/raindrops/${process.env.RAINDROP_COLLECTION}?sort=-created&search=type:link&perpage=${PER_PAGE}&page=${page}`,
     {
       headers: {
         Authorization: `Bearer ${process.env.RAINDROP_TOKEN}`,
@@ -16,18 +15,19 @@ export const fetchBookmarks = async (page: number = 0) => {
 
   const data = await req.json()
 
-  bookmarks.push(...data.items.map(
-    ({ cover, title, link, tags }:any) => ({
-      link,
-      title,
-      cover,
-      tags,
-    })
-  ))
 
-  if (data.items.length === PER_PAGE) {
+  return data?.items.map((item: Bookmark) => ({
+    _id: item._id,
+    title: item.title,
+    link: item.link,
+    cover: item.cover,
+    tags: item.tags,
+    created: item.created,
+    lastUpdate: item.lastUpdate
+  }))
+
+  /* if (data.items.length === PER_PAGE) {
     bookmarks.push(...await fetchBookmarks(page + 1))
-  }
+  } */
 
-  return bookmarks
 }
