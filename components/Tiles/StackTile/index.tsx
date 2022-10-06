@@ -3,8 +3,7 @@ import Image from "next/image"
 import External from "@ui/Icons/external"
 import * as util from '@styles/util'
 
-export const Container = styled('a', {
-  width: '100%',
+export const Item = styled('a', {
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
@@ -69,7 +68,7 @@ export default function StackTile({
   price
 }: any) {
   return (
-    <Container
+    <Item
       href={url}
       target="_blank"
       rel="noopener noreferrer"
@@ -130,6 +129,6 @@ export default function StackTile({
           <Price>${price}</Price>
         </Right>
       </Stack>
-    </Container>
+    </Item>
   )
 }

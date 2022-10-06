@@ -31,7 +31,7 @@ export default function PodcastTile({
 
       <div className={styles.stack}>
         <div>
-          <h3 className={util.tileTitle + " " + styles.inline}>{title}</h3>
+          <h4 className={util.tileTitle + " " + styles.inline}>{title}</h4>
           <span className={styles.externalIcon}>
             <External />
           </span>

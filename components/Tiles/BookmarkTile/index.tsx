@@ -7,7 +7,6 @@ import relativeTime from "dayjs/plugin/relativeTime"
 import localizedFormat from "dayjs/plugin/localizedFormat"
 
 export const Item = styled('a', {
-  width: '100%',
   height: '64px',
   display: 'flex',
   justifyContent: 'space-between',

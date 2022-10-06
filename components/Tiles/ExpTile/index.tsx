@@ -1,6 +1,7 @@
 import { styled } from 'stitches.config'
-import styles from "./ExpTile.module.css"
+import External from "@ui/Icons/external"
 import * as util from '@styles/util'
+import * as link from '@styles/link'
 
 export const Container = styled('div', {
   width: '100%',
@@ -9,13 +10,20 @@ export const Container = styled('div', {
   alignItems: 'flex-start',
   padding: '1rem 0',
   transition: 'background-color 0.15s ease',
-  ['& span']: {
+  '& span': {
     opacity: 0,
     transition: 'opacity 0.2s ease, color 0.2s ease',
   },
   '&:hover span': {
     opacity: 1,
   },
+})
+
+export const Left = styled('div', {
+  display: 'flex',
+  flexDirection: 'row',
+  alignItems: 'flex-start',
+  overflow: 'visible',
 })
 
 export const Content = styled('p', {
@@ -44,25 +52,32 @@ export const Date = styled('div', {
 export default function ExpTile({ title, content, url, date }: any) {
   return (
     <Container>
-      <div>
+      <Left>
         <Date> {date}</Date>
-      </div>
+      </Left>
       <Stack>
         {url ? (
           <a
             href={url}
             target="_blank"
             rel="noopener noreferrer"
-            className={styles.titleLink}
+            className={link.externalLink()}
           >
             <h3 className={util.tileTitle()}>{title}</h3>
             <span
               className={util.externalIcon({
                 css: {
+                  display: 'inline-block',
+                  verticalAlign: 'middle',
                   marginLeft: '$2',
+                  '& svg': {
+                    fill: '$content',
+                  },
                 }
               })}
-            >↗</span>
+            >
+              <External />
+            </span>
           </a>
         ) : (
           <h3 className={util.tileTitle()}>{title}</h3>
