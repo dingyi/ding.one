@@ -5,15 +5,14 @@ import * as util from '@styles/util'
 import * as link from '@styles/link'
 
 export default function About() {
-
-  const description = "A product designer & design-focused engineer based in Shenzhen, China. With 10+ years of experience in digital design, front-end development and team management."
   return (
     <>
       <Layout>
         <NextSeo title="About" description="Who am I and what I do." />
         <h1 className={util.header()}>About</h1>
         <div className={util.inset()}>
-          <p className={util.description()}>{description}</p>
+          <p className={util.description()}>
+            A product designer & design-focused engineer based in Shenzhen, China. With 10+ years of experience in digital design, front-end development and team management. More resume details on <a target="_blank" href="https://read.cv/dingyi" rel="noopener noreferrer">read.cv</a>.</p>
           <div className={util.divider()}></div>
           <div>
             <h2>Career</h2>

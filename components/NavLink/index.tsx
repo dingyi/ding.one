@@ -67,7 +67,16 @@ export const ShortcutText = styled('span', {
   color:'$highlightText',
 })
 
-export default function NavLink({ svg, label, href, shortcut, external }) {
+type Props = {
+  svg: React.ReactNode
+  label: string
+  href: string
+  shortcut?: string
+  external?: boolean  // 👈️ mark optional
+
+}
+
+export default function NavLink({ svg, label, href, shortcut, external }: Props) {
   const router = useRouter()
 
   const ariaCurrent =
@@ -115,7 +124,7 @@ export default function NavLink({ svg, label, href, shortcut, external }) {
       </div>
     </Item>
   ) : (
-    <Link href={href}>
+    <Link href={href} passHref>
       <Item aria-current={ariaCurrent}>
         <Left>
           <div className={util.icon()}>

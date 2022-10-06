@@ -1,4 +1,5 @@
 import { styled } from 'stitches.config'
+import Link from "next/link"
 import NavLink from "@components/NavLink"
 import Logo from "@ui/Icons/logo"
 import Home from "@ui/Icons/home"
@@ -11,15 +12,14 @@ import Reading from "@ui/Icons/reading"
 import Bookmarks from "@ui/Icons/bookmarks"
 import Newsletters from "@ui/Icons/newsletters"
 import Podcasts from "@ui/Icons/podcasts"
-import Designers from "@ui/Icons/designers"
 import Twitter from "@ui/Icons/twitter"
 import Instagram from "@ui/Icons/instagram"
 import Github from "@ui/Icons/github"
 import Figma from "@ui/Icons/figma"
-import styles from "./menu.module.css"
 
-export const SiteTitle = styled('div', {
+export const SiteTitle = styled('a', {
   margin: '0.5rem 0 1rem 0.5rem',
+  display: 'flex',
   transition: 'color 0.25s ease',
   'svg': {
     width: '32px',
@@ -46,6 +46,10 @@ export const Upper = styled('div', {
   flexShrink: 1,
 })
 
+export const Nav = styled('nav', {
+  flexShrink: 1,
+})
+
 export const Divider = styled('p', {
   padding: '1.25rem 0 0.5rem 0.75rem',
   fontSize: '$0',
@@ -59,10 +63,12 @@ export default function Menu() {
   return (
     <Container>
       <Upper>
-        <SiteTitle>
-          <Logo />
-        </SiteTitle>
-        <nav className={styles.nav}>
+        <Link href="/" passHref>
+          <SiteTitle>
+            <Logo />
+          </SiteTitle>
+        </Link>
+        <Nav>
           <NavLink
             svg={<Home />}
             href="/"
@@ -129,27 +135,27 @@ export default function Menu() {
             svg={<Twitter />}
             href="https://twitter.com/dingyi"
             label="Twitter"
-            external="true"
+            external
           />
           <NavLink
             svg={<Instagram />}
             href="https://instagram.com/dingyi"
             label="Instagram"
-            external="true"
+            external
           />
           <NavLink
             svg={<Figma />}
             href="https://figma.com/@ding"
             label="Figma"
-            external="true"
+            external
           />
           <NavLink
             svg={<Github />}
             href="https://Github.com/dingyi"
             label="Github"
-            external="true"
+            external
           />
-        </nav>
+        </Nav>
       </Upper>
     </Container>
   )
