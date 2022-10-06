@@ -1,4 +1,4 @@
-import React from "react"
+import { NextSeo } from 'next-seo'
 import Layout from "@components/Layouts/Global"
 import PodcastTile from "@components/Tiles/PodcastTile"
 const { Client } = require("@notionhq/client")
@@ -18,10 +18,12 @@ export default function Podcasts({ list }: any) {
   return (
     <>
       <Layout>
+        <NextSeo title="Podcasts" description="What podcasts I listen nowdays." />
         <h1 className={util.header()}>Podcasts</h1>
         <p className={util.description()}>
           I used to only listen to design-related podcasts, but <a target="_blank" href="https://www.vulture.com/2022/09/podcasting-is-just-radio-now.html" rel="noopener noreferrer">Podcasting Is Just Radio Now</a>, so I subscribed to tons of podcasts just for fun, and most of the time I just listen to them as white noise.
         </p>
+        <div className={util.divider()}></div>
         <Grid>
           {list?.map((item: any) => (
             <PodcastTile

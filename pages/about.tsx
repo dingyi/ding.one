@@ -1,5 +1,4 @@
-import Link from "next/link"
-import React from "react"
+import { NextSeo } from 'next-seo'
 import Layout from "@components/Layouts/Global"
 import ExpTile from "@components/Tiles/ExpTile"
 import * as util from '@styles/util'
@@ -11,6 +10,7 @@ export default function About() {
   return (
     <>
       <Layout>
+        <NextSeo title="About" description="Who am I and what I do." />
         <h1 className={util.header()}>About</h1>
         <div className={util.inset()}>
           <p className={util.description()}>{description}</p>

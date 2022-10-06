@@ -1,5 +1,4 @@
-import Head from "next/head"
-import React from "react"
+import { NextSeo } from 'next-seo'
 import Layout from "@components/Layouts/Global"
 import StackTile from "@components/Tiles/StackTile"
 const { Client } = require("@notionhq/client")
@@ -12,14 +11,11 @@ export default function Stack({ list }: any) {
 
   return (
     <>
-      <Head>
-        <title>{"My Stack"}</title>
-        <meta name="description" content={description} />
-        <meta property="og:image" content="https://www.sj.land/og/index.png" />
-      </Head>
       <Layout>
+        <NextSeo title="Stack" description="A living document writing in Notion with everything that I'm using nowadays." />
         <h1 className={util.header()}>Stack</h1>
         <p className={util.description()}>{description}</p>
+        <div className={util.divider()}></div>
         <ul className={util.list()}>
           {list?.map((item: any) => (
             <StackTile

@@ -1,4 +1,4 @@
-import React from "react"
+import { NextSeo } from 'next-seo'
 import Layout from "@components/Layouts/Global"
 import * as util from '@styles/util'
 
@@ -10,8 +10,10 @@ export default function Gear() {
   return (
     <>
       <Layout>
+        <NextSeo title="Gear" description="" />
         <h1 className={util.header()}>Gear</h1>
         <p className={util.description()}>{description}</p>
+        <div className={util.divider()}></div>
       </Layout>
     </>
   )

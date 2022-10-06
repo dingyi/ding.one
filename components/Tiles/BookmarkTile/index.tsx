@@ -1,4 +1,4 @@
-import Image from "next/image"
+import Image from "next/future/image"
 import { styled } from 'stitches.config'
 import * as util from '@styles/util'
 import { Bookmark } from 'lib/types'
@@ -73,7 +73,6 @@ export default function BookmarkTile(props: { bookmark: Bookmark }) {
             src={favicon}
             height={32}
             width={32}
-            layout="fixed"
             alt={bookmark.title}
           />
         </div>
