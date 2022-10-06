@@ -49,7 +49,7 @@ export const Date = styled('div', {
   marginRight: '2rem',
 })
 
-export default function ExpTile({ title, content, url, date }: any) {
+export default function ExpTile({ title, content, url, date }) {
   return (
     <Container>
       <Left>

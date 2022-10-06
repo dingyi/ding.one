@@ -66,7 +66,7 @@ export default function StackTile({
   tags,
   use,
   price
-}: any) {
+}) {
   return (
     <Item
       href={url}
@@ -114,7 +114,7 @@ export default function StackTile({
           </Meta>
           <Tags>
             {tags
-              ? tags.map((tag: any) => (
+              ? tags.map((tag) => (
                 <li
                   key={tag.name + tag.color}
                   className={tag.color + "Tag tag"}

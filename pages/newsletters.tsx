@@ -4,7 +4,7 @@ import Layout from "@components/Layouts/Global"
 //const { Client } = require("@notionhq/client")
 import * as util from '@styles/util'
 
-export default function Newsletters({ list }: any) {
+export default function Newsletters({ list }) {
 
   return (
     <>

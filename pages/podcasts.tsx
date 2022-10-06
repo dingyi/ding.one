@@ -13,7 +13,7 @@ export const Grid = styled('ul', {
   margin: '0 -1rem',
 })
 
-export default function Podcasts({ list }: any) {
+export default function Podcasts({ list }) {
 
   return (
     <>
@@ -25,7 +25,7 @@ export default function Podcasts({ list }: any) {
         </p>
         <div className={util.divider()}></div>
         <Grid>
-          {list?.map((item: any) => (
+          {list?.map((item) => (
             <PodcastTile
               key={item.id}
               internalUrl={item.properties.Path.url}

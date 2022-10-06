@@ -4,7 +4,7 @@ import StackTile from "@components/Tiles/StackTile"
 const { Client } = require("@notionhq/client")
 import * as util from '@styles/util'
 
-export default function Stack({ list }: any) {
+export default function Stack({ list }) {
 
   const description =
     "We live on tools, tools shape our tastes, and tools come and go frequently. This is a living document writing in Notion with everything that I'm using nowadays."
@@ -17,7 +17,7 @@ export default function Stack({ list }: any) {
         <p className={util.description()}>{description}</p>
         <div className={util.divider()}></div>
         <ul className={util.list()}>
-          {list?.map((item: any) => (
+          {list?.map((item) => (
             <StackTile
               key={item.id}
               title={item.properties.Name.title[0].plain_text}

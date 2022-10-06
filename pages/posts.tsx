@@ -2,7 +2,7 @@ import { NextSeo } from 'next-seo'
 import Layout from "@components/Layouts/Global"
 import * as util from '@styles/util'
 
-export default function Posts({ list }: any) {
+export default function Posts({ list }) {
 
   return (
     <>

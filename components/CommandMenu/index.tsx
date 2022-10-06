@@ -15,7 +15,7 @@ import Bookmarks from "@ui/Icons/bookmarks"
 import Newsletters from "@ui/Icons/newsletters"
 import Podcasts from "@ui/Icons/podcasts"
 
-export default function CommandMenu({ open, setOpen}: any) {
+export default function CommandMenu({ open, setOpen}) {
 
   const router = useRouter()
   const { setTheme } = useTheme()
@@ -29,7 +29,7 @@ export default function CommandMenu({ open, setOpen}: any) {
   React.useEffect(() => {
     let unsubscribe = tinykeys(window, {
       "$mod+KeyK": () => {
-        setOpen((open: any) => !open)
+        setOpen((open) => !open)
       },
     })
     return () => {

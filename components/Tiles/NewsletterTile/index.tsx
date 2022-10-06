@@ -8,7 +8,7 @@ export default function NewsletterTile({
   url,
   tags,
   fav,
-}: any) {
+}) {
   return (
     <a
       href={url}

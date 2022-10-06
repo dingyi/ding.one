@@ -31,7 +31,7 @@
     "esModuleInterop": true,
     "isolatedModules": true,
     "incremental": true,
-    "noImplicitAny": true
+    "noImplicitAny": false
   },
   "exclude": [
     "node_modules",

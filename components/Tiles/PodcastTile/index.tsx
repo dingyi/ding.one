@@ -7,7 +7,7 @@ export default function PodcastTile({
   imageUrl,
   title,
   url,
-}: any) {
+}) {
 
   return (
     <a

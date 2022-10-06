@@ -75,7 +75,7 @@ export const Label = styled('p', {
   transition: 'color 0.2s ease',
 })
 
-export default function NavLink({ label, href, external }: any) {
+export default function NavLink({ label, href, external }) {
 
   return external ? (
     <Item

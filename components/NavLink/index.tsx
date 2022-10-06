@@ -67,7 +67,7 @@ export const ShortcutText = styled('span', {
   color:'$highlightText',
 })
 
-export default function NavLink({ svg, label, href, shortcut, external }: any) {
+export default function NavLink({ svg, label, href, shortcut, external }) {
   const router = useRouter()
 
   const ariaCurrent =
