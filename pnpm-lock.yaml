@@ -8,7 +8,7 @@ specifiers:
   '@radix-ui/react-dialog': 1.0.0
   '@radix-ui/react-popover': 1.0.0
   '@radix-ui/react-tooltip': 1.0.0
-  '@raycast/utils': ^1.4.8
+  '@raycast/utils': 1.4.8
   '@stitches/react': 1.2.8
   '@types/react': 18.0.21
   clsx: 1.2.1
@@ -16,7 +16,7 @@ specifiers:
   contentlayer: 0.2.8
   copy-to-clipboard: 3.3.2
   date-fns: 2.29.3
-  dayjs: ^1.11.5
+  dayjs: 1.11.5
   eslint: 8.24.0
   eslint-config-next: 12.3.1
   eslint-config-prettier: 8.5.0
@@ -29,7 +29,7 @@ specifiers:
   next-restore-scroll: 1.2.1
   next-seo: 5.5.0
   next-themes: 0.2.1
-  next-usequerystate: ^1.7.2
+  next-usequerystate: 1.7.2
   plaiceholder: 2.5.0
   prettier: 2.7.1
   react: 18.2.0
