@@ -63,7 +63,7 @@ export default function Menu() {
   return (
     <Container>
       <Upper>
-        <Link href="/" passHref>
+        <Link href="/" passHref aria-label="Ding">
           <SiteTitle>
             <Logo />
           </SiteTitle>

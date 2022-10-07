@@ -1,6 +1,6 @@
 {
   "name": "ding.one",
-  "version": "4.0.0",
+  "version": "2022.0.24",
   "description": "Ding, a other product designer.",
   "author": "Ding <dingyi@me.com>",
   "private": "true",
@@ -34,7 +34,7 @@
     "copy-to-clipboard": "3.3.2",
     "date-fns": "2.29.3",
     "dayjs": "1.11.5",
-    "framer-motion": "7.5.2",
+    "framer-motion": "7.5.3",
     "next": "12.3.1",
     "next-contentlayer": "0.2.8",
     "next-plausible": "3.6.3",
@@ -68,5 +68,5 @@
     "remark-gfm": "3.0.1",
     "typescript": "4.8.4"
   },
-  "packageManager": "pnpm@7.13.0"
+  "packageManager": "pnpm@7.13.2"
 }
