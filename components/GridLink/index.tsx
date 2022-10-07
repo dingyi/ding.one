@@ -92,7 +92,7 @@ export default function NavLink({ label, href, external }) {
       </div>
     </Item>
   ) : (
-    <Link href={href}>
+      <Link href={href} passHref>
       <Item>
         <Gradient />
         <Left>

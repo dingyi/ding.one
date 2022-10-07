@@ -2,13 +2,7 @@ import styles from "./NewsletterTile.module.css"
 import Image from "next/image"
 import util from "@styles/util.module.css"
 
-export default function NewsletterTile({
-  title,
-  content,
-  url,
-  tags,
-  fav,
-}) {
+export default function NewsletterTile({ title, content, url }) {
   return (
     <a
       href={url}
