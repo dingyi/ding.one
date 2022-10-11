@@ -1,6 +1,6 @@
 {
   "name": "ding.one",
-  "version": "2022.0.24",
+  "version": "2022.0.25",
   "description": "Ding, a other product designer.",
   "author": "Ding <dingyi@me.com>",
   "private": "true",
@@ -26,7 +26,7 @@
     "@radix-ui/react-dialog": "1.0.0",
     "@radix-ui/react-popover": "1.0.0",
     "@radix-ui/react-tooltip": "1.0.0",
-    "@raycast/utils": "1.4.8",
+    "@raycast/utils": "1.4.9",
     "@stitches/react": "1.2.8",
     "clsx": "1.2.1",
     "cmdk": "0.1.20",
@@ -57,16 +57,16 @@
   },
   "devDependencies": {
     "@types/react": "18.0.21",
-    "eslint": "8.24.0",
+    "eslint": "8.25.0",
     "eslint-config-next": "12.3.1",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-prettier": "4.2.1",
-    "eslint-plugin-react": "7.31.8",
+    "eslint-plugin-react": "7.31.10",
     "prettier": "2.7.1",
     "rehype-autolink-headings": "6.1.1",
     "rehype-slug": "5.0.1",
     "remark-gfm": "3.0.1",
     "typescript": "4.8.4"
   },
-  "packageManager": "pnpm@7.13.2"
+  "packageManager": "pnpm@7.13.4"
 }

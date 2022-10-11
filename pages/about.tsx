@@ -21,7 +21,7 @@ export default function About() {
               title="Product Design at Mask Network"
               url={"https://mask.io"}
               content={
-                "Working on some new projects with a tons of tanlent web3 guys. Working on some new projects with a tons of tanlent web3 guys."
+                "Working on some new projects including apps and branding with a tons of talent web3 guys."
               }
             />
             <ExpTile
