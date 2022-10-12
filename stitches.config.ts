@@ -5,9 +5,9 @@ export const stitches = createStitches({
   theme: {
     fonts: {
       system: 'system-ui',
-      sans: '"Albert Sans", sans-serif',
+      sans: '"Albert Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif',
+      mono: "Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace",
       title: '"Unbounded VF", sans-serif',
-      mono: 'Fira Mono, monospace',
       AktivGrotesk: 'aktiv-grotesk, sans-serif',
       AktivGroteskThin: 'aktiv-grotesk-thin, sans-serif',
     },
@@ -90,7 +90,9 @@ export const stitches = createStitches({
       4: '8px',
       5: '16px',
       6: '32px',
-      round: '9999px',
+      squared: '33%',
+      rounded: '50%',
+      pill: '9999px',
     },
     letterSpacings: {},
     borderWidths: {},
@@ -101,7 +103,15 @@ export const stitches = createStitches({
       lightShadow: '$whiteA11',
       mint: '$mint11',
     },
-    zIndices: {},
+    zIndices: {
+      1: '100',
+      2: '200',
+      3: '300',
+      4: '400',
+      5: '500',
+      10: '1000',
+      max: '9999'
+    },
     transitions: {},
     // media: {
     //   bp1: '(min-width: 575px)',

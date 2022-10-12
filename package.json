@@ -19,6 +19,7 @@
     "url": "https://github.com/dingyi/ding.one"
   },
   "dependencies": {
+    "@nextui-org/react": "1.0.0-beta.10",
     "@notionhq/client": "1.0.4",
     "@plaiceholder/next": "2.5.0",
     "@radix-ui/colors": "0.1.8",
@@ -26,7 +27,7 @@
     "@radix-ui/react-dialog": "1.0.0",
     "@radix-ui/react-popover": "1.0.0",
     "@radix-ui/react-tooltip": "1.0.0",
-    "@raycast/utils": "1.4.8",
+    "@raycast/utils": "1.4.9",
     "@stitches/react": "1.2.8",
     "clsx": "1.2.1",
     "cmdk": "0.1.20",
@@ -57,11 +58,11 @@
   },
   "devDependencies": {
     "@types/react": "18.0.21",
-    "eslint": "8.24.0",
+    "eslint": "8.25.0",
     "eslint-config-next": "12.3.1",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-prettier": "4.2.1",
-    "eslint-plugin-react": "7.31.8",
+    "eslint-plugin-react": "7.31.10",
     "prettier": "2.7.1",
     "rehype-autolink-headings": "6.1.1",
     "rehype-slug": "5.0.1",

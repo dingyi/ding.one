@@ -13,7 +13,7 @@ export const Item = styled('a', {
   padding: '0.5rem 0.875rem',
   color: '$highlightText',
   cursor: 'pointer',
-  borderRadius: '$round',
+  borderRadius: '$pill',
   backgroundColor: '$whiteA3',
   boxShadow: 'inset 0 1px 0 0 rgba(255, 255, 255, .03)',
   transition: 'all .2s ease-out 0s',

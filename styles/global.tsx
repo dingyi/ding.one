@@ -7,9 +7,11 @@ export const globalStyles = globalCss({
     fontWeight: '1 999',
     fontDisplay: 'block',
   },
-  body: {
+  'html, body': {
     backgroundColor: '$background',
     color: '$content',
+  },
+  body: {
     fontFamily: '$sans',
     fontSize: '$3',
     fontWeight: '$2',
@@ -72,6 +74,10 @@ export const globalStyles = globalCss({
 
   figure: {
     margin: 0
+  },
+
+  img: {
+    width: '100%',
   },
 
   'pre, code': {
