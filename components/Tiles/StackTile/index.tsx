@@ -52,7 +52,8 @@ export const Meta = styled('div', {
 })
 
 export const Tags = styled('ul', {
-
+  color: 'inherit',
+  display: 'flex',
 })
 
 export const Price = styled('div', {

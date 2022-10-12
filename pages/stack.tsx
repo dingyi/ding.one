@@ -6,15 +6,12 @@ import * as util from '@styles/util'
 
 export default function Stack({ list }) {
 
-  const description =
-    "We live on tools, tools shape our tastes, and tools come and go frequently. This is a living document writing in Notion with everything that I'm using nowadays."
-
   return (
     <>
       <Layout>
         <NextSeo title="Stack" description="A living document writing in Notion with everything that I'm using nowadays." />
         <h1 className={util.header()}>Stack</h1>
-        <p className={util.description()}>{description}</p>
+        <p className={util.description()}>We live on tools, tools shape our tastes, and tools come and go frequently. This is a living document writing in Notion with everything that I'm using nowadays.</p>
         <div className={util.divider()}></div>
         <ul className={util.list()}>
           {list?.map((item) => (

@@ -26,9 +26,11 @@ export const globalStyles = globalCss({
   },
 
   ul: {
-    padding: '0',
+    padding: 0,
+    margin: 0,
     'li': {
       display: 'inline',
+      margin: 0,
       fontWeight: '$1',
       padding: '0 .6em',
     },
@@ -110,11 +112,10 @@ export const globalStyles = globalCss({
   },
 
   '.tag': {
-    padding: '3px 4px',
+    padding: '0 4px',
     marginLeft: 4,
     borderRadius: 3,
     fontSize: '$1',
-    lineLeight: 1,
     transition: 'all 0.2s ease',
   },
 

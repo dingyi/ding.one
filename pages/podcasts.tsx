@@ -1,9 +1,12 @@
 import { NextSeo } from 'next-seo'
 import Layout from "@components/Layouts/Global"
+import PageFooter from "@components/Layouts/PageFooter"
 import PodcastTile from "@components/Tiles/PodcastTile"
 import { Grid } from '@nextui-org/react'
 const { Client } = require("@notionhq/client")
 import * as util from '@styles/util'
+import * as link from '@styles/link'
+
 
 export default function Podcasts({ list }) {
 
@@ -29,6 +32,26 @@ export default function Podcasts({ list }) {
             </Grid>
           ))}
         </Grid.Container>
+        <div className={util.divider()}></div>
+        <PageFooter>
+          Data stored in{" "}
+          <a
+            href="http://notion.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={link.externalLink()}
+          >
+            Notion
+          </a>{" "} and Logos fetched from{" "}
+          <a
+            href="http://spotify.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={link.externalLink()}
+          >
+            Spotify
+          </a>.
+        </PageFooter>
       </Layout>
     </>
   )

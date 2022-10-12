@@ -43,7 +43,7 @@ export const pageColumn = css({
 
 export const list = css({
   padding: 0,
-  marginTop: '3rem',
+  margin: 0,
 })
 
 export const header = css({
@@ -84,7 +84,10 @@ export const textDivider = css({
 })
 
 export const read = css({
-  fontSize: '$2',
+  'p': {
+    fontSize: '$1',
+    fontWeight: '$1',
+  },
   'ul': {
     paddingLeft: '1.5rem',
   }

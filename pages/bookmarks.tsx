@@ -3,11 +3,13 @@ import type { GetStaticProps, NextPage } from "next"
 import { queryTypes, useQueryState } from 'next-usequerystate'
 import { NextSeo } from 'next-seo'
 import Layout from "@components/Layouts/Global"
+import PageFooter from "@components/Layouts/PageFooter"
 import BookmarkTile from "@components/Tiles/BookmarkTile"
 import { Bookmark } from "lib/types"
 import { fetchBookmarks } from "lib/bookmarks"
 import { styled } from 'stitches.config'
 import * as util from '@styles/util'
+import * as link from '@styles/link'
 
 export const List = styled('div', {
   marginTop: "$4",
@@ -52,6 +54,18 @@ const Bookmarks: NextPage<Props> = ({ bookmarks: bookmarksData }) => {
             <BookmarkTile key={bookmark._id} bookmark={bookmark} />
           ))}
         </List>
+        <div className={util.divider()}></div>
+        <PageFooter>
+          Powered by{" "}
+          <a
+            href="https://raindrop.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={link.externalLink()}
+          >
+            Raindrop.io
+          </a>{" "} API, for performance reasons, only the latest 50 are fetched.
+        </PageFooter>
       </Layout>
     </>
   )
