@@ -1,24 +1,55 @@
 import styles from "./podcastTile.module.css"
+import { styled } from 'stitches.config'
 import Image from "next/future/image"
 import External from "@ui/Icons/external"
-import util from "@styles/util.module.css"
+import * as util from '@styles/util'
 
-export default function PodcastTile({
-  imageUrl,
-  title,
-  url,
-}) {
+export const Meta = styled('div', {
+  position: 'absolute',
+  left: '$3',
+  bottom: '$3',
+  lineHeight: '$0',
+  maxWidth: '80%',
+  zIndex: 9999,
+})
+
+export const Item = styled('a', {
+  width: '100%',
+  position: 'relative',
+  [`& ${Meta}`]: {
+    opacity: 0,
+    transition: 'opacity ease-in-out 0.2s',
+  },
+  [`&:hover ${Meta}`]: {
+    opacity: 1,
+  },
+  '&::after': {
+    content: `''`,
+    display: 'block',
+    position: 'absolute',
+    width: '100%',
+    height: '100%',
+    inset: 0,
+    opacity: 0,
+    background: 'rgba(0, 0, 0, 0.6)',
+    transition: 'all 0.4s ease-in-out 0s',
+  },
+  '&:hover::after': {
+    opacity: 1,
+  },
+})
+
+
+export default function PodcastTile({ imageUrl, title, url }) {
 
   return (
-    <a
+    <Item
       href={url}
       target="_blank"
       rel="noopener noreferrer"
-      className={styles.container}
     >
       <div>
         <Image
-          className={styles.image}
           src={imageUrl}
           width={200}
           height={200}
@@ -29,14 +60,23 @@ export default function PodcastTile({
         />
       </div>
 
-      <div className={styles.stack}>
-        <div>
-          <h4 className={util.tileTitle + " " + styles.inline}>{title}</h4>
-          <span className={styles.externalIcon}>
-            <External />
-          </span>
-        </div>
-      </div>
-    </a>
+      <Meta>
+        <h4 className={util.tileTitle()}>{title}</h4>
+        <span
+          className={util.externalIcon({
+            css: {
+              display: 'inline-block',
+              verticalAlign: 'middle',
+              marginLeft: '$2',
+              '& svg': {
+                fill: '$content',
+              },
+            }
+          })}
+        >
+          <External />
+        </span>
+      </Meta>
+    </Item>
   )
 }

@@ -122,7 +122,7 @@ export const icon = css({
 export const roundIcon = css({
   width: '$5',
   height: '$5',
-  borderRadius: '$round',
+  borderRadius: '$pill',
   display: 'flex',
   backgroundColor: 'transparent',
   marginBottom: '$2',

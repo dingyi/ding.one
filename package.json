@@ -19,6 +19,7 @@
     "url": "https://github.com/dingyi/ding.one"
   },
   "dependencies": {
+    "@nextui-org/react": "1.0.0-beta.10",
     "@notionhq/client": "1.0.4",
     "@plaiceholder/next": "2.5.0",
     "@radix-ui/colors": "0.1.8",
