@@ -56,6 +56,8 @@ export default function BookmarkTile(props: { bookmark: Bookmark }) {
   const bookmark = props.bookmark
   const favicon = `https://www.google.com/s2/favicons?sz=64&domain=${bookmark.link}`
 
+// T-120 favicon fallback
+
   return (
     <Item
       href={bookmark.link}

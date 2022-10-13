@@ -39,7 +39,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <PlausibleProvider domain="ding.one">
       <ThemeProvider
         attribute="class"
-        defaultTheme="system"
+        defaultTheme="dark"
       >
         <NextUIProvider theme={myDarkTheme}>
           <DefaultSeo {...SEO} />

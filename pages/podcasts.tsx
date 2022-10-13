@@ -1,7 +1,7 @@
 import { NextSeo } from 'next-seo'
 import Layout from "@components/Layouts/Global"
 import PageFooter from "@components/Layouts/PageFooter"
-import PodcastTile from "@components/Tiles/PodcastTile"
+import GridTile from "@components/Tiles/GridTile"
 import { Grid } from '@nextui-org/react'
 const { Client } = require("@notionhq/client")
 import * as util from '@styles/util'
@@ -22,7 +22,7 @@ export default function Podcasts({ list }) {
         <Grid.Container gap={0.5}>
           {list?.map((item) => (
             <Grid xs={6} sm={3} key={item.id} >
-              <PodcastTile
+              <GridTile
                 imageUrl={item.properties.Logo.files[0].file.url}
                 title={item.properties.Name.title[0].plain_text}
                 content={item.properties.Body.rich_text[0].plain_text}
@@ -50,7 +50,7 @@ export default function Podcasts({ list }) {
             className={link.externalLink()}
           >
             Spotify
-          </a>.
+          </a>. All trademarks, logos and brand names are the property of their respective owners.
         </PageFooter>
       </Layout>
     </>

@@ -1,4 +1,3 @@
-import styles from "./podcastTile.module.css"
 import { styled } from 'stitches.config'
 import Image from "next/future/image"
 import External from "@ui/Icons/external"
@@ -40,7 +39,7 @@ export const Item = styled('a', {
 })
 
 
-export default function PodcastTile({ imageUrl, title, url }) {
+export default function GridTile({ imageUrl, title, url }) {
 
   return (
     <Item
