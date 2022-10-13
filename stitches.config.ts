@@ -5,7 +5,7 @@ export const stitches = createStitches({
   theme: {
     fonts: {
       system: 'system-ui',
-      sans: '"Albert Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif',
+      sans: '"Albert Sans", "Material Icons", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif',
       mono: "Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace",
       title: '"Unbounded VF", sans-serif',
       AktivGrotesk: 'aktiv-grotesk, sans-serif',

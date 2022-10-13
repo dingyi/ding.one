@@ -40,12 +40,12 @@ const Bookmarks: NextPage<Props> = ({ bookmarks: bookmarksData }) => {
   }, [setActiveTag])
 
   const description =
-    "Lastest useful links I've discovered and bookmarked. Powered by Raindrop.io"
+    "Lastest useful links I've discovered and bookmarked."
 
   return (
     <>
       <Layout>
-        <NextSeo title="Bookmarks" description="Lastest useful links I've discovered and bookmarked. Powered by Raindrop.io"/>
+        <NextSeo title="Bookmarks" description="Lastest useful links I've discovered and bookmarked."/>
         <h1 className={util.header()}>Bookmarks</h1>
         <p className={util.description()}>{description}</p>
         <div className={util.divider()}></div>

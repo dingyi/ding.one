@@ -1,5 +1,5 @@
 import React from 'react'
-import { NextUIProvider } from '@nextui-org/react'
+import { createTheme, NextUIProvider } from '@nextui-org/react'
 import { AppProps } from 'next/app'
 import Menu from "@components/Menu"
 import CommandMenu from "@components/CommandMenu"
@@ -11,6 +11,15 @@ import { styled } from 'stitches.config'
 import { globalStyles } from '@styles/global'
 import '@styles/reset.css'
 import { CMDK } from '@styles/CommandMenu'
+
+const myDarkTheme = createTheme({
+  type: 'dark',
+  theme: {
+    colors: {
+      background: '#052926',
+    },
+  }
+})
 
 export const Wrapper = styled('div', {
   minHeight: '100vh',
@@ -32,7 +41,7 @@ export default function App({ Component, pageProps }: AppProps) {
         attribute="class"
         defaultTheme="system"
       >
-        <NextUIProvider>
+        <NextUIProvider theme={myDarkTheme}>
           <DefaultSeo {...SEO} />
           <Menu />
           <Component {...pageProps} />
