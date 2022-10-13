@@ -149,5 +149,9 @@ export const globalStyles = globalCss({
   '.redTag': {
     backgroundColor: 'rgb(255 7 7 / 20%)',
   },
+  '.material-symbols-outlined': {
+    fontSize: '16px !important',
+  }
 
 })
+

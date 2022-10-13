@@ -21,7 +21,7 @@ export default function Podcasts({ list }) {
         <div className={util.divider()}></div>
         <Grid.Container gap={0.5}>
           {list?.map((item) => (
-            <Grid xs={6} md={3} key={item.id} >
+            <Grid xs={6} sm={3} key={item.id} >
               <PodcastTile
                 imageUrl={item.properties.Logo.files[0].file.url}
                 title={item.properties.Name.title[0].plain_text}

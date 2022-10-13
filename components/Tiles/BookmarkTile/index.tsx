@@ -25,26 +25,28 @@ export const Item = styled('a', {
 export const Left = styled('div', {
   display: 'flex',
   alignItems: 'center',
+  width: '80%',
+  overflow: 'hidden'
 })
 
 export const Meta = styled('div', {
   display: 'flex',
   flexDirection: 'column',
+  maxWidth: '80%'
 })
 
 export const Title = styled('h4', {
-  maxWidth: '36rem',
   textOverflow: 'ellipsis',
   whiteSpace: 'nowrap',
-  overflow: 'hidden',
+  overflow: 'hidden'
 })
 
 export const Date = styled('div', {
-  fontSize: '$2',
+  fontSize: '$2'
 })
 
 export const Tags = styled('div', {
-  fontSize: '$1',
+  fontSize: '$1'
 })
 
 dayjs.extend(relativeTime)
