@@ -40,12 +40,12 @@ const Reading: NextPage<Props> = ({ bookmarks: bookmarksData }) => {
   }, [setActiveTag])
 
   const description =
-    "Lastest interesting artciles I've saved and highlighted."
+    "Lastest interesting articles I've saved and highlighted."
 
   return (
     <>
       <Layout>
-        <NextSeo title="Reading List" description="Lastest interesting artciles I've saved and highlighted." />
+        <NextSeo title="Reading List" description="Lastest interesting articles I've saved and highlighted." />
         <h1 className={util.header()}>Reading List</h1>
         <p className={util.description()}>{description}</p>
         <div className={util.divider()}></div>
