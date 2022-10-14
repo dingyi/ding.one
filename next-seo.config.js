@@ -1,7 +1,7 @@
 /* eslint-disable import/no-anonymous-default-export */
 
 const title = 'Ding'
-const description = 'A digital product designer & design-focused engineer.'
+const description = 'A product designer & design-focused engineer.'
 const siteUrl = 'https://ding.one'
 
 export default {
@@ -36,6 +36,10 @@ export default {
     {
       rel: "icon",
       href: "/favicon.svg",
+    },
+    {
+      rel: "icon",
+      href: "/favicon.png",
     },
     {
       rel: "apple-touch-icon",

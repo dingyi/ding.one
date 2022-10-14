@@ -106,9 +106,12 @@ export default function GridList() {
           </div>
         </Top>
         <Bio>
-          <p><span className="material-symbols-outlined">
-            waving_hand
-          </span> A product designer & design-focused engineer with 10+ years of experience in digital design, front-end development and team management.</p>
+          <p>
+            <span className="material-symbols-outlined">
+              waving_hand
+            </span>{"  "}
+            A product designer & design-focused engineer with 10+ years of experience in digital design, front-end development and team management.
+          </p>
         </Bio>
       </Item>
       <Item type="resume">
