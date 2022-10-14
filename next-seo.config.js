@@ -23,28 +23,29 @@ export default {
     images: [
       {
         url: `${siteUrl}/og.png`,
-        alt: title,
+        alt: title
       },
     ],
   },
   twitter: {
     handle: '@dingyi',
     site: '@site',
-    cardType: 'summary_large_image',
+    cardType: 'summary_large_image'
   },
   additionalLinkTags: [
     {
       rel: "icon",
       href: "/favicon.svg",
+      type: "image/svg+xml"
     },
     {
       rel: "icon",
-      href: "/favicon.png",
+      href: "/favicon.ico"
     },
     {
       rel: "apple-touch-icon",
       href: "/apple-touch-icon.png",
-      sizes: "180x180",
+      sizes: "180x180"
     },
   ],
 }
