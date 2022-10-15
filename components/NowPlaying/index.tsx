@@ -73,7 +73,7 @@ export default function NowPlaying() {
           </Status>
         )}
         <Artist>
-          {data?.artist ?? 'Check back later...'}
+          {data?.artist ?? 'Not playing...'}
         </Artist>
       </Meta>
     </>
