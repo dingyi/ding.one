@@ -38,7 +38,7 @@ specifiers:
   react-dom: 18.2.0
   react-use: 17.4.0
   rehype-autolink-headings: 6.1.1
-  rehype-pretty-code: 0.3.2
+  rehype-pretty-code: 0.4.0
   rehype-slug: 5.0.1
   remark-gfm: 3.0.1
   sass: 1.55.0
@@ -79,7 +79,7 @@ dependencies:
   react-calendly: 4.1.0_biqbaboplfbrettd7655fr4n2y
   react-dom: 18.2.0_react@18.2.0
   react-use: 17.4.0_biqbaboplfbrettd7655fr4n2y
-  rehype-pretty-code: 0.3.2_shiki@0.11.1
+  rehype-pretty-code: 0.4.0_shiki@0.11.1
   sass: 1.55.0
   sharp: 0.31.1
   shiki: 0.11.1
@@ -6457,8 +6457,8 @@ packages:
       unist-util-visit: 4.1.1
     dev: true
 
-  /rehype-pretty-code/0.3.2_shiki@0.11.1:
-    resolution: {integrity: sha512-G7JZDlbaw22QqjuaQ46c+fkQhXC/AD9nMQO3bbnj86jD54uv1QcpyUtSd/elp49vRafM/wZI1XPrOvca0LTt/Q==}
+  /rehype-pretty-code/0.4.0_shiki@0.11.1:
+    resolution: {integrity: sha512-Bp91nfo4blpgCXlvGP1hsG+kRFfjqBVU09o1RFcnNA62u+iIzJiJRGzpfBj4FaItq7CEQL5ASGB7vLxN5xCvyA==}
     engines: {node: ^12.16.0 || >=13.2.0}
     peerDependencies:
       shiki: '*'
