@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@calcom/embed-react': ^1.0.9
   '@nextui-org/react': 1.0.0-beta.10
   '@notionhq/client': 1.0.4
   '@plaiceholder/next': 2.5.0
@@ -34,7 +35,6 @@ specifiers:
   plaiceholder: 2.5.0
   prettier: 2.7.1
   react: 18.2.0
-  react-calendly: 4.1.0
   react-dom: 18.2.0
   react-use: 17.4.0
   rehype-autolink-headings: 6.1.1
@@ -50,6 +50,7 @@ specifiers:
   use-onclickoutside: 0.4.1
 
 dependencies:
+  '@calcom/embed-react': 1.0.9_biqbaboplfbrettd7655fr4n2y
   '@nextui-org/react': 1.0.0-beta.10_biqbaboplfbrettd7655fr4n2y
   '@notionhq/client': 1.0.4
   '@plaiceholder/next': 2.5.0_next@12.3.1+sharp@0.31.1
@@ -76,7 +77,6 @@ dependencies:
   next-usequerystate: 1.7.2_azq6kxkn3od7qdylwkyksrwopy
   plaiceholder: 2.5.0_sharp@0.31.1
   react: 18.2.0
-  react-calendly: 4.1.0_biqbaboplfbrettd7655fr4n2y
   react-dom: 18.2.0_react@18.2.0
   react-use: 17.4.0_biqbaboplfbrettd7655fr4n2y
   rehype-pretty-code: 0.4.0_shiki@0.11.1
@@ -148,6 +148,28 @@ packages:
       esutils: 2.0.3
       lodash: 4.17.21
       to-fast-properties: 2.0.0
+    dev: false
+
+  /@calcom/embed-core/1.1.2:
+    resolution: {integrity: sha512-zf0tj0fUZzkWAu/f3Ftacbyg+tGhyRIfm1BvKa7I5CpjXO5Skg1Qtga3DrLhzzmsP7uT6NKTJ4BcrwoHIADOoA==}
+    dev: false
+
+  /@calcom/embed-react/1.0.9_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-ByqZRcGWYNv6e0pSktiJFzWf1z/xUD+7Gs605JubqTYsjvVseXFFDJXjJzr5QrMdEKz1seFMPwKg2AgMzIPPFg==}
+    peerDependencies:
+      react: ^18.1.0
+      react-dom: ^18.1.0
+    dependencies:
+      '@calcom/embed-core': 1.1.2
+      '@calcom/embed-snippet': 1.0.4
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    dev: false
+
+  /@calcom/embed-snippet/1.0.4:
+    resolution: {integrity: sha512-KAYLIqOarPli2YrpUEnk29gzsUO1kYaz5kdIrMuMaHv5AHT8M3oOKzhnktrVudrYJ4VSiamEUrHYw/vko0wtKg==}
+    dependencies:
+      '@calcom/embed-core': 1.1.2
     dev: false
 
   /@contentlayer/cli/0.2.8:
@@ -6251,17 +6273,6 @@ packages:
       ini: 1.3.8
       minimist: 1.2.7
       strip-json-comments: 2.0.1
-    dev: false
-
-  /react-calendly/4.1.0_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-a4/yHZwwmuEgUZOfRh0Hs5lt96WSlWI3GQ0fNWWUnKN11YjR5E0fq4YZSMZ3Cas8FVcdoM88JSnNPbZoeLzbtQ==}
-    engines: {node: '>=8', npm: '>=5'}
-    peerDependencies:
-      react: '>=16.8.0'
-      react-dom: '>=16.8.0'
-    dependencies:
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
     dev: false
 
   /react-dom/17.0.2_react@17.0.2:

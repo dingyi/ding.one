@@ -75,7 +75,14 @@ export const Label = styled('p', {
   transition: 'color 0.2s ease',
 })
 
-export default function NavLink({ label, href, external }) {
+type Props = {
+  label: string
+  href: string
+  external?: boolean
+  dataAttr?: boolean  // 👈️ mark optional
+}
+
+export default function NavLink({ label, href, external, dataAttr }: Props) {
 
   return external ? (
     <Item
@@ -91,8 +98,22 @@ export default function NavLink({ label, href, external }) {
         <External />
       </div>
     </Item>
+  ) : dataAttr ? (
+    <Item
+      target="_blank"
+      data-cal-link="dingyi/30min"
+      rel="noopener noreferrer"
+    >
+      <Gradient />
+      <Left>
+        <Label>{label}</Label>
+      </Left>
+      <div className={util.externalIcon()}>
+        <External />
+      </div>
+    </Item>
   ) : (
-      <Link href={href} passHref>
+    <Link href={href} passHref>
       <Item>
         <Gradient />
         <Left>

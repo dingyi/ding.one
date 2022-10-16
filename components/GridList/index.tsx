@@ -1,6 +1,7 @@
 import React from "react"
 import { styled } from 'stitches.config'
 import * as util from '@styles/util'
+import MyCal from '@components/Cal'
 import GridLink from "@components/GridLink"
 import CellGrid from "@components/CellGrid"
 import Twitter from "@components/Twitter"
@@ -107,9 +108,9 @@ export default function GridList() {
         </Top>
         <Bio>
           <p>
-            <span className="material-symbols-outlined">
+            {/* <span className="material-symbols-outlined">
               waving_hand
-            </span>{"  "}
+            </span>{"  "} */}
             A product designer & design-focused engineer with 10+ years of experience in digital design, front-end development and team management.
           </p>
         </Bio>
@@ -130,7 +131,7 @@ export default function GridList() {
           <GridLink
             href="https://read.cv/dingyi"
             label="Resumé"
-            external="true"
+            external
           />
         </div>
       </Item>
@@ -149,7 +150,7 @@ export default function GridList() {
         <GridLink
           href="https://dex.zhubai.love/"
           label="Subscribe"
-          external="true"
+          external
         />
       </Item>
       <Item type="twitter">
@@ -161,7 +162,7 @@ export default function GridList() {
           <GridLink
             href="https://twitter.com/dingyi"
             label="Follow"
-            external="true"
+            external
           />
         </div>
       </Item>
@@ -174,7 +175,7 @@ export default function GridList() {
           <GridLink
             href="https://open.spotify.com/user/dingyi"
             label="Listen"
-            external="true"
+            external
           />
         </div>
       </Item>
@@ -210,11 +211,7 @@ export default function GridList() {
           </div>
         </Top>
         <div>
-          <GridLink
-            href="https://cal.com/dingyi"
-            label="Book"
-            external="true"
-          />
+          <MyCal />
         </div>
       </Item>
       <Item type="gmail">
@@ -233,7 +230,7 @@ export default function GridList() {
           <GridLink
             href="mailto:d@ding.one"
             label="Mail"
-            external="true"
+            external
           />
         </div>
       </Item>

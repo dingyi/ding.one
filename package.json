@@ -1,6 +1,6 @@
 {
   "name": "ding.one",
-  "version": "2022.0.28",
+  "version": "2022.0.29",
   "description": "Ding, a other product designer.",
   "author": "Ding <dingyi@me.com>",
   "private": "true",
@@ -19,6 +19,7 @@
     "url": "https://github.com/dingyi/ding.one"
   },
   "dependencies": {
+    "@calcom/embed-react": "^1.0.9",
     "@nextui-org/react": "1.0.0-beta.10",
     "@notionhq/client": "1.0.4",
     "@plaiceholder/next": "2.5.0",
@@ -45,7 +46,6 @@
     "next-usequerystate": "1.7.2",
     "plaiceholder": "2.5.0",
     "react": "18.2.0",
-    "react-calendly": "4.1.0",
     "react-dom": "18.2.0",
     "react-use": "17.4.0",
     "rehype-pretty-code": "0.4.0",
