@@ -47,7 +47,7 @@
     "plaiceholder": "2.5.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-github-calendar": "^3.3.4",
+    "react-github-calendar": "3.3.4",
     "react-use": "17.4.0",
     "rehype-pretty-code": "0.4.0",
     "sass": "1.55.0",
