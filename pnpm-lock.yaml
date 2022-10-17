@@ -36,7 +36,7 @@ specifiers:
   prettier: 2.7.1
   react: 18.2.0
   react-dom: 18.2.0
-  react-github-calendar: ^3.3.4
+  react-github-calendar: 3.3.4
   react-use: 17.4.0
   rehype-autolink-headings: 6.1.1
   rehype-pretty-code: 0.4.0
