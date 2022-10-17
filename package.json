@@ -24,7 +24,7 @@
     "@notionhq/client": "1.0.4",
     "@plaiceholder/next": "2.5.0",
     "@radix-ui/colors": "0.1.8",
-    "@radix-ui/react-checkbox": "1.0.0",
+    "@radix-ui/react-checkbox": "1.0.1",
     "@radix-ui/react-dialog": "1.0.0",
     "@radix-ui/react-popover": "1.0.0",
     "@radix-ui/react-tooltip": "1.0.0",
