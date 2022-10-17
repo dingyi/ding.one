@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@calcom/embed-react': ^1.0.9
+  '@calcom/embed-react': 1.0.9
   '@nextui-org/react': 1.0.0-beta.10
   '@notionhq/client': 1.0.4
   '@plaiceholder/next': 2.5.0
