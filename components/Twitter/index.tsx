@@ -1,6 +1,6 @@
+import TwitterLarge from "@ui/Icons/twitterLarge"
 import { styled } from 'stitches.config'
 import * as util from '@styles/util'
-import TwitterLarge from "@ui/Icons/twitterLarge"
 
 export const Count = styled('p', {
   fontSize: '$2',

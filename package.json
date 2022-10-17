@@ -24,10 +24,10 @@
     "@notionhq/client": "1.0.4",
     "@plaiceholder/next": "2.5.0",
     "@radix-ui/colors": "0.1.8",
-    "@radix-ui/react-checkbox": "1.0.0",
-    "@radix-ui/react-dialog": "1.0.0",
-    "@radix-ui/react-popover": "1.0.0",
-    "@radix-ui/react-tooltip": "1.0.0",
+    "@radix-ui/react-checkbox": "1.0.1",
+    "@radix-ui/react-dialog": "1.0.2",
+    "@radix-ui/react-popover": "1.0.2",
+    "@radix-ui/react-tooltip": "1.0.2",
     "@raycast/utils": "1.4.9",
     "@stitches/react": "1.2.8",
     "clsx": "1.2.1",
@@ -36,7 +36,7 @@
     "copy-to-clipboard": "3.3.2",
     "date-fns": "2.29.3",
     "dayjs": "1.11.5",
-    "framer-motion": "7.5.3",
+    "framer-motion": "7.5.4",
     "next": "12.3.1",
     "next-contentlayer": "0.2.8",
     "next-plausible": "3.6.3",
@@ -47,6 +47,7 @@
     "plaiceholder": "2.5.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-github-calendar": "^3.3.4",
     "react-use": "17.4.0",
     "rehype-pretty-code": "0.4.0",
     "sass": "1.55.0",
@@ -69,5 +70,5 @@
     "remark-gfm": "3.0.1",
     "typescript": "4.8.4"
   },
-  "packageManager": "pnpm@7.13.4"
+  "packageManager": "pnpm@7.13.5"
 }

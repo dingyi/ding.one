@@ -5,6 +5,7 @@ import MyCal from '@components/Cal'
 import GridLink from "@components/GridLink"
 import CellGrid from "@components/CellGrid"
 import Twitter from "@components/Twitter"
+import Github from "@components/Github"
 import NowPlaying from "@components/NowPlaying"
 import Logo from "@ui/Icons/logo"
 import Readcv from "@ui/Icons/readcv"
@@ -17,7 +18,7 @@ export const Grid = styled('div', {
   display: 'grid',
   gap: '$3',
   gridTemplateColumns: '1fr 1fr 1fr',
-  gridTemplateRows: '1fr 1fr 1fr',
+  gridTemplateRows: '1fr 1fr 1fr 1fr',
   height: '100%',
 })
 
@@ -67,6 +68,11 @@ export const Item = styled('div', {
       twitter: {
         '& i': {
           background: 'radial-gradient(45% 45% at 50% 50%, rgb(0 110 255 / 18%) 0%, rgb(0 174 255 / 0%) 100%)',
+        }
+      },
+      github: {
+        '& i': {
+          background: 'radial-gradient(45% 45% at 50% 50%, rgb(152 152 152 / 18%) 0%, rgb(87 87 87 / 0%) 100%)',
         }
       },
       spotify: {
@@ -161,6 +167,19 @@ export default function GridList() {
         <div>
           <GridLink
             href="https://twitter.com/dingyi"
+            label="Follow"
+            external
+          />
+        </div>
+      </Item>
+      <Item type="github">
+        <CellGrid />
+        <Top>
+          <Github />
+        </Top>
+        <div>
+          <GridLink
+            href="https://github.com/dingyi"
             label="Follow"
             external
           />
