@@ -115,6 +115,7 @@ export const stitches = createStitches({
     transitions: {},
   },
   media: {
+    xxs: '(min-width: 480px)',
     xs: '(min-width: 650px)',
     sm: '(min-width: 960px)',
     md: '(min-width: 1280px)',

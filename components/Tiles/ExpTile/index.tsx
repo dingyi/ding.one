@@ -3,7 +3,7 @@ import External from "@ui/Icons/external"
 import * as util from '@styles/util'
 import * as link from '@styles/link'
 
-export const Container = styled('div', {
+const Container = styled('div', {
   width: '100%',
   display: 'flex',
   justifyContent: 'space-between',
@@ -19,28 +19,28 @@ export const Container = styled('div', {
   },
 })
 
-export const Left = styled('div', {
+const Left = styled('div', {
   display: 'flex',
   flexDirection: 'row',
   alignItems: 'flex-start',
   overflow: 'visible',
 })
 
-export const Content = styled('p', {
+const Content = styled('p', {
   fontSize: '$2',
   lineHeight: '$2',
   color: '$content',
   marginTop: '$2',
 })
 
-export const Stack = styled('div', {
+const Stack = styled('div', {
   width: '100%',
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'flex-start',
 })
 
-export const Date = styled('div', {
+const Date = styled('div', {
   width: '68px',
   fontSize: '$1',
   color: '$whiteA10',

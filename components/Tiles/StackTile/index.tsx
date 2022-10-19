@@ -3,7 +3,18 @@ import Image from "next/image"
 import External from "@ui/Icons/external"
 import * as util from '@styles/util'
 
-export const Item = styled('a', {
+const Stack = styled('div', {
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'space-between',
+  marginLeft: '2rem',
+  padding: '1.5rem 0',
+  width: '100%',
+  borderBottom: '1px solid $whiteA4',
+  transition: 'border 0.2s ease',
+})
+
+const Item = styled('a', {
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
@@ -23,41 +34,45 @@ export const Item = styled('a', {
   '&:hover span': {
     opacity: 1,
   },
+  [`&:last-child ${Stack}`]: {
+    borderBottom: 'none',
+  },
 })
 
-export const Stack = styled('div', {
+const Left = styled('div', {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'space-between',
-  marginLeft: '2rem',
-  padding: '1.5rem 0',
   width: '100%',
-  borderBottom: '1px solid $whiteA4',
-  transition: 'border 0.2s ease',
+  '@sm': {
+    width: '90%',
+  }
 })
 
-export const Left = styled('div', {
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'space-between',
-  width: '90%',
-})
-
-export const Right = styled('div', {
+const Right = styled('div', {
   fontSize: '$1',
 })
 
-export const Meta = styled('div', {
-  width: '70%',
+const Meta = styled('div', {
+  width: '100%',
+  '@sm': {
+    width: '70%',
+  }
 })
 
-export const Tags = styled('ul', {
+const Tags = styled('ul', {
   color: 'inherit',
-  display: 'flex',
+  display: 'none',
+  '@sm': {
+    display: 'flex',
+  }
 })
 
-export const Price = styled('div', {
-
+const Price = styled('div', {
+  display: 'none',
+  '@sm': {
+    display: 'block',
+  }
 })
 
 export default function StackTile({

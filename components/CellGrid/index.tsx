@@ -2,7 +2,7 @@ import React from "react"
 import styles from "./CellGrid.module.css"
 import { styled } from 'stitches.config'
 
-export const Grid = styled('div', {
+const Grid = styled('div', {
   position: 'absolute',
   height: '100%',
   width: '100%',

@@ -11,7 +11,7 @@ import { styled } from 'stitches.config'
 import * as util from '@styles/util'
 import * as link from '@styles/link'
 
-export const List = styled('div', {
+const List = styled('div', {
   marginTop: "$4",
 })
 

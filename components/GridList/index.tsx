@@ -14,15 +14,18 @@ import Blog from "@ui/Icons/blog"
 import Cal from "@ui/Icons/cal"
 import Mail from "@ui/Icons/mail"
 
-export const Grid = styled('div', {
+const Grid = styled('div', {
   display: 'grid',
-  gap: '$3',
-  gridTemplateColumns: '1fr 1fr 1fr',
-  gridTemplateRows: '1fr 1fr 1fr 1fr',
-  height: '100%',
+  gridGap: '$3',
+  gridTemplateColumns: 'repeat(auto-fit, minmax(12rem, 1fr))',
+  gridAutoRows: '1fr',
+  '@sm': {
+    gridTemplateColumns: 'repeat(3, 1fr)',
+    gridTemplateRows: 'repeat(4, 1fr)',
+  },
 })
 
-export const Top = styled('div', {
+const Top = styled('div', {
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
@@ -30,7 +33,7 @@ export const Top = styled('div', {
   textAlign: 'center',
 })
 
-export const Item = styled('div', {
+const Item = styled('div', {
   borderRadius: '$6',
   padding: '$4 $3 $3 $3',
   display: 'flex',
@@ -53,7 +56,12 @@ export const Item = styled('div', {
   variants: {
     type: {
       me: {
-        gridArea: '1 / 1 / 2 / 3',
+        '@xxs': {
+          gridArea: '1 / 1 / 2 / 3',
+        },
+        '@xs': {
+          gridArea: '1 / 1 / 2 / 3',
+        },
       },
       resume: {
         '& i': {
@@ -99,7 +107,7 @@ export const Item = styled('div', {
   },
 })
 
-export const Bio = styled('div', {
+const Bio = styled('div', {
   padding: '0 $3',
 })
 

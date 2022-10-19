@@ -3,7 +3,7 @@ import Image from "next/future/image"
 import External from "@ui/Icons/external"
 import * as util from '@styles/util'
 
-export const Meta = styled('div', {
+const Meta = styled('div', {
   position: 'absolute',
   left: '$3',
   bottom: '$3',
@@ -12,7 +12,7 @@ export const Meta = styled('div', {
   zIndex: 9999,
 })
 
-export const Item = styled('a', {
+const Item = styled('a', {
   width: '100%',
   position: 'relative',
   [`& ${Meta}`]: {

@@ -15,8 +15,10 @@ export const globalStyles = globalCss({
     fontFamily: '$sans',
     fontSize: '$3',
     fontWeight: '$2',
-    overflow: 'hidden',
     height: "100%",
+    '@media (min-width: 650px)': {
+      overflow: 'hidden',
+    },
   },
 
   'html, body, p, h1, h2, h3, h4, h5, button': {
@@ -98,10 +100,6 @@ export const globalStyles = globalCss({
     color: '$black',
   },
 
-  '.dark-theme .bg': {
-    opacity: '0.08',
-  },
-
   '.dark-theme .iconInvert': {
     filter: 'invert(1)',
     transition: 'color 0.2s ease',
@@ -152,6 +150,5 @@ export const globalStyles = globalCss({
   '.material-symbols-outlined': {
     fontSize: '14px !important',
   }
-
 })
 

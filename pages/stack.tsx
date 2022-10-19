@@ -1,8 +1,10 @@
 import { NextSeo } from 'next-seo'
 import Layout from "@components/Layouts/Global"
+import PageFooter from "@components/Layouts/PageFooter"
 import StackTile from "@components/Tiles/StackTile"
 const { Client } = require("@notionhq/client")
 import * as util from '@styles/util'
+import * as link from '@styles/link'
 
 export default function Stack({ list }) {
 
@@ -26,6 +28,18 @@ export default function Stack({ list }) {
             />
           ))}
         </ul>
+        <div className={util.divider()}></div>
+        <PageFooter>
+          Data stored in{" "}
+          <a
+            href="http://notion.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={link.externalLink()}
+          >
+            Notion
+          </a>{" "}. All trademarks, logos and brand names are the property of their respective owners.
+        </PageFooter>
       </Layout>
     </>
   )

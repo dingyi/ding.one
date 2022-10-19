@@ -6,7 +6,7 @@ import { styled } from 'stitches.config'
 import * as util from '@styles/util'
 import Spotify from "@ui/Icons/spotify"
 
-export const Title = styled('a', {
+const Title = styled('a', {
   fontSize: '$2',
   color: '$mint12',
   '&:hover': {
@@ -14,16 +14,16 @@ export const Title = styled('a', {
   }
 })
 
-export const Meta = styled('div', {
+const Meta = styled('div', {
   zIndex: '9999',
 })
 
-export const Artist = styled('p', {
+const Artist = styled('p', {
   fontSize: '$1',
   color: '$whiteA9',
 })
 
-export const Status = styled('p', {
+const Status = styled('p', {
   fontSize: '$2',
   color: '$mint12',
 })

@@ -6,7 +6,7 @@ import dayjs from "dayjs"
 import relativeTime from "dayjs/plugin/relativeTime"
 import localizedFormat from "dayjs/plugin/localizedFormat"
 
-export const Item = styled('a', {
+const Item = styled('a', {
   height: '64px',
   display: 'flex',
   justifyContent: 'space-between',
@@ -22,30 +22,30 @@ export const Item = styled('a', {
   },
 })
 
-export const Left = styled('div', {
+const Left = styled('div', {
   display: 'flex',
   alignItems: 'center',
   width: '80%',
   overflow: 'hidden'
 })
 
-export const Meta = styled('div', {
+const Meta = styled('div', {
   display: 'flex',
   flexDirection: 'column',
   maxWidth: '80%'
 })
 
-export const Title = styled('h4', {
+const Title = styled('h4', {
   textOverflow: 'ellipsis',
   whiteSpace: 'nowrap',
   overflow: 'hidden'
 })
 
-export const Date = styled('div', {
+const Date = styled('div', {
   fontSize: '$2'
 })
 
-export const Tags = styled('div', {
+const Tags = styled('div', {
   fontSize: '$1'
 })
 

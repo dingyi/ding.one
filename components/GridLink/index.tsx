@@ -4,7 +4,7 @@ import External from "@ui/Icons/external"
 import { styled } from 'stitches.config'
 import * as util from '@styles/util'
 
-export const Item = styled('a', {
+const Item = styled('a', {
   display: 'flex',
   justifyContent: 'space-between',
   alignItems: 'center',
@@ -45,7 +45,7 @@ export const Item = styled('a', {
   },
 })
 
-export const Gradient = styled('span', {
+const Gradient = styled('span', {
   display: 'block',
   position: 'absolute',
   top: '0',
@@ -60,13 +60,13 @@ export const Gradient = styled('span', {
   transform: 'translateX(-35%)',
 })
 
-export const Left = styled('div', {
+const Left = styled('div', {
   display: 'flex',
   flexDirection: 'row',
   alignItems: 'center',
 })
 
-export const Label = styled('p', {
+const Label = styled('p', {
   fontWeight: '$2',
   fontSize: '$2',
   margin: '0 0 0 12px',

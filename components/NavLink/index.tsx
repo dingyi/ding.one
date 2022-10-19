@@ -1,5 +1,4 @@
-import styles from "./navLink.module.css"
-import React, { useEffect } from "react"
+import { useEffect } from "react"
 import Link from "next/link"
 import { useRouter } from "next/router"
 import External from "@ui/Icons/external"
@@ -7,7 +6,7 @@ import * as Tooltip from "@radix-ui/react-tooltip"
 import { styled } from 'stitches.config'
 import * as util from '@styles/util'
 
-export const Item = styled('a', {
+const Item = styled('a', {
   display: 'flex',
   flexDirection: 'row',
   justifyContent: 'center',
@@ -37,13 +36,20 @@ export const Item = styled('a', {
   },
 })
 
-export const Left = styled('div', {
+const Left = styled('div', {
   display: 'flex',
   flexDirection: 'row',
   alignItems: 'center',
 })
 
-export const Label = styled('p', {
+const Right = styled('div', {
+  display: 'none',
+  '@xs': {
+    display: 'block',
+  },
+})
+
+const Label = styled('p', {
   fontWeight: '$3',
   fontSize: '$2',
   margin: '0 0 0 12px',
@@ -56,7 +62,7 @@ export const Label = styled('p', {
   },
 })
 
-export const Shortcut = styled('div', {
+const Shortcut = styled('div', {
   background: '$numberBackground',
   borderRadius: '$2',
   width: '16px',
@@ -70,7 +76,7 @@ export const Shortcut = styled('div', {
   },
 })
 
-export const ShortcutText = styled('span', {
+const ShortcutText = styled('span', {
   fontWeight: '$1',
   fontSize: '11px',
   color:'$highlightText',
@@ -116,7 +122,7 @@ export default function NavLink({ svg, label, href, shortcut, external }: Props)
 
         <Label>{label}</Label>
       </Left>
-      <div className={styles.desktopOnly}>
+      <Right>
         <div
           className={util.externalIcon({
             css: {
@@ -130,7 +136,7 @@ export default function NavLink({ svg, label, href, shortcut, external }: Props)
         >
           <External />
         </div>
-      </div>
+      </Right>
     </Item>
   ) : (
     <Link href={href} passHref>
