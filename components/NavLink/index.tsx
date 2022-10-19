@@ -10,16 +10,12 @@ import * as util from '@styles/util'
 export const Item = styled('a', {
   display: 'flex',
   flexDirection: 'row',
-  justifyContent: 'space-between',
-  alignItems: 'center',
-  padding: '0.5rem 0.575rem 0.5rem 0.875rem',
-  position: 'static',
-  width: '100%',
-  height: '2.25rem',
+  justifyContent: 'center',
+  height: '2rem',
+  width: '2rem',
   color: '$menu',
   cursor: 'pointer',
   borderRadius: 6,
-  marginTop: 2,
   border: '0.5px solid transparent',
   transition: 'all 0.1s ease',
   '&:hover': {
@@ -32,6 +28,12 @@ export const Item = styled('a', {
   '&[aria-current="page"]': {
     background: '$whiteA4',
     border: '0.5px solid $highlightActiveBorder',
+  },
+  '@xs': {
+    padding: '0.5rem 0.575rem 0.5rem 0.875rem',
+    width: '100%',
+    height: '2.25rem',
+    justifyContent: 'space-between',
   },
 })
 
@@ -48,6 +50,10 @@ export const Label = styled('p', {
   color: '$menu',
   letterSpacing: '-0.2px',
   transition: 'color 0.2s ease',
+  display: 'none',
+  '@xs': {
+    display: 'block',
+  },
 })
 
 export const Shortcut = styled('div', {
@@ -56,9 +62,12 @@ export const Shortcut = styled('div', {
   width: '16px',
   height: '16px',
   justifyContent: 'center',
-  display: 'flex',
+  display: 'none',
   flexDirection: 'column',
   alignItems: 'center',
+  '@xs': {
+    display: 'flex',
+  },
 })
 
 export const ShortcutText = styled('span', {

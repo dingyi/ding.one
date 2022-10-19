@@ -15,16 +15,19 @@ export const page = css({
   flexDirection: 'column',
   alignItems: 'center',
   margin: '0.5rem',
-  height: 'calc(100vh - 1rem)',
+  height: 'calc(100vh - 4rem)',
   borderRadius: '$5',
   padding: '1rem 2rem',
   order: 1,
   flexGrow: 1,
-  marginLeft: '16rem',
   backgroundColor: '$mint2',
   overflow: 'auto',
   transition: 'backgroundColor 0.2s ease',
   boxShadow: '0 1px 8px rgba(0, 0, 0, 0.015)',
+  '@xs': {
+    marginLeft: '16rem',
+    height: 'calc(100vh - 1rem)',
+  },
 })
 
 export const video = css({

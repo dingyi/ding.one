@@ -113,13 +113,14 @@ export const stitches = createStitches({
       max: '9999'
     },
     transitions: {},
-    // media: {
-    //   bp1: '(min-width: 575px)',
-    //   bp2: '(min-width: 750px)',
-    //   bp3: '(min-width: 1000px)',
-    //   bp4: '(min-width: 1200px)',
-    // },
-  }
+  },
+  media: {
+    xs: '(min-width: 650px)',
+    sm: '(min-width: 960px)',
+    md: '(min-width: 1280px)',
+    lg: '(min-width: 1400px)',
+    mo: '(max-width: 650px)',
+  },
 })
 
 // const lightTheme = theme({
