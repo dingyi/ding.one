@@ -1,6 +1,6 @@
 {
   "name": "ding.one",
-  "version": "2022.0.31",
+  "version": "2022.0.32",
   "description": "Ding, a other product designer.",
   "author": "Ding <dingyi@me.com>",
   "private": "true",
@@ -20,7 +20,6 @@
   },
   "dependencies": {
     "@calcom/embed-react": "1.0.9",
-    "@nextui-org/react": "1.0.0-beta.10",
     "@notionhq/client": "1.0.4",
     "@plaiceholder/next": "2.5.0",
     "@radix-ui/colors": "0.1.8",

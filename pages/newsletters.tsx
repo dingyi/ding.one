@@ -2,10 +2,20 @@ import { NextSeo } from 'next-seo'
 import Layout from "@components/Layouts/Global"
 import PageFooter from "@components/Layouts/PageFooter"
 import GridTile from "@components/Tiles/GridTile"
-import { Grid } from '@nextui-org/react'
 const { Client } = require("@notionhq/client")
+import { styled } from 'stitches.config'
 import * as util from '@styles/util'
 import * as link from '@styles/link'
+
+const Grid = styled('div', {
+  display: 'grid',
+  gridGap: '$1',
+  gridTemplateColumns: 'repeat(auto-fit, minmax(10rem, 1fr))',
+  gridAutoRows: '1fr',
+  '@mo': {
+    gridTemplateColumns: 'repeat(auto-fit, minmax(8rem, 1fr))',
+  },
+})
 
 
 export default function Newsletters({ list }) {
@@ -19,19 +29,18 @@ export default function Newsletters({ list }) {
           I subscribed to tons of newsletters, these are the ones I really like and read a lot.
         </p>
         <div className={util.divider()}></div>
-        <Grid.Container gap={0.5}>
+        <Grid>
           {list?.map((item) => (
-            <Grid xs={6} sm={3} key={item.id} >
-              <GridTile
-                imageUrl={item.properties.Logo.files[0].file.url}
-                title={item.properties.Name.title[0].plain_text}
-                content={item.properties.Body.rich_text[0].plain_text}
-                url={item.properties.URL.url}
-                tags={item.properties.Tags.multi_select}
-              />
-            </Grid>
+            <GridTile
+              key={item.id}
+              imageUrl={item.properties.Logo.files[0].file.url}
+              title={item.properties.Name.title[0].plain_text}
+              content={item.properties.Body.rich_text[0].plain_text}
+              url={item.properties.URL.url}
+              tags={item.properties.Tags.multi_select}
+            />
           ))}
-        </Grid.Container>
+        </Grid>
         <div className={util.divider()}></div>
         <PageFooter>
           Data stored in{" "}
