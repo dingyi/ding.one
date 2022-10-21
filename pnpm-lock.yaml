@@ -17,7 +17,7 @@ specifiers:
   contentlayer: 0.2.8
   copy-to-clipboard: 3.3.2
   date-fns: 2.29.3
-  dayjs: 1.11.5
+  dayjs: 1.11.6
   eslint: 8.25.0
   eslint-config-next: 12.3.1
   eslint-config-prettier: 8.5.0
@@ -65,7 +65,7 @@ dependencies:
   contentlayer: 0.2.8
   copy-to-clipboard: 3.3.2
   date-fns: 2.29.3
-  dayjs: 1.11.5
+  dayjs: 1.11.6
   framer-motion: 7.6.1_biqbaboplfbrettd7655fr4n2y
   next: 12.3.1_2mygebwfgdyopr3fy2qddu2eli
   next-contentlayer: 0.2.8_azq6kxkn3od7qdylwkyksrwopy
@@ -491,31 +491,6 @@ packages:
   /@humanwhocodes/object-schema/1.2.1:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
-
-  /@internationalized/date/3.0.1:
-    resolution: {integrity: sha512-E/3lASs4mAeJ2Z2ye6ab7eUD0bPUfTeNVTAv6IS+ne9UtMu9Uepb9A1U2Ae0hDr6WAlBuvUtrakaxEdYB9TV6Q==}
-    dependencies:
-      '@babel/runtime': 7.19.4
-    dev: false
-
-  /@internationalized/message/3.0.9:
-    resolution: {integrity: sha512-yHQggKWUuSvj1GznVtie4tcYq+xMrkd/lTKCFHp6gG18KbIliDw+UI7sL9+yJPGuWiR083xuLyyhzqiPbNOEww==}
-    dependencies:
-      '@babel/runtime': 7.19.4
-      intl-messageformat: 10.2.1
-    dev: false
-
-  /@internationalized/number/3.1.1:
-    resolution: {integrity: sha512-dBxCQKIxvsZvW2IBt3KsqrCfaw2nV6o6a8xsloJn/hjW0ayeyhKuiiMtTwW3/WGNPP7ZRyDbtuiUEjMwif1ENQ==}
-    dependencies:
-      '@babel/runtime': 7.19.4
-    dev: false
-
-  /@internationalized/string/3.0.0:
-    resolution: {integrity: sha512-NUSr4u+mNu5BysXFeVWZW4kvjXylPkU/YYqaWzdNuz1eABfehFiZTEYhWAAMzI3U8DTxfqF9PM3zyhk5gcfz6w==}
-    dependencies:
-      '@babel/runtime': 7.19.4
-    dev: false
 
   /@js-temporal/polyfill/0.4.3:
     resolution: {integrity: sha512-6Fmjo/HlkyVCmJzAPnvtEWlcbQUSRhi8qlN9EtJA/wP7FqXsevLLrlojR44kzNzrRkpf7eDJ+z7b4xQD/Ycypw==}
@@ -2399,8 +2374,8 @@ packages:
     engines: {node: '>=0.11'}
     dev: false
 
-  /dayjs/1.11.5:
-    resolution: {integrity: sha512-CAdX5Q3YW3Gclyo5Vpqkgpj8fSdLQcRuzfX6mC6Phy0nfJ0eGYOeS7m4mt2plDWLAtA4TqTakvbboHvUxfe4iA==}
+  /dayjs/1.11.6:
+    resolution: {integrity: sha512-zZbY5giJAinCG+7AGaw0wIhNZ6J8AhWuSXKvuc1KAyMiRsvGQWqh4L+MomvhdAYjN+lqvVCMq1I41e3YHvXkyQ==}
     dev: false
 
   /debug/2.6.9:
