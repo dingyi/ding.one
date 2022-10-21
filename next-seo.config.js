@@ -6,7 +6,7 @@ const siteUrl = 'https://ding.one'
 
 export default {
   title: title,
-  titleTemplate: "%s | Designer, developer, and entrepreneur.",
+  titleTemplate: "%s | Ding: Designer, developer, and entrepreneur.",
   defaultTitle: "Ding",
   description: description,
   canonical: "https://ding.one",
@@ -46,6 +46,10 @@ export default {
       rel: "apple-touch-icon",
       href: "/apple-touch-icon.png",
       sizes: "180x180"
+    },
+    {
+      rel: "manifest",
+      href: "/manifest.json"
     },
   ],
 }
