@@ -1,12 +1,12 @@
 //const { withContentlayer } = require("next-contentlayer")
 
+const { withPlausibleProxy } = require('next-plausible')
+
 /**
  * @type {import('next').NextConfig}
  */
 
-const { withPlausibleProxy } = require('next-plausible')
-
-const nextConfig = {
+module.exports = withPlausibleProxy()({
   reactStrictMode: true,
   staticPageGenerationTimeout: 100,
   images: {
@@ -48,7 +48,4 @@ const nextConfig = {
       },
     ]
   },
-}
-
-//module.exports = withContentlayer(nextConfig)
-module.exports = withPlausibleProxy(nextConfig)
+})
