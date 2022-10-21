@@ -4,6 +4,8 @@
  * @type {import('next').NextConfig}
  */
 
+const { withPlausibleProxy } = require('next-plausible')
+
 const nextConfig = {
   reactStrictMode: true,
   staticPageGenerationTimeout: 100,
@@ -49,5 +51,4 @@ const nextConfig = {
 }
 
 //module.exports = withContentlayer(nextConfig)
-
-module.exports = nextConfig
+module.exports = withPlausibleProxy(nextConfig)

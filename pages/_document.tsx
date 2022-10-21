@@ -32,6 +32,7 @@ export default class Document extends NextDocument {
             type="font/woff"
             crossOrigin=""
           />
+          <script defer data-domain="ding.one" src="/js/script.js"></script>
         </Head>
         <body>
           <Main />
