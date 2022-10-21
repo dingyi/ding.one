@@ -52,4 +52,10 @@ export default {
       href: "/manifest.json"
     },
   ],
+  additionalMetaTags:[
+    {
+      name: 'theme-color',
+      content: '#05201e'
+    }
+  ]
 }

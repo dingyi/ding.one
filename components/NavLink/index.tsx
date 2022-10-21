@@ -114,6 +114,7 @@ export default function NavLink({ svg, label, href, shortcut, external }: Props)
       target="_blank"
       href={href}
       rel="noopener noreferrer"
+      aria-label={label}
     >
       <Left>
         <div className={util.icon()}>
@@ -140,7 +141,10 @@ export default function NavLink({ svg, label, href, shortcut, external }: Props)
     </Item>
   ) : (
     <Link href={href} passHref>
-      <Item aria-current={ariaCurrent}>
+      <Item
+        aria-current={ariaCurrent}
+        aria-label={label}
+      >
         <Left>
           <div className={util.icon()}>
             {svg}

@@ -100,9 +100,12 @@ export default function NavLink({ label, href, external, dataAttr }: Props) {
     </Item>
   ) : dataAttr ? (
     <Item
-      target="_blank"
+      href={href}
       data-cal-link="dingyi/30min"
       rel="noopener noreferrer"
+      onClick={(e) => {
+        e.preventDefault()
+      }}
     >
       <Gradient />
       <Left>
