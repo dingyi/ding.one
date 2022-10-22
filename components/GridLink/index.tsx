@@ -92,7 +92,7 @@ export default function NavLink({ label, href, external, dataAttr }: Props) {
       href={href}
       rel="noopener noreferrer"
       onClick={(e) => {
-        plausible('Book Button')
+        plausible('External Link')
       }}
     >
       <Gradient />
