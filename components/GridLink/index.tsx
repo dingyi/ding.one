@@ -26,7 +26,6 @@ const Item = styled('a', {
     fill: '$highlightText',
   },
   '&:hover': {
-    //background: '$mint9',
     backgroundColor: '$gradientButton',
     transition: 'all 0.3s ease-out 0.1s',
   },
@@ -92,6 +91,9 @@ export default function NavLink({ label, href, external, dataAttr }: Props) {
       target="_blank"
       href={href}
       rel="noopener noreferrer"
+      onClick={(e) => {
+        plausible('Book Button')
+      }}
     >
       <Gradient />
       <Left>

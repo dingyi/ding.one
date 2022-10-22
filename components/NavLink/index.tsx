@@ -1,6 +1,7 @@
 import { useEffect } from "react"
 import Link from "next/link"
 import { useRouter } from "next/router"
+import { usePlausible } from 'next-plausible'
 import External from "@ui/Icons/external"
 import * as Tooltip from "@radix-ui/react-tooltip"
 import { styled } from 'stitches.config'
@@ -92,7 +93,9 @@ type Props = {
 }
 
 export default function NavLink({ svg, label, href, shortcut, external }: Props) {
+
   const router = useRouter()
+  const plausible = usePlausible()
 
   const ariaCurrent =
     router.asPath.includes(href) && href !== "/"
@@ -115,6 +118,9 @@ export default function NavLink({ svg, label, href, shortcut, external }: Props)
       href={href}
       rel="noopener noreferrer"
       aria-label={label}
+      onClick={() => {
+        plausible('Social Link')
+      }}
     >
       <Left>
         <div className={util.icon()}>
