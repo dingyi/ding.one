@@ -1,5 +1,6 @@
 import React from "react"
 import Link from "next/link"
+import { usePlausible } from 'next-plausible'
 import External from "@ui/Icons/external"
 import { styled } from 'stitches.config'
 import * as util from '@styles/util'
@@ -84,6 +85,8 @@ type Props = {
 
 export default function NavLink({ label, href, external, dataAttr }: Props) {
 
+  const plausible = usePlausible()
+
   return external ? (
     <Item
       target="_blank"
@@ -104,7 +107,8 @@ export default function NavLink({ label, href, external, dataAttr }: Props) {
       data-cal-link="dingyi/30min"
       rel="noopener noreferrer"
       onClick={(e) => {
-        e.preventDefault()
+        e.preventDefault(),
+        plausible('Book Button')
       }}
     >
       <Gradient />
