@@ -21,7 +21,6 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-        <script defer data-domain="ding.one" src="/js/script.js"></script>
       </Head>
       <PlausibleProvider domain="ding.one">
         <ThemeProvider

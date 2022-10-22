@@ -1,4 +1,5 @@
 import * as React from 'react'
+import Script from 'next/script'
 import NextDocument, { Html, Head, Main, NextScript, DocumentContext } from 'next/document'
 import { getCssText } from 'stitches.config'
 export default class Document extends NextDocument {
@@ -29,9 +30,10 @@ export default class Document extends NextDocument {
             rel="preload"
             href="/fonts/Unbounded-Variable.woff2"
             as="font"
-            type="font/woff"
+            type="font/woff2"
             crossOrigin=""
           />
+          <Script defer data-domain="ding.one" src="/js/script.js"></Script>
         </Head>
         <body>
           <Main />
