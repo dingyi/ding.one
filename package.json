@@ -1,6 +1,6 @@
 {
   "name": "ding.one",
-  "version": "2022.0.32",
+  "version": "2022.0.33",
   "description": "Ding, a other product designer.",
   "author": "Ding <dingyi@me.com>",
   "private": "true",
@@ -19,6 +19,7 @@
     "url": "https://github.com/dingyi/ding.one"
   },
   "dependencies": {
+    "@acab/reset.css": "^0.5.3",
     "@calcom/embed-react": "1.0.9",
     "@notionhq/client": "1.0.4",
     "@plaiceholder/next": "2.5.0",
@@ -29,6 +30,7 @@
     "@radix-ui/react-tooltip": "1.0.2",
     "@raycast/utils": "1.4.9",
     "@stitches/react": "1.2.8",
+    "@vercel/analytics": "^0.1.1",
     "clsx": "1.2.1",
     "cmdk": "0.1.20",
     "contentlayer": "0.2.8",
@@ -48,6 +50,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-github-calendar": "3.3.4",
+    "react-live-clock": "^6.0.6",
     "react-use": "17.4.0",
     "rehype-pretty-code": "0.4.0",
     "sass": "1.55.0",

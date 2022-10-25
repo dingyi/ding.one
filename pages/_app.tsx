@@ -1,6 +1,7 @@
 import React from "react"
 import Head from "next/head"
 import { AppProps } from 'next/app'
+import { Analytics } from '@vercel/analytics/react'
 import Menu from "@components/Menu"
 import CommandMenu from "@components/CommandMenu"
 import { ThemeProvider } from 'next-themes'
@@ -31,6 +32,7 @@ export default function App({ Component, pageProps }: AppProps) {
           <Menu />
           <Component {...pageProps} />
           <CommandMenu open={open} setOpen={setOpen} />
+          <Analytics />
         </ThemeProvider>
       </PlausibleProvider>
     </>
