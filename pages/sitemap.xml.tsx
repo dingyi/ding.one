@@ -4,7 +4,7 @@ const createSitemap = (slugs) => `<?xml version="1.0" encoding="UTF-8"?>
     .map((slug) => {
       return `
                 <url>
-                    <loc>${`https://leerob.io/${slug}`}</loc>
+                    <loc>${`https://ding.one/${slug}`}</loc>
                 </url>
             `
     })
