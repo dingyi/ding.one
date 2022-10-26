@@ -34,16 +34,7 @@ module.exports = withPlausibleProxy()(
       ignoreBuildErrors: true,
     },
     experimental: {
-      /* images: {
-        allowFutureImage: true,
-        // allow next/image to serve remote images from safelisted domains
-        remotePatterns: [
-          { hostname: "secure.notion-static.com" },
-          { hostname: "google.com" },
-        ],
-      }, */
       legacyBrowsers: false,
-      browsersListForSwc: true,
       largePageDataBytes: 256 * 100000, // 12800KB by default
     },
     async redirects() {

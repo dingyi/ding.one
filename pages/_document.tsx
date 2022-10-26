@@ -16,8 +16,7 @@ export default class Document extends NextDocument {
           </>
         ),
       }
-    } finally {
-    }
+    } finally {}
   }
 
   render() {

@@ -122,7 +122,7 @@ export default function NavLink({ label, href, external, dataAttr }: Props) {
       </div>
     </Item>
   ) : (
-    <Link href={href} passHref>
+    <Link href={href} passHref legacyBehavior>
       <Item>
         <Gradient />
         <Left>

@@ -1,4 +1,4 @@
-import Image from "next/future/image"
+import Image from "next/image"
 import { styled } from 'stitches.config'
 import * as util from '@styles/util'
 import { Bookmark } from 'lib/types'

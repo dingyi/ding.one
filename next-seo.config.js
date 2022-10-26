@@ -6,7 +6,7 @@ const siteUrl = 'https://ding.one'
 
 export default {
   title: title,
-  titleTemplate: "%s | Ding: Designer, developer, and entrepreneur.",
+  titleTemplate: "Ding | %s",
   defaultTitle: "Ding",
   description: description,
   canonical: "https://ding.one",

@@ -26,10 +26,8 @@ export default function SiteTitle() {
   return (
     <>
       <Container>
-        <Link href="/" passHref>
-          <a aria-label="Ding">
-            <Logo />
-          </a>
+        <Link href="/" aria-label="Ding" passHref>
+          <Logo />
         </Link>
       </Container>
     </>

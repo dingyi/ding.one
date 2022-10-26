@@ -146,7 +146,7 @@ export default function NavLink({ svg, label, href, shortcut, external }: Props)
       </Right>
     </Item>
   ) : (
-    <Link href={href} passHref>
+    <Link href={href} passHref legacyBehavior>
       <Item
         aria-current={ariaCurrent}
         aria-label={label}
