@@ -28,7 +28,7 @@
     "@radix-ui/react-dialog": "1.0.2",
     "@radix-ui/react-popover": "1.0.2",
     "@radix-ui/react-tooltip": "1.0.2",
-    "@raycast/utils": "1.4.9",
+    "@raycast/utils": "1.4.10",
     "@stitches/react": "1.2.8",
     "@vercel/analytics": "^0.1.1",
     "clsx": "1.2.1",

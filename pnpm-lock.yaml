@@ -10,7 +10,7 @@ specifiers:
   '@radix-ui/react-dialog': 1.0.2
   '@radix-ui/react-popover': 1.0.2
   '@radix-ui/react-tooltip': 1.0.2
-  '@raycast/utils': 1.4.9
+  '@raycast/utils': 1.4.10
   '@stitches/react': 1.2.8
   '@types/react': 18.0.21
   '@vercel/analytics': ^0.1.1
@@ -63,7 +63,7 @@ dependencies:
   '@radix-ui/react-dialog': 1.0.2_rj7ozvcq3uehdlnj3cbwzbi5ce
   '@radix-ui/react-popover': 1.0.2_rj7ozvcq3uehdlnj3cbwzbi5ce
   '@radix-ui/react-tooltip': 1.0.2_rj7ozvcq3uehdlnj3cbwzbi5ce
-  '@raycast/utils': 1.4.9_@raycast+api@1.41.1
+  '@raycast/utils': 1.4.10_@raycast+api@1.42.0
   '@stitches/react': 1.2.8_react@18.2.0
   '@vercel/analytics': 0.1.1_react@18.2.0
   clsx: 1.2.1
@@ -2638,12 +2638,12 @@ packages:
       '@babel/runtime': 7.19.4
     dev: false
 
-  /@raycast/api/1.41.1_@types+react@18.0.21:
-    resolution: {integrity: sha512-yRXmi6a/bkQQG5G2JWD1rPqXdhYacjfAs/A8isSjkcBihm0tXlsmUyHWNuGa/DRBYiUrV9Zog+vbornbxyT+9w==}
+  /@raycast/api/1.42.0_@types+react@18.0.21:
+    resolution: {integrity: sha512-ZT4JSDfJ44Y8KCAHa2upgwHyGo0K94hhx4DY52Vp+pYSEH9IC9ibDeNfdLM6PsdOaaRQihUT8H0JlMl2Pzg50Q==}
     hasBin: true
     requiresBuild: true
     peerDependencies:
-      '@types/node': 16.10.3
+      '@types/node': 18.8.3
       '@types/react': 18.0.9
     peerDependenciesMeta:
       '@types/node':
@@ -2656,12 +2656,12 @@ packages:
       react-reconciler: 0.28.0_react@18.1.0
     dev: false
 
-  /@raycast/utils/1.4.9_@raycast+api@1.41.1:
-    resolution: {integrity: sha512-dygEbRcPSPvB9cM+EBiyeAQ3uTZ/UKmhfFejmexX7YeGKlgtbRBc7SNnbwqqgftdeYzaMjogGR+Dg7qIdHcInA==}
+  /@raycast/utils/1.4.10_@raycast+api@1.42.0:
+    resolution: {integrity: sha512-npD/tn54p01e4qIbVTT7RpMXoolPCQQiazvdvZ7gt5MCuEsaGNw3QUB4rGEka5oPW5VvEIys3tgfpI+uAl2MNA==}
     peerDependencies:
-      '@raycast/api': '>=1.39.2'
+      '@raycast/api': '>=1.42.0'
     dependencies:
-      '@raycast/api': 1.41.1_@types+react@18.0.21
+      '@raycast/api': 1.42.0_@types+react@18.0.21
       content-type: 1.0.4
       cross-fetch: 3.1.5
       dequal: 2.0.3
