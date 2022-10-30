@@ -14,7 +14,7 @@ specifiers:
   '@raycast/utils': 1.4.10
   '@stitches/react': 1.2.8
   '@types/react': 18.0.24
-  '@vercel/analytics': ^0.1.2
+  '@vercel/analytics': ^0.1.3
   clsx: 1.2.1
   cmdk: 0.1.20
   contentlayer: 0.2.8
@@ -29,7 +29,7 @@ specifiers:
   framer-motion: 7.6.2
   next: 13.0.0
   next-contentlayer: 0.2.8
-  next-plausible: 3.6.3
+  next-plausible: 3.6.4
   next-pwa: 5.6.0
   next-restore-scroll: 1.2.1
   next-seo: 5.9.0
@@ -67,7 +67,7 @@ dependencies:
   '@radix-ui/react-tooltip': 1.0.2_knhnagtyfncgg2hpin7s37uixq
   '@raycast/utils': 1.4.10_@raycast+api@1.42.1
   '@stitches/react': 1.2.8_react@18.2.0
-  '@vercel/analytics': 0.1.2_react@18.2.0
+  '@vercel/analytics': 0.1.3_react@18.2.0
   clsx: 1.2.1
   cmdk: 0.1.20_knhnagtyfncgg2hpin7s37uixq
   contentlayer: 0.2.8_esbuild@0.14.54
@@ -77,7 +77,7 @@ dependencies:
   framer-motion: 7.6.2_biqbaboplfbrettd7655fr4n2y
   next: 13.0.0_mk5yftg2men2cn3ayx4t7ddtvy
   next-contentlayer: 0.2.8_l5psth4rdeyanjvitroy3jqzme
-  next-plausible: 3.6.3_r5sq4deac3rmm2d5onhwvomqve
+  next-plausible: 3.6.4_r5sq4deac3rmm2d5onhwvomqve
   next-pwa: 5.6.0_422kkpyzm7kp5457cxmnctnnbu
   next-restore-scroll: 1.2.1_cmf2yfjzjmcm5fb755ej2wgbpm
   next-seo: 5.9.0_r5sq4deac3rmm2d5onhwvomqve
@@ -1617,8 +1617,8 @@ packages:
     resolution: {integrity: sha512-/c6rf4UJlmHlC9b5BaNvzAcFv7HZ2QHaV0D4/HNlBdvFnvQq8RI4kYdhyPCl7Xj+oWvTWQ8ujhqS53LIgAe6KQ==}
     dev: false
 
-  /@humanwhocodes/config-array/0.11.6:
-    resolution: {integrity: sha512-jJr+hPTJYKyDILJfhNSHsjiwXYf26Flsz8DvNndOsHs5pwSnpGUEy8yzF0JYhCEvTDdV2vuOK5tt8BVhwO5/hg==}
+  /@humanwhocodes/config-array/0.11.7:
+    resolution: {integrity: sha512-kBbPWzN8oVMLb0hOUYXhmxggL/1cJE6ydvjDIGi9EnAGUyA7cLVKQg+d/Dsm+KZwx2czGHrCmMVLiyg8s5JPKw==}
     engines: {node: '>=10.10.0'}
     dependencies:
       '@humanwhocodes/object-schema': 1.2.1
@@ -2773,12 +2773,12 @@ packages:
   /@types/eslint-scope/3.7.4:
     resolution: {integrity: sha512-9K4zoImiZc3HlIp6AVUDE4CWYx22a+lhSZMYNpbjW04+YF0KWj4pJXnEMjdnFTiQibFFmElcsasJXDbdI/EPhA==}
     dependencies:
-      '@types/eslint': 8.4.8
+      '@types/eslint': 8.4.9
       '@types/estree': 1.0.0
     dev: false
 
-  /@types/eslint/8.4.8:
-    resolution: {integrity: sha512-zUCKQI1bUCTi+0kQs5ZQzQ/XILWRLIlh15FXWNykJ+NG3TMKMVvwwC6GP3DR1Ylga15fB7iAExSzc4PNlR5i3w==}
+  /@types/eslint/8.4.9:
+    resolution: {integrity: sha512-jFCSo4wJzlHQLCpceUhUnXdrPuCNOjGFMQ8Eg6JXxlz3QaCKOb7eGi2cephQdM4XTYsNej69P9JDJ1zqNIbncQ==}
     dependencies:
       '@types/estree': 1.0.0
       '@types/json-schema': 7.0.11
@@ -2953,8 +2953,8 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vercel/analytics/0.1.2_react@18.2.0:
-    resolution: {integrity: sha512-eV2XRMRQJzPcwAskfNicAwFr5+e/u76JcS2fJooWvaT9xAg/sX0RzkgRxDZXPjnRts2ErvjhoETmbnquAMBY9A==}
+  /@vercel/analytics/0.1.3_react@18.2.0:
+    resolution: {integrity: sha512-zJuEwzvi0bBmWrMrj9jvyMS+X6iUdW3m/y5P7aOLwJQKHsJyfpdINo/4Rv+wxubz3gl4nRqIQdtOFCe1P1ErXQ==}
     peerDependencies:
       react: ^16.8||^17||^18
     dependencies:
@@ -3482,7 +3482,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001426
+      caniuse-lite: 1.0.30001427
       colorette: 1.4.0
       electron-to-chromium: 1.4.284
       escalade: 3.1.1
@@ -3494,7 +3494,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001426
+      caniuse-lite: 1.0.30001427
       electron-to-chromium: 1.4.284
       node-releases: 2.0.6
       update-browserslist-db: 1.0.10_browserslist@4.21.4
@@ -3562,8 +3562,8 @@ packages:
       tslib: 2.4.0
     dev: false
 
-  /caniuse-lite/1.0.30001426:
-    resolution: {integrity: sha512-n7cosrHLl8AWt0wwZw/PJZgUg3lV0gk9LMI7ikGJwhyhgsd2Nb65vKvmSexCqq/J7rbH3mFG6yZZiPR5dLPW5A==}
+  /caniuse-lite/1.0.30001427:
+    resolution: {integrity: sha512-lfXQ73oB9c8DP5Suxaszm+Ta2sr/4tf8+381GkIm1MLj/YdLf+rEDyDSRCzeltuyTVGm+/s18gdZ0q+Wmp8VsQ==}
     dev: false
 
   /ccount/2.0.1:
@@ -3944,7 +3944,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.1
     dependencies:
-      caniuse-lite: 1.0.30001426
+      caniuse-lite: 1.0.30001427
       postcss: 8.2.13
     dev: false
 
@@ -4712,7 +4712,7 @@ packages:
     hasBin: true
     dependencies:
       '@eslint/eslintrc': 1.3.3
-      '@humanwhocodes/config-array': 0.11.6
+      '@humanwhocodes/config-array': 0.11.7
       '@humanwhocodes/module-importer': 1.0.1
       '@nodelib/fs.walk': 1.2.8
       ajv: 6.12.6
@@ -6674,10 +6674,10 @@ packages:
       - supports-color
     dev: false
 
-  /next-plausible/3.6.3_r5sq4deac3rmm2d5onhwvomqve:
-    resolution: {integrity: sha512-KlpB0k/PPMq0udKOLgTcp6RAqGLiIi7956tXRD5w/gzzgVdp2i3xvnafG60Exjiz98go1Jj98n/PxD3WitKH6Q==}
+  /next-plausible/3.6.4_r5sq4deac3rmm2d5onhwvomqve:
+    resolution: {integrity: sha512-aHL4IL+gkkjs5ScB18LZ3LMEWXKR5VTvnMDs/fHNFHadOh23i37fD+VP5oAQLALR8Mde63l9JJljrw9DkvjWjQ==}
     peerDependencies:
-      next: ^11.1.0 || ^12.0.0
+      next: ^11.1.0 || ^12.0.0 || ^13.0.0
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
@@ -6789,7 +6789,7 @@ packages:
       browserify-zlib: 0.2.0
       browserslist: 4.16.6
       buffer: 5.6.0
-      caniuse-lite: 1.0.30001426
+      caniuse-lite: 1.0.30001427
       chalk: 2.4.2
       chokidar: 3.5.1
       constants-browserify: 1.0.0
@@ -6856,7 +6856,7 @@ packages:
     dependencies:
       '@next/env': 13.0.0
       '@swc/helpers': 0.4.11
-      caniuse-lite: 1.0.30001426
+      caniuse-lite: 1.0.30001427
       postcss: 8.4.14
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
