@@ -32,7 +32,7 @@ specifiers:
   next-plausible: 3.6.4
   next-pwa: 5.6.0
   next-restore-scroll: 1.2.1
-  next-seo: 5.9.0
+  next-seo: 5.13.0
   next-themes: 0.2.1
   next-usequerystate: 1.7.2
   plaiceholder: 2.5.0
@@ -44,7 +44,7 @@ specifiers:
   react-use: 17.4.0
   rehype-autolink-headings: 6.1.1
   rehype-pretty-code: 0.4.0
-  rehype-slug: 5.0.1
+  rehype-slug: 5.1.0
   remark-gfm: 3.0.1
   sass: 1.55.0
   sharp: 0.31.1
@@ -80,7 +80,7 @@ dependencies:
   next-plausible: 3.6.4_r5sq4deac3rmm2d5onhwvomqve
   next-pwa: 5.6.0_422kkpyzm7kp5457cxmnctnnbu
   next-restore-scroll: 1.2.1_cmf2yfjzjmcm5fb755ej2wgbpm
-  next-seo: 5.9.0_r5sq4deac3rmm2d5onhwvomqve
+  next-seo: 5.13.0_r5sq4deac3rmm2d5onhwvomqve
   next-themes: 0.2.1_r5sq4deac3rmm2d5onhwvomqve
   next-usequerystate: 1.7.2_r5sq4deac3rmm2d5onhwvomqve
   plaiceholder: 2.5.0_sharp@0.31.1
@@ -106,7 +106,7 @@ devDependencies:
   eslint-plugin-react: 7.31.10_eslint@8.26.0
   prettier: 2.7.1
   rehype-autolink-headings: 6.1.1
-  rehype-slug: 5.0.1
+  rehype-slug: 5.1.0
   remark-gfm: 3.0.1
   typescript: 4.8.4
 
@@ -5131,8 +5131,8 @@ packages:
     resolution: {integrity: sha512-SyHy3T1v2NUXn29OsWdxmK6RwHD+vkj3v8en8AOBZ1wBQ/hCAQ5bAQTD02kW4W9tUp/3Qh6J8r9EvntiyCmOOw==}
     dev: false
 
-  /github-slugger/1.5.0:
-    resolution: {integrity: sha512-wIh+gKBI9Nshz2o46B0B3f5k/W+WI9ZAv6y5Dn5WJ5SK1t0TnDimB4WE5rmTD05ZAIn8HALCZVmCsvj0w0v0lw==}
+  /github-slugger/2.0.0:
+    resolution: {integrity: sha512-IaOQ9puYtjrkq7Y0Ygl9KDZnrf/aiUJYUpVf89y8kyaxbRG7Y1SrX/jaumrv81vc61+kiMempujsM3Yw7w5qcw==}
     dev: true
 
   /glob-parent/5.1.2:
@@ -6723,8 +6723,8 @@ packages:
       - webpack
     dev: false
 
-  /next-seo/5.9.0_r5sq4deac3rmm2d5onhwvomqve:
-    resolution: {integrity: sha512-GsPXIDC9EFoFM6pkigSGMzuD/PelL8TFPlD5rKQCZfwkDNhs0unkW8sOMZ2u4RnEfxb/BBpEjQxtEeYQcgQ8jQ==}
+  /next-seo/5.13.0_r5sq4deac3rmm2d5onhwvomqve:
+    resolution: {integrity: sha512-3n6cOjXydxXlrbMIWcU+D6TllKj72C2rg7IdgoxoKOnfC8ah3U0VUIGRApKXK0wi5ME1m+TBq9isAFFbFdbWXQ==}
     peerDependencies:
       next: ^8.1.1-canary.54 || >=9.0.0
       react: '>=16.0.0'
@@ -7849,11 +7849,11 @@ packages:
       shiki: 0.11.1
     dev: false
 
-  /rehype-slug/5.0.1:
-    resolution: {integrity: sha512-X5v3wV/meuOX9NFcGhJvUpEjIvQl2gDvjg3z40RVprYFt7q3th4qMmYLULiu3gXvbNX1ppx+oaa6JyY1W67pTA==}
+  /rehype-slug/5.1.0:
+    resolution: {integrity: sha512-Gf91dJoXneiorNEnn+Phx97CO7oRMrpi+6r155tTxzGuLtm+QrI4cTwCa9e1rtePdL4i9tSO58PeSS6HWfgsiw==}
     dependencies:
       '@types/hast': 2.3.4
-      github-slugger: 1.5.0
+      github-slugger: 2.0.0
       hast-util-has-property: 2.0.0
       hast-util-heading-rank: 2.1.0
       hast-util-to-string: 2.0.0

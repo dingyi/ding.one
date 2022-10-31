@@ -144,7 +144,7 @@ export const externalIcon = css({
 
 export const tooltip = css({
   borderRadius: '$2',
-  padding: '6px 8px',
+  padding: '4px 4px 4px 8px',
   display: 'flex',
   flexDirection: 'row',
   alignItems: 'center',
@@ -171,7 +171,7 @@ export const badge = css({
 
 export const arrow = css({
   '& svg': {
-    fill: '$mint1',
+    fill: '$contentBackground',
   },
 })
 

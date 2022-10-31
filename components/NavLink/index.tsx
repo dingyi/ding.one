@@ -171,6 +171,7 @@ export default function NavLink({ svg, label, href, shortcut, external }: Props)
                 <Shortcut>
                   <ShortcutText>{shortcut}</ShortcutText>
                 </Shortcut>
+                <Tooltip.Arrow className={util.arrow()} />
               </Tooltip.Content>
             </Tooltip.Root>
           </Tooltip.Provider>
