@@ -3,7 +3,7 @@ import { getNowPlaying } from 'lib/spotify'
 
 export const config = {
   runtime: 'experimental-edge'
-};
+}
 
 export default async function handler(req: NextRequest) {
   const response = await getNowPlaying()
@@ -17,7 +17,7 @@ export default async function handler(req: NextRequest) {
     })
   }
 
-  const song = await response.json();
+  const song = await response.json()
 
   if (song.item === null) {
     return new Response(JSON.stringify({ isPlaying: false }), {
