@@ -11,6 +11,7 @@ const Item = styled('a', {
   display: 'flex',
   flexDirection: 'row',
   justifyContent: 'center',
+  alignItems: 'center',
   height: '2rem',
   width: '2rem',
   color: '$menu',

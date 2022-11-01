@@ -24,7 +24,6 @@ export default class Document extends NextDocument {
       <Html lang="en">
         <Head>
           <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;400;500;600&display=swap" />
-          <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,1,0&display=optional" />
           <link
             rel="preload"
             href="/fonts/Unbounded-Variable.woff2"
