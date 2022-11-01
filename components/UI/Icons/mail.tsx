@@ -1,4 +1,3 @@
-
 import { SVGProps } from "react"
 
 export default function Mail(props: SVGProps<SVGSVGElement>) {

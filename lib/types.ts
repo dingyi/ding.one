@@ -27,3 +27,9 @@ export type Bookmark = {
   lastUpdate: string
   type: string
 }
+
+export type Stats = {
+  realtime: number
+  pageviews: number
+  visitors: number
+}
