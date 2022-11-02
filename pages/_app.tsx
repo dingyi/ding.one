@@ -3,20 +3,15 @@ import Head from "next/head"
 import { AppProps } from 'next/app'
 import { Analytics } from '@vercel/analytics/react'
 import Menu from "@components/Menu"
-import CommandMenu from "@components/CommandMenu"
 import { ThemeProvider } from 'next-themes'
 import PlausibleProvider from 'next-plausible'
 import { DefaultSeo } from 'next-seo'
 import SEO from '../next-seo.config'
 import { globalStyles } from '@styles/global'
 import '@styles/reset.css'
-import { CMDK } from '@styles/CommandMenu'
 
 export default function App({ Component, pageProps }: AppProps) {
   globalStyles()
-  CMDK()
-
-  const [open, setOpen] = React.useState(false)
 
   return (
     <>
@@ -31,7 +26,6 @@ export default function App({ Component, pageProps }: AppProps) {
           <DefaultSeo {...SEO} />
           <Menu />
           <Component {...pageProps} />
-          <CommandMenu open={open} setOpen={setOpen} />
           <Analytics />
         </ThemeProvider>
       </PlausibleProvider>

@@ -1,7 +1,10 @@
+import React from "react"
 import { styled } from 'stitches.config'
 import SiteTitle from "@components/SiteTitle"
 import NavLink from "@components/NavLink"
 import LocalTime from "@components/LocalTime"
+import CommandMenu from "@components/CommandMenu"
+import CommandMenuButton from "@components/CommandMenuButton"
 import Home from "@ui/Icons/home"
 import About from "@ui/Icons/about"
 import Projects from "@ui/Icons/projects"
@@ -16,6 +19,7 @@ import Twitter from "@ui/Icons/twitter"
 import Instagram from "@ui/Icons/instagram"
 import Github from "@ui/Icons/github"
 import Figma from "@ui/Icons/figma"
+import { CMDK } from '@styles/CommandMenu'
 
 
 const Container = styled('div', {
@@ -46,6 +50,7 @@ const Container = styled('div', {
     alignItems: 'stretch',
     position: 'fixed',
     top: 0,
+    zIndex: 'auto',
   }
 })
 
@@ -82,13 +87,20 @@ const Divider = styled('p', {
 
 const Footer = styled('div', {
   display: 'flex',
-  margin: '0.5rem 1rem',
+  alignItems: 'center',
+  justifyContent: 'space-between',
+  padding: '0.5rem 0.675rem 0.5rem 1rem',
   '@mo': {
     display: 'none',
   },
 })
 
 export default function Menu() {
+
+  CMDK()
+
+  const [open, setOpen] = React.useState(false)
+
   return (
     <Container>
       <Main>
@@ -184,7 +196,9 @@ export default function Menu() {
       </Main>
       <Footer>
         <LocalTime />
+        <CommandMenuButton setOpen={setOpen} />
       </Footer>
+      <CommandMenu open={open} setOpen={setOpen} />
     </Container>
   )
 }

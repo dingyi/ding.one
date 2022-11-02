@@ -31,7 +31,7 @@ const Item = styled('a', {
     border: '0.5px solid $highlightActiveBorder',
   },
   '@xs': {
-    padding: '0.5rem 0.575rem 0.5rem 0.875rem',
+    padding: '0.5rem 0.5rem 0.5rem 0.875rem',
     width: '100%',
     height: '2.25rem',
     justifyContent: 'space-between',
@@ -76,12 +76,6 @@ const Shortcut = styled('div', {
   '@xs': {
     display: 'flex',
   },
-})
-
-const ShortcutText = styled('span', {
-  fontWeight: '$1',
-  fontSize: '11px',
-  color:'$highlightText',
 })
 
 type Props = {
@@ -163,14 +157,14 @@ export default function NavLink({ svg, label, href, shortcut, external }: Props)
             <Tooltip.Root>
               <Tooltip.Trigger asChild>
                 <Shortcut>
-                  <ShortcutText>{shortcut}</ShortcutText>
+                  <span className={util.shortcutText()}>{shortcut}</span>
                 </Shortcut>
               </Tooltip.Trigger>
 
               <Tooltip.Content className={util.tooltip()}>
-                <span style={{ marginRight: "4px" }}>Press</span>
+                  <span className={util.shortcutLabel()}>Press</span>
                 <Shortcut>
-                  <ShortcutText>{shortcut}</ShortcutText>
+                  <span className={util.shortcutText()}>{shortcut}</span>
                 </Shortcut>
                 <Tooltip.Arrow className={util.arrow()} />
               </Tooltip.Content>

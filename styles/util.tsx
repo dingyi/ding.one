@@ -170,9 +170,22 @@ export const badge = css({
 })
 
 export const arrow = css({
-  '& svg': {
-    fill: '$contentBackground',
-  },
+  fill: '$contentBackground',
+})
+
+export const shortcutLabel = css({
+  marginRight: "4px"
+})
+
+export const shortcutText = css({
+  fontWeight: '$1',
+  fontSize: '11px',
+  color: '$highlightText',
+})
+
+export const CMDKButton = css({
+  fontSize: '$2',
+  color: '$highlightText'
 })
 
 export const image = css({
