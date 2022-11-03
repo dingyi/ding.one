@@ -1,4 +1,5 @@
 import * as Tooltip from "@radix-ui/react-tooltip"
+import * as VisuallyHidden from '@radix-ui/react-visually-hidden'
 import { styled } from 'stitches.config'
 import * as util from '@styles/util'
 
@@ -32,6 +33,7 @@ export default function CommandMenuButton({
               className={util.CMDKButton()}
             >
               ⌘
+              <VisuallyHidden.Root>Open Command Menu</VisuallyHidden.Root>
             </button>
           </Tooltip.Trigger>
 

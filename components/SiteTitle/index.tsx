@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Logo from "@ui/Icons/logo"
+import * as VisuallyHidden from '@radix-ui/react-visually-hidden'
 import { styled } from 'stitches.config'
 
 const Container = styled('div', {
@@ -28,6 +29,7 @@ export default function SiteTitle() {
       <Container>
         <Link href="/" aria-label="Ding" passHref>
           <Logo />
+          <VisuallyHidden.Root>Ding</VisuallyHidden.Root>
         </Link>
       </Container>
     </>
