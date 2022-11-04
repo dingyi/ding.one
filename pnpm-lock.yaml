@@ -47,7 +47,7 @@ specifiers:
   rehype-pretty-code: 0.4.0
   rehype-slug: 5.1.0
   remark-gfm: 3.0.1
-  sharp: 0.31.1
+  sharp: 0.31.2
   shiki: 0.11.1
   swr: 1.3.0
   tinykeys: 1.4.0
@@ -59,7 +59,7 @@ dependencies:
   '@calcom/embed-react': 1.0.9_biqbaboplfbrettd7655fr4n2y
   '@next/font': 13.0.2
   '@notionhq/client': 1.0.4
-  '@plaiceholder/next': 2.5.0_next@13.0.2+sharp@0.31.1
+  '@plaiceholder/next': 2.5.0_next@13.0.2+sharp@0.31.2
   '@radix-ui/colors': 0.1.8
   '@radix-ui/react-checkbox': 1.0.1_biqbaboplfbrettd7655fr4n2y
   '@radix-ui/react-dialog': 1.0.2_knhnagtyfncgg2hpin7s37uixq
@@ -84,14 +84,14 @@ dependencies:
   next-seo: 5.13.0_pknogjuzx4bv7zxtatcb2ahtsq
   next-themes: 0.2.1_pknogjuzx4bv7zxtatcb2ahtsq
   next-usequerystate: 1.7.2_pknogjuzx4bv7zxtatcb2ahtsq
-  plaiceholder: 2.5.0_sharp@0.31.1
+  plaiceholder: 2.5.0_sharp@0.31.2
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-github-calendar: 3.3.4_biqbaboplfbrettd7655fr4n2y
   react-live-clock: 6.0.6_cbwz3y444chbhatyuy2vikmsiy
   react-use: 17.4.0_biqbaboplfbrettd7655fr4n2y
   rehype-pretty-code: 0.4.0_shiki@0.11.1
-  sharp: 0.31.1
+  sharp: 0.31.2
   shiki: 0.11.1
   swr: 1.3.0_react@18.2.0
   tinykeys: 1.4.0
@@ -2148,14 +2148,14 @@ packages:
     engines: {node: '>=14'}
     dev: false
 
-  /@plaiceholder/next/2.5.0_next@13.0.2+sharp@0.31.1:
+  /@plaiceholder/next/2.5.0_next@13.0.2+sharp@0.31.2:
     resolution: {integrity: sha512-vT8YtPpgQEKFtz0QiiCnH3NfyVlldYpnxR6X2sqCJvHk+pi/Be1nb62CdYQ7RoNePPcjBQoRDSPpZpGmg8mEdw==}
     peerDependencies:
       next: '>= 10.0.0'
       sharp: '>= 0.30.6'
     dependencies:
       next: 13.0.2_qtpcxnaaarbm4ws7ughq6oxfve
-      sharp: 0.31.1
+      sharp: 0.31.2
     dev: false
 
   /@protobufjs/aspromise/1.1.2:
@@ -7260,7 +7260,7 @@ packages:
       find-up: 4.1.0
     dev: false
 
-  /plaiceholder/2.5.0_sharp@0.31.1:
+  /plaiceholder/2.5.0_sharp@0.31.2:
     resolution: {integrity: sha512-rygdNSWuYzs1GxxGjq2FiJdJB1AUaKhUHP/M7PIrSjAAGuoJC5ACiJx+cZZ+hDmMalxsxOMw0Sbbx3LF8jemGg==}
     peerDependencies:
       sharp: '>= 0.30.6'
@@ -7270,7 +7270,7 @@ packages:
       image-size: 1.0.2
       node-cache: 5.1.2
       node-fetch: 2.6.7_encoding@0.1.13
-      sharp: 0.31.1
+      sharp: 0.31.2
     dev: false
 
   /platform/1.3.6:
@@ -8143,8 +8143,8 @@ packages:
       safe-buffer: 5.2.1
     dev: false
 
-  /sharp/0.31.1:
-    resolution: {integrity: sha512-GR8M1wBwOiFKLkm9JPun27OQnNRZdHfSf9VwcdZX6UrRmM1/XnOrLFTF0GAil+y/YK4E6qcM/ugxs80QirsHxg==}
+  /sharp/0.31.2:
+    resolution: {integrity: sha512-DUdNVEXgS5A97cTagSLIIp8dUZ/lZtk78iNVZgHdHbx1qnQR7JAHY0BnXnwwH39Iw+VKhO08CTYhIg0p98vQ5Q==}
     engines: {node: '>=14.15.0'}
     requiresBuild: true
     dependencies:
