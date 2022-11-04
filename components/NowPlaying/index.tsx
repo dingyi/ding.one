@@ -18,14 +18,25 @@ const Meta = styled('div', {
   zIndex: '9999',
 })
 
+const Cover = styled('div', {
+  marginBottom: '$3',
+  position: 'relative',
+  '&:before': {
+    content: '',
+    backgroundColor: '$whiteA12',
+    borderRadius: '$pill',
+    width: '$2',
+    height: '$2',
+    position: 'absolute',
+    margin: 'auto',
+    inset: 0,
+    zIndex: '9999',
+  }
+})
+
 const Artist = styled('p', {
   fontSize: '$1',
   color: '$whiteA9',
-})
-
-const Status = styled('p', {
-  fontSize: '$2',
-  color: '$mint12',
 })
 
 export default function NowPlaying() {
@@ -34,25 +45,22 @@ export default function NowPlaying() {
   return (
     <>
       {data?.songUrl ? (
-        <div className={util.roundIcon({
-          css: {
-            //boxShadow: '0 4px 12px $mint10',
-            borderRadius: '$2',
-          }
-        })}>
+        <Cover>
           <Image
             src={data.albumImageUrl}
             height={64}
             width={64}
             layout="fixed"
             alt={data.title}
+            className={util.album()}
           />
-        </div>
+        </Cover>
       ) : (
           <div className={util.roundIcon({
             css: {
               background: 'rgb(38 176 0 / 8%)',
               border: '1px solid rgb(96 255 87 / 8%)',
+              marginBottom: '$3',
             }
           })}>
           <Spotify />
@@ -68,9 +76,9 @@ export default function NowPlaying() {
             {data.title}
           </Title>
         ) : (
-          <Status>
+          <h4>
             Offline
-          </Status>
+          </h4>
         )}
         <Artist>
           {data?.artist ?? 'Not playing...'}

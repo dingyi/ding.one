@@ -7,6 +7,8 @@ import CellGrid from "@components/CellGrid"
 import Twitter from "@components/Twitter"
 import Github from "@components/Github"
 import Stats from "@components/Stats"
+import Map from "@components/Map"
+import Location from "@components/Location"
 import NowPlaying from "@components/NowPlaying"
 import Logo from "@ui/Icons/logo"
 import Readcv from "@ui/Icons/readcv"
@@ -71,7 +73,12 @@ const Item = styled('div', {
       },
       dex: {
         '& i': {
-          background: 'radial-gradient(45% 45% at 50% 50%, rgb(140 0 255 / 18%) 0%, rgb(163 0 255 / 0%) 100%)',
+          background: 'radial-gradient(45% 45% at 50% 50%, rgb(140 0 255 / 32%) 0%, rgb(163 0 255 / 0%) 100%)',
+        }
+      },
+      location: {
+        '& i': {
+          background: 'radial-gradient(45% 45% at 50% 50%, rgb(40 80 226 / 32%) 0%, rgb(163 0 255 / 0%) 100%)',
         }
       },
       twitter: {
@@ -206,6 +213,18 @@ export default function GridList() {
             external
           />
         </div>
+      </Item>
+      <Item type="location">
+        <Map />
+        <CellGrid />
+        <Top>
+          <Location />
+        </Top>
+        <GridLink
+          href="https://goo.gl/maps/ZNNaRiXLqjWX2dWG9"
+          label="Location"
+          external
+        />
       </Item>
       <Item type="dex">
         <CellGrid />

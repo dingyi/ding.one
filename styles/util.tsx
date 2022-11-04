@@ -1,4 +1,4 @@
-import { css } from 'stitches.config'
+import { css, keyframes } from 'stitches.config'
 
 export const bg = css({
   position: 'fixed',
@@ -191,4 +191,13 @@ export const CMDKButton = css({
 export const image = css({
   overflow: 'hidden',
   flexShrink: 0,
+})
+
+const rolate360 = keyframes({
+  '100%': { transform: 'rotate(360deg)' },
+})
+
+export const album = css({
+  borderRadius: '$pill',
+  animation: `${rolate360} 6s linear infinite`,
 })
