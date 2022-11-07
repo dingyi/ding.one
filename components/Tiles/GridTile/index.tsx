@@ -15,6 +15,7 @@ const Meta = styled('div', {
 const Item = styled('a', {
   width: '100%',
   position: 'relative',
+  visibility: 'visible',
   [`& ${Meta}`]: {
     opacity: 0,
     transition: 'opacity ease-in-out 0.2s',
@@ -30,7 +31,7 @@ const Item = styled('a', {
     height: '100%',
     inset: 0,
     opacity: 0,
-    background: 'rgba(0, 0, 0, 0.6)',
+    background: 'rgba(0, 0, 0, 0.8)',
     transition: 'all 0.4s ease-in-out 0s',
   },
   '&:hover::after': {

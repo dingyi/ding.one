@@ -12,9 +12,16 @@ const Grid = styled('div', {
   gridGap: '$1',
   gridTemplateColumns: 'repeat(auto-fit, minmax(10rem, 1fr))',
   gridAutoRows: '1fr',
+  visibility: 'hidden',
   '@mo': {
     gridTemplateColumns: 'repeat(auto-fit, minmax(8rem, 1fr))',
   },
+  [`&:hover ${GridTile}`]: {
+    opacity: 0.2,
+    '&:hover': {
+      opacity: 1,
+    },
+  }, //not working
 })
 
 
@@ -23,7 +30,7 @@ export default function Podcasts({ list }) {
   return (
     <>
       <Layout>
-        <NextSeo title="Podcasts" description="What podcasts I listen nowdays." />
+        <NextSeo title="Podcasts" description="Podcasts I listen nowdays." />
         <h1 className={util.header()}>Podcasts</h1>
         <p className={util.description()}>
           I used to only listen to design-related podcasts, but <a target="_blank" href="https://www.vulture.com/2022/09/podcasting-is-just-radio-now.html" rel="noopener noreferrer">Podcasting Is Just Radio Now</a>, so I subscribed to tons of podcasts just for fun, and most of the time I just listen to them as white noise.
