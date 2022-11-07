@@ -29,7 +29,7 @@ specifiers:
   eslint-plugin-react: 7.31.10
   framer-motion: 7.6.5
   next: 13.0.2
-  next-contentlayer: 0.2.8
+  next-contentlayer: 0.2.9
   next-plausible: 3.6.4
   next-pwa: 5.6.0
   next-restore-scroll: 1.2.1
@@ -77,7 +77,7 @@ dependencies:
   dayjs: 1.11.6
   framer-motion: 7.6.5_biqbaboplfbrettd7655fr4n2y
   next: 13.0.2_mqvh5p7ejg4taogoj6tpk3gd5a
-  next-contentlayer: 0.2.8_3x2xe4shh3gnowpy2uhpcinrs4
+  next-contentlayer: 0.2.9_3x2xe4shh3gnowpy2uhpcinrs4
   next-plausible: 3.6.4_pknogjuzx4bv7zxtatcb2ahtsq
   next-pwa: 5.6.0_6aqip7lei5uygtvxnewtzmhoui
   next-restore-scroll: 1.2.1_qqxisngxjbp7lstdk7boexbu3e
@@ -1376,6 +1376,35 @@ packages:
       - supports-color
     dev: false
 
+  /@contentlayer/core/0.2.9_esbuild@0.14.54:
+    resolution: {integrity: sha512-QN1urNspjOJkuVoM30AH6afQabUWGq9phsk2vYaFSk1vaW3HUHIlLNHaSBQgiWn+8pZ3ezU3jo3ScNSUkvtLPA==}
+    peerDependencies:
+      esbuild: ^0.12.1 || 0.13.x || 0.14.x || 0.15.x
+      markdown-wasm: 1.x
+    peerDependenciesMeta:
+      esbuild:
+        optional: true
+      markdown-wasm:
+        optional: true
+    dependencies:
+      '@contentlayer/utils': 0.2.9
+      camel-case: 4.1.2
+      comment-json: 4.2.3
+      esbuild: 0.14.54
+      gray-matter: 4.0.3
+      mdx-bundler: 9.0.1_esbuild@0.14.54
+      rehype-stringify: 9.0.3
+      remark-frontmatter: 4.0.1
+      remark-parse: 10.0.1
+      remark-rehype: 10.1.0
+      source-map-support: 0.5.21
+      type-fest: 3.2.0
+      unified: 10.1.2
+    transitivePeerDependencies:
+      - '@effect-ts/otel-node'
+      - supports-color
+    dev: false
+
   /@contentlayer/source-files/0.2.8_esbuild@0.14.54:
     resolution: {integrity: sha512-DC2v7YrAP8VrYX9uLDATVrcPmMXU4jlXtiLG9CUNyRTgYJEsdVQHsRtEM0793bX62aMGcWslX8YnQEO7VsM2Aw==}
     dependencies:
@@ -1427,6 +1456,38 @@ packages:
       oo-ascii-tree: 1.70.0
       ts-pattern: 4.0.5
       type-fest: 2.19.0
+    dev: false
+
+  /@contentlayer/utils/0.2.9:
+    resolution: {integrity: sha512-Nxyj5FGu+btv49jSnaFWKdxBoAGFfq1lGW8j6JeW3LE605YhNnQUo0XXo8mOvcdFFwJ6MwZrf3FNJK8pAhXeIg==}
+    peerDependencies:
+      '@effect-ts/otel-node': '*'
+    peerDependenciesMeta:
+      '@effect-ts/core':
+        optional: true
+      '@effect-ts/otel':
+        optional: true
+      '@effect-ts/otel-node':
+        optional: true
+    dependencies:
+      '@effect-ts/core': 0.60.4
+      '@effect-ts/otel': 0.14.1_6jitg3rhg4xzs4qw5ejtnu2ykq
+      '@effect-ts/otel-exporter-trace-otlp-grpc': 0.14.1_tro3clpp2pzsuncp22okp4tg7q
+      '@effect-ts/otel-sdk-trace-node': 0.14.1_nsdpo2kvpdkwp5gm2xyu4wtqti
+      '@js-temporal/polyfill': 0.4.3
+      '@opentelemetry/api': 1.1.0
+      '@opentelemetry/core': 1.5.0_@opentelemetry+api@1.1.0
+      '@opentelemetry/exporter-trace-otlp-grpc': 0.31.0_@opentelemetry+api@1.1.0
+      '@opentelemetry/resources': 1.5.0_@opentelemetry+api@1.1.0
+      '@opentelemetry/sdk-trace-base': 1.5.0_@opentelemetry+api@1.1.0
+      '@opentelemetry/sdk-trace-node': 1.5.0_@opentelemetry+api@1.1.0
+      '@opentelemetry/semantic-conventions': 1.5.0
+      chokidar: 3.5.3
+      hash-wasm: 4.9.0
+      inflection: 1.13.4
+      oo-ascii-tree: 1.70.0
+      ts-pattern: 4.0.5
+      type-fest: 3.2.0
     dev: false
 
   /@effect-ts/core/0.60.4:
@@ -6657,15 +6718,15 @@ packages:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
     dev: false
 
-  /next-contentlayer/0.2.8_3x2xe4shh3gnowpy2uhpcinrs4:
-    resolution: {integrity: sha512-7oRN/CVmiQ+80++c6BoMytyvKz0U2BDGBJpVlYSf3AitmZltMMMzjiBsFC9YAhDDfiqZshT39dKkW6Sn+pFyGA==}
+  /next-contentlayer/0.2.9_3x2xe4shh3gnowpy2uhpcinrs4:
+    resolution: {integrity: sha512-W3sDr86zqfjOc6WaKnIbYtR4mTbwQ/Kql/8FGpbk6cAAn42sHW9tuRpQi0mpdHOIIn1mg/ms/L/r7aM4rdk4gA==}
     peerDependencies:
-      next: ^12
+      next: ^12 || ^13
       react: '*'
       react-dom: '*'
     dependencies:
-      '@contentlayer/core': 0.2.8_esbuild@0.14.54
-      '@contentlayer/utils': 0.2.8
+      '@contentlayer/core': 0.2.9_esbuild@0.14.54
+      '@contentlayer/utils': 0.2.9
       next: 13.0.2_mqvh5p7ejg4taogoj6tpk3gd5a
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
@@ -8787,6 +8848,11 @@ packages:
   /type-fest/2.19.0:
     resolution: {integrity: sha512-RAH822pAdBgcNMAfWnCBU3CFZcfZ/i1eZjwFU/dsLKumyuuP3niueg2UAukXYF0E2AAoc82ZSSf9J0WQBinzHA==}
     engines: {node: '>=12.20'}
+    dev: false
+
+  /type-fest/3.2.0:
+    resolution: {integrity: sha512-Il3wdLRzWvbAEtocgxGQA9YOoRVeVUGOMBtel5LdEpNeEAol6GJTLw8GbX6Z8EIMfvfhoOXs2bwOijtAZdK5og==}
+    engines: {node: '>=14.16'}
     dev: false
 
   /typescript/4.8.4:
