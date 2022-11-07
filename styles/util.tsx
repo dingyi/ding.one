@@ -1,4 +1,4 @@
-import { css } from 'stitches.config'
+import { css, keyframes } from 'stitches.config'
 
 export const bg = css({
   position: 'fixed',
@@ -144,7 +144,7 @@ export const externalIcon = css({
 
 export const tooltip = css({
   borderRadius: '$2',
-  padding: '6px 8px',
+  padding: '4px 4px 4px 8px',
   display: 'flex',
   flexDirection: 'row',
   alignItems: 'center',
@@ -170,12 +170,34 @@ export const badge = css({
 })
 
 export const arrow = css({
-  '& svg': {
-    fill: '$mint1',
-  },
+  fill: '$contentBackground',
+})
+
+export const shortcutLabel = css({
+  marginRight: "4px"
+})
+
+export const shortcutText = css({
+  fontWeight: '$1',
+  fontSize: '11px',
+  color: '$highlightText',
+})
+
+export const CMDKButton = css({
+  fontSize: '$2',
+  color: '$highlightText'
 })
 
 export const image = css({
   overflow: 'hidden',
   flexShrink: 0,
+})
+
+const rolate360 = keyframes({
+  '100%': { transform: 'rotate(360deg)' },
+})
+
+export const album = css({
+  borderRadius: '$pill',
+  animation: `${rolate360} 6s linear infinite`,
 })

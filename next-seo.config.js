@@ -1,12 +1,12 @@
 /* eslint-disable import/no-anonymous-default-export */
 
 const title = 'Ding'
-const description = 'A product designer & design-focused engineer.'
+const description = 'Product designer & design-focused engineer.'
 const siteUrl = 'https://ding.one'
 
 export default {
   title: title,
-  titleTemplate: "%s | Designer, developer, and entrepreneur.",
+  titleTemplate: "Ding – %s",
   defaultTitle: "Ding",
   description: description,
   canonical: "https://ding.one",
@@ -39,7 +39,7 @@ export default {
       type: "image/svg+xml"
     },
     {
-      rel: "icon",
+      rel: "icon alternate",
       href: "/favicon.ico"
     },
     {
@@ -47,5 +47,15 @@ export default {
       href: "/apple-touch-icon.png",
       sizes: "180x180"
     },
+    {
+      rel: "manifest",
+      href: "/manifest.json"
+    },
   ],
+  additionalMetaTags:[
+    {
+      name: 'theme-color',
+      content: '#05201e'
+    }
+  ]
 }

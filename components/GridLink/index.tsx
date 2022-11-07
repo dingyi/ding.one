@@ -1,5 +1,6 @@
 import React from "react"
 import Link from "next/link"
+import { usePlausible } from 'next-plausible'
 import External from "@ui/Icons/external"
 import { styled } from 'stitches.config'
 import * as util from '@styles/util'
@@ -25,7 +26,6 @@ const Item = styled('a', {
     fill: '$highlightText',
   },
   '&:hover': {
-    //background: '$mint9',
     backgroundColor: '$gradientButton',
     transition: 'all 0.3s ease-out 0.1s',
   },
@@ -84,11 +84,16 @@ type Props = {
 
 export default function NavLink({ label, href, external, dataAttr }: Props) {
 
+  const plausible = usePlausible()
+
   return external ? (
     <Item
       target="_blank"
       href={href}
       rel="noopener noreferrer"
+      onClick={(e) => {
+        plausible('External Link')
+      }}
     >
       <Gradient />
       <Left>
@@ -100,9 +105,13 @@ export default function NavLink({ label, href, external, dataAttr }: Props) {
     </Item>
   ) : dataAttr ? (
     <Item
-      target="_blank"
+      href={href}
       data-cal-link="dingyi/30min"
       rel="noopener noreferrer"
+      onClick={(e) => {
+        e.preventDefault(),
+        plausible('Book Button')
+      }}
     >
       <Gradient />
       <Left>
@@ -113,7 +122,7 @@ export default function NavLink({ label, href, external, dataAttr }: Props) {
       </div>
     </Item>
   ) : (
-    <Link href={href} passHref>
+    <Link href={href} passHref legacyBehavior>
       <Item>
         <Gradient />
         <Left>

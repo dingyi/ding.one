@@ -1,4 +1,5 @@
 import * as React from 'react'
+import Script from 'next/script'
 import NextDocument, { Html, Head, Main, NextScript, DocumentContext } from 'next/document'
 import { getCssText } from 'stitches.config'
 export default class Document extends NextDocument {
@@ -15,8 +16,7 @@ export default class Document extends NextDocument {
           </>
         ),
       }
-    } finally {
-    }
+    } finally {}
   }
 
   render() {
@@ -24,14 +24,14 @@ export default class Document extends NextDocument {
       <Html lang="en">
         <Head>
           <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;400;500;600&display=swap" />
-          <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,1,0&display=optional" />
           <link
             rel="preload"
             href="/fonts/Unbounded-Variable.woff2"
             as="font"
-            type="font/woff"
+            type="font/woff2"
             crossOrigin=""
           />
+          <Script defer data-domain="ding.one" src="/js/script.js"></Script>
         </Head>
         <body>
           <Main />

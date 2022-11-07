@@ -1,5 +1,5 @@
 import { styled } from 'stitches.config'
-import Image from "next/future/image"
+import Image from "next/image"
 import External from "@ui/Icons/external"
 import * as util from '@styles/util'
 

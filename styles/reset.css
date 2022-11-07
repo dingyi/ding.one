@@ -69,12 +69,11 @@ body {
 /* Remove stroke and set fill colour to the inherited font colour */
 :where(svg) {
   stroke: none;
-  fill: currentColor;
+  //fill: currentColor;
 }
 
 /* SVG's without a fill attribute */
 :where(svg):where(:not([fill])) {
-  fill: none;
   /* Rounded stroke */
   stroke-linecap: round;
   stroke-linejoin: round;

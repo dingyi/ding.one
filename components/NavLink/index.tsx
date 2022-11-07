@@ -1,6 +1,7 @@
 import { useEffect } from "react"
 import Link from "next/link"
 import { useRouter } from "next/router"
+import { usePlausible } from 'next-plausible'
 import External from "@ui/Icons/external"
 import * as Tooltip from "@radix-ui/react-tooltip"
 import { styled } from 'stitches.config'
@@ -10,6 +11,7 @@ const Item = styled('a', {
   display: 'flex',
   flexDirection: 'row',
   justifyContent: 'center',
+  alignItems: 'center',
   height: '2rem',
   width: '2rem',
   color: '$menu',
@@ -29,7 +31,7 @@ const Item = styled('a', {
     border: '0.5px solid $highlightActiveBorder',
   },
   '@xs': {
-    padding: '0.5rem 0.575rem 0.5rem 0.875rem',
+    padding: '0.5rem 0.5rem 0.5rem 0.875rem',
     width: '100%',
     height: '2.25rem',
     justifyContent: 'space-between',
@@ -76,12 +78,6 @@ const Shortcut = styled('div', {
   },
 })
 
-const ShortcutText = styled('span', {
-  fontWeight: '$1',
-  fontSize: '11px',
-  color:'$highlightText',
-})
-
 type Props = {
   svg: React.ReactNode
   label: string
@@ -92,7 +88,9 @@ type Props = {
 }
 
 export default function NavLink({ svg, label, href, shortcut, external }: Props) {
+
   const router = useRouter()
+  const plausible = usePlausible()
 
   const ariaCurrent =
     router.asPath.includes(href) && href !== "/"
@@ -114,6 +112,10 @@ export default function NavLink({ svg, label, href, shortcut, external }: Props)
       target="_blank"
       href={href}
       rel="noopener noreferrer"
+      aria-label={label}
+      onClick={() => {
+        plausible('Social Link')
+      }}
     >
       <Left>
         <div className={util.icon()}>
@@ -139,8 +141,11 @@ export default function NavLink({ svg, label, href, shortcut, external }: Props)
       </Right>
     </Item>
   ) : (
-    <Link href={href} passHref>
-      <Item aria-current={ariaCurrent}>
+    <Link href={href} passHref legacyBehavior>
+      <Item
+        aria-current={ariaCurrent}
+        aria-label={label}
+      >
         <Left>
           <div className={util.icon()}>
             {svg}
@@ -152,15 +157,16 @@ export default function NavLink({ svg, label, href, shortcut, external }: Props)
             <Tooltip.Root>
               <Tooltip.Trigger asChild>
                 <Shortcut>
-                  <ShortcutText>{shortcut}</ShortcutText>
+                  <span className={util.shortcutText()}>{shortcut}</span>
                 </Shortcut>
               </Tooltip.Trigger>
 
               <Tooltip.Content className={util.tooltip()}>
-                <span style={{ marginRight: "4px" }}>Press</span>
+                  <span className={util.shortcutLabel()}>Press</span>
                 <Shortcut>
-                  <ShortcutText>{shortcut}</ShortcutText>
+                  <span className={util.shortcutText()}>{shortcut}</span>
                 </Shortcut>
+                <Tooltip.Arrow className={util.arrow()} />
               </Tooltip.Content>
             </Tooltip.Root>
           </Tooltip.Provider>

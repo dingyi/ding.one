@@ -79,7 +79,7 @@ export const CMDK = globalCss({
     transform: "translateY(-50%)",
     right: 24,
     fontSize: "$2",
-    color: "$gray12",
+    color: "$mint9",
     cursor: "pointer",
     background: "none",
   },

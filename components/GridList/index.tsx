@@ -6,6 +6,9 @@ import GridLink from "@components/GridLink"
 import CellGrid from "@components/CellGrid"
 import Twitter from "@components/Twitter"
 import Github from "@components/Github"
+import Stats from "@components/Stats"
+import Map from "@components/Map"
+import Location from "@components/Location"
 import NowPlaying from "@components/NowPlaying"
 import Logo from "@ui/Icons/logo"
 import Readcv from "@ui/Icons/readcv"
@@ -70,17 +73,27 @@ const Item = styled('div', {
       },
       dex: {
         '& i': {
-          background: 'radial-gradient(45% 45% at 50% 50%, rgb(140 0 255 / 18%) 0%, rgb(163 0 255 / 0%) 100%)',
+          background: 'radial-gradient(45% 45% at 50% 50%, rgb(140 0 255 / 32%) 0%, rgb(163 0 255 / 0%) 100%)',
+        }
+      },
+      location: {
+        '& i': {
+          background: 'radial-gradient(45% 45% at 50% 50%, rgb(40 80 226 / 32%) 0%, rgb(163 0 255 / 0%) 100%)',
         }
       },
       twitter: {
         '& i': {
-          background: 'radial-gradient(45% 45% at 50% 50%, rgb(0 110 255 / 18%) 0%, rgb(0 174 255 / 0%) 100%)',
+          background: 'radial-gradient(45% 45% at 50% 50%, rgb(0 110 255 / 32%) 0%, rgb(0 174 255 / 0%) 100%)',
         }
       },
       github: {
         '& i': {
-          background: 'radial-gradient(45% 45% at 50% 50%, rgb(152 152 152 / 18%) 0%, rgb(87 87 87 / 0%) 100%)',
+          background: 'radial-gradient(45% 45% at 50% 50%, rgb(200 200 200 / 32%) 0%, rgb(87 87 87 / 0%) 100%)',
+        }
+      },
+      plausible: {
+        '& i': {
+          background: 'radial-gradient(45% 45% at 50% 50%, rgb(55 76 212 / 60%) 0%, rgb(9 21 93 / 0%) 100%)',
         }
       },
       spotify: {
@@ -95,7 +108,7 @@ const Item = styled('div', {
       },
       gmail: {
         '& i': {
-          background: 'radial-gradient(45% 45% at 50% 50%, rgb(255 0 0 / 24%) 0%, rgb(255 0 120 / 0%) 100%)',
+          background: 'radial-gradient(45% 45% at 50% 50%, rgb(255 0 0 / 32%) 0%, rgb(255 0 120 / 0%) 100%)',
         }
       },
       cal: {
@@ -149,24 +162,6 @@ export default function GridList() {
           />
         </div>
       </Item>
-      <Item type="dex">
-        <CellGrid />
-        <Top>
-          <div className={util.roundIcon({
-            css: {
-              background: 'rgb(113 0 255 / 8%)',
-              border: '1px solid rgb(158 87 255 / 8%)',
-            }
-          })}>
-            <DEX />
-          </div>
-        </Top>
-        <GridLink
-          href="https://dex.zhubai.love/"
-          label="Subscribe"
-          external
-        />
-      </Item>
       <Item type="twitter">
         <CellGrid />
         <Top>
@@ -193,6 +188,19 @@ export default function GridList() {
           />
         </div>
       </Item>
+      <Item type="plausible">
+        <CellGrid />
+        <Top>
+          <Stats />
+        </Top>
+        <div>
+          <GridLink
+            href="https://plausible.io/ding.one/"
+            label="Stats"
+            external
+          />
+        </div>
+      </Item>
       <Item type="spotify">
         <CellGrid />
         <Top>
@@ -205,6 +213,36 @@ export default function GridList() {
             external
           />
         </div>
+      </Item>
+      <Item type="location">
+        <Map />
+        <CellGrid />
+        <Top>
+          <Location />
+        </Top>
+        <GridLink
+          href="https://goo.gl/maps/ZNNaRiXLqjWX2dWG9"
+          label="Location"
+          external
+        />
+      </Item>
+      <Item type="dex">
+        <CellGrid />
+        <Top>
+          <div className={util.roundIcon({
+            css: {
+              background: 'rgb(113 0 255 / 8%)',
+              border: '1px solid rgb(158 87 255 / 8%)',
+            }
+          })}>
+            <DEX />
+          </div>
+        </Top>
+        <GridLink
+          href="https://dex.zhubai.love/"
+          label="Subscribe"
+          external
+        />
       </Item>
       <Item type="blog">
         <CellGrid />
