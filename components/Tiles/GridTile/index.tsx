@@ -39,7 +39,7 @@ const Item = styled('a', {
 })
 
 
-export default function GridTile({ imageUrl, title, url }) {
+export default function GridTile({ imageUrl, title, content, url }) {
 
   return (
     <Item
