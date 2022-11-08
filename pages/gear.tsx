@@ -10,17 +10,19 @@ import * as link from '@styles/link'
 const Grid = styled('div', {
   display: 'grid',
   gridGap: '$1',
-  gridTemplateColumns: 'repeat(auto-fit, minmax(10rem, 1fr))',
+  gridTemplateColumns: 'repeat(auto-fit, minmax(16rem, 1fr))',
   gridAutoRows: '1fr',
   '@mo': {
-    gridTemplateColumns: 'repeat(auto-fit, minmax(8rem, 1fr))',
+    //gridTemplateColumns: 'repeat(auto-fit, minmax(12rem, 1fr))',
+    gridAutoFlow: 'row dense',
+    gridTemplateColumns: '100%',
   },
 })
 
 export default function Gear({ list }) {
 
   const description =
-    "All hardwares I bought in the past new years and still use nowdays."
+    "All hardwares I bought in the past few years and still use nowdays."
 
   return (
     <>

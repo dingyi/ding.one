@@ -6,13 +6,12 @@ import * as util from '@styles/util'
 const Meta = styled('div', {
   display: 'flex',
   flexDirection: 'column',
-  gap: 2,
-  fontSize: '$1',
+  fontSize: '$2',
   color: '$gray4',
   position: 'absolute',
-  left: '$2',
-  right: '$2',
-  bottom: '$2',
+  left: '$3',
+  right: '$3',
+  bottom: '$3',
   lineHeight: '$0',
   zIndex: 9999,
 })
@@ -41,6 +40,18 @@ const Price = styled('div', {
 
 })
 
+const ExternalLink = styled('div', {
+  display: 'inline-block',
+  position: 'absolute',
+  top: '$3',
+  right: '$3',
+  verticalAlign: 'middle',
+  marginLeft: '$2',
+  '& svg': {
+    fill: '$gray4',
+  },
+})
+
 const Item = styled('a', {
   width: '100%',
   backgroundColor: '$mint12',
@@ -49,6 +60,17 @@ const Item = styled('a', {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
+  transition: 'all ease-in-out 0.4s',
+  [`& ${ExternalLink}`]: {
+    opacity: 0,
+    transition: 'opacity ease-in-out 0.2s',
+  },
+  [`&:hover ${ExternalLink}`]: {
+    opacity: 1,
+  },
+  '&:hover': {
+    backgroundColor: 'hsl(166deg 27% 80%)',
+  },
 })
 
 
@@ -73,26 +95,13 @@ export default function GearTile({ imageUrl, title, description, brand, url, pri
           {brand}
         </Brand>
         <Bottom>
-          <Name className={util.tileTitle()}>{title}</Name>
-          <Price>
-            ${price}
-          </Price>
+          <Name>{title}</Name>
+          <Price>${price}</Price>
         </Bottom>
-        {/* <span
-          className={util.externalIcon({
-            css: {
-              display: 'inline-block',
-              verticalAlign: 'middle',
-              marginLeft: '$2',
-              '& svg': {
-                fill: '$content',
-              },
-            }
-          })}
-        >
-          <External />
-        </span> */}
       </Meta>
+      <ExternalLink className={util.externalIcon()}>
+        <External />
+      </ExternalLink>
     </Item>
   )
 }
