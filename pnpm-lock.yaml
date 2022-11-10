@@ -33,7 +33,7 @@ specifiers:
   next-plausible: 3.6.4
   next-pwa: 5.6.0
   next-restore-scroll: 1.2.1
-  next-seo: 5.14.0
+  next-seo: 5.14.1
   next-themes: 0.2.1
   next-usequerystate: 1.7.2
   plaiceholder: 2.5.0
@@ -81,7 +81,7 @@ dependencies:
   next-plausible: 3.6.4_pknogjuzx4bv7zxtatcb2ahtsq
   next-pwa: 5.6.0_6aqip7lei5uygtvxnewtzmhoui
   next-restore-scroll: 1.2.1_qqxisngxjbp7lstdk7boexbu3e
-  next-seo: 5.14.0_pknogjuzx4bv7zxtatcb2ahtsq
+  next-seo: 5.14.1_pknogjuzx4bv7zxtatcb2ahtsq
   next-themes: 0.2.1_pknogjuzx4bv7zxtatcb2ahtsq
   next-usequerystate: 1.7.2_pknogjuzx4bv7zxtatcb2ahtsq
   plaiceholder: 2.5.0_sharp@0.31.2
@@ -6725,8 +6725,8 @@ packages:
       - webpack
     dev: false
 
-  /next-seo/5.14.0_pknogjuzx4bv7zxtatcb2ahtsq:
-    resolution: {integrity: sha512-VpbVFXbDzy31qoKBH7xoxtzh+nDhEWYOBnlc18zkXmypRd3X9vxdwh7rlr3q2BQTfbfk2J/a6Y2vEb+oTcCW0w==}
+  /next-seo/5.14.1_pknogjuzx4bv7zxtatcb2ahtsq:
+    resolution: {integrity: sha512-NiJeQbxYP3z+EMp52q8k3Q+OfX2+Yv2WehERDj98r2wjXxL+woKpRBdsSVYolTD0Hm8IWs42SzaISE93RoQdOw==}
     peerDependencies:
       next: ^8.1.1-canary.54 || >=9.0.0
       react: '>=16.0.0'
