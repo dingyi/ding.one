@@ -12,12 +12,12 @@ export default function About() {
         <h1 className={util.header()}>About</h1>
         <div className={util.inset()}>
           <p className={util.description()}>
-            A product designer & design-focused engineer based in Shenzhen, China. With 10+ years of experience in digital design, front-end development and team management. More resume details on <a target="_blank" href="https://read.cv/dingyi" rel="noopener noreferrer">read.cv</a>.</p>
+            A product designer & design-focused engineer based in Shenzhen, China. With 10+ years of experience in digital design, front-end development and team management. More resume details on <a target="_blank" href="https://read.cv/dingyi" rel="noopener noreferrer">read.cv</a>. I'm looking for a new job, if you are interested, ping me.</p>
           <div className={util.divider()}></div>
           <div>
             <h2>Career</h2>
             <ExpTile
-              date="2022–Now"
+              date="2022–2002.10"
               title="Product Design at Mask Network"
               url={"https://mask.io"}
               content={
