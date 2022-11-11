@@ -17,7 +17,7 @@ export default function About() {
           <div>
             <h2>Career</h2>
             <ExpTile
-              date="2022–2002.10"
+              date="2022–2022.10"
               title="Product Design at Mask Network"
               url={"https://mask.io"}
               content={

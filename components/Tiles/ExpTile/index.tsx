@@ -41,10 +41,9 @@ const Stack = styled('div', {
 })
 
 const Date = styled('div', {
-  width: '68px',
+  width: '96px',
   fontSize: '$1',
   color: '$whiteA10',
-  marginTop: '1.5px',
   marginBottom: '0.5rem',
   marginRight: '2rem',
 })
