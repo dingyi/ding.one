@@ -293,7 +293,7 @@ export default function GridList() {
         </Top>
         <div>
           <GridLink
-            href="mailto:d@ding.one"
+            href="mailto:hi@ding.one"
             label="Mail"
             external
           />
