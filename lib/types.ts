@@ -33,3 +33,7 @@ export type Stats = {
   pageviews: number
   visitors: number
 }
+
+export type Follows = {
+  count: number
+}

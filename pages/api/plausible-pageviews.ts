@@ -21,7 +21,7 @@ export default async function handler(
   if (!result.ok) {
     return res
       .status(500)
-      .json({ error: 'Error retrieving realtime visitors' })
+      .json({ error: 'Error retrieving pageviews' })
   }
 
   res.setHeader(

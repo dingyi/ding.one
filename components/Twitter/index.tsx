@@ -1,11 +1,6 @@
 import TwitterLarge from "@ui/Icons/twitterLarge"
-import { styled } from 'stitches.config'
+import Followers from "@components/Followers"
 import * as util from '@styles/util'
-
-const Count = styled('p', {
-  fontSize: '$2',
-  color: '$mint12',
-})
 
 export default function Twitter() {
   return (
@@ -18,7 +13,7 @@ export default function Twitter() {
       })}>
         <TwitterLarge />
       </div>
-      <Count>150K</Count>
+      <Followers />
     </>
   )
 }
