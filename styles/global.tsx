@@ -58,7 +58,6 @@ export const globalStyles = globalCss({
   },
 
   h1: {
-    fontFamily: '$title',
     fontSize: '$5',
     paddingBottom: '$4',
   },

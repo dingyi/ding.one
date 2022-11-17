@@ -1,6 +1,6 @@
 import fetcher from 'lib/fetcher'
 import useSWR from 'swr'
-import { styled } from 'stitches.config'
+import { styled, keyframes } from 'stitches.config'
 
 const Container = styled('div', {
   display: 'flex',
@@ -9,12 +9,29 @@ const Container = styled('div', {
   marginBottom: '$2',
 })
 
+const Pulse = keyframes({
+  "0%": {
+    transform: 'scale(0.95)',
+    boxShadow: '0 0 0 0 rgba(51, 217, 178, 0.7)',
+  },
+	"70%": {
+    transform: 'scale(1)',
+    boxShadow: '0 0 0 10px rgba(51, 217, 178, 0)',
+	},
+  "100%": {
+    transform: 'scale(0.95)',
+    boxShadow: '0 0 0 0 rgba(51, 217, 178, 0)',
+	}
+})
+
 const Live = styled('div', {
-  width: '12px',
-  height: '12px',
-  marginRight: '$2',
+  width: '10px',
+  height: '10px',
+  margin: '$2',
   backgroundImage: 'radial-gradient(106.94% 108.33% at -10% -5%,#00e7e3 0,#23de07 100%)',
   borderRadius: '$rounded',
+  boxShadow: '0 0 0 0 rgba(51, 217, 178, 1)',
+  animation: `${Pulse} 2s infinite`,
 })
 
 export default function Visitors() {

@@ -48,7 +48,8 @@ export const list = css({
 })
 
 export const header = css({
-  fontSize: '2.275rem',
+  fontSize: '$6',
+  fontFamily: '$title',
   fontWeight: '$4',
   color: '$title',
   transition: 'color 0.25s ease',
@@ -80,7 +81,6 @@ export const divider = css({
 export const textDivider = css({
   padding: '1.25rem 0rem 0rem 0.25rem',
   fontSize: '$1',
-  fontWeight: 450,
   color: '$highlight',
 })
 
@@ -163,7 +163,6 @@ export const badge = css({
   backgroundColor: '$footerlink',
   borderRadius: '4px',
   color: '$footerlink',
-  fontWeight: 440,
   marginTop: '0.75rem',
   boxSizing: 'content-box',
   display: 'inline-block',

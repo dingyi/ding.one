@@ -40,7 +40,6 @@ const Item = styled('a', {
 
 const Left = styled('div', {
   display: 'flex',
-  flexDirection: 'row',
   alignItems: 'center',
 })
 

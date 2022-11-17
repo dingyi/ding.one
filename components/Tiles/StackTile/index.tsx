@@ -101,7 +101,6 @@ export default function StackTile({
           src={"/stack/" + title + ".png"}
           height={64}
           width={64}
-          layout="fixed"
           alt={title}
         />
       </div>
