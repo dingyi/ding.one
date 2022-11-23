@@ -23,7 +23,6 @@ module.exports = withPlausibleProxy()(
         "i.scdn.co",
         "www.google.com"
       ],
-      unoptimized: true,
     },
     reactStrictMode: true,
     staticPageGenerationTimeout: 100,

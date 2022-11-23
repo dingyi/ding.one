@@ -102,6 +102,7 @@ export default function StackTile({
           height={64}
           width={64}
           alt={title}
+          unoptimized={true}
         />
       </div>
 

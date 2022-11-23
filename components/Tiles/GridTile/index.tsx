@@ -54,6 +54,7 @@ export default function GridTile({ imageUrl, title, content, url }) {
           width={200}
           height={200}
           alt={title}
+          unoptimized={true}
           placeholder="blur"
           blurDataURL={`data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNklBAoBQAA6wCgMY0wVQAAAABJRU5ErkJggg==`}
           //https://png-pixel.com/

@@ -77,6 +77,7 @@ export default function BookmarkTile(props: { bookmark: Bookmark }) {
             height={32}
             width={32}
             alt={bookmark.title}
+            unoptimized={true}
           />
         </div>
         <Meta>
