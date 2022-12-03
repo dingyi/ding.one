@@ -40,7 +40,7 @@ specifiers:
   prettier: 2.8.0
   react: 18.2.0
   react-dom: 18.2.0
-  react-github-calendar: 3.3.8
+  react-github-calendar: 3.4.0
   react-live-clock: ^6.1.0
   react-use: 17.4.0
   rehype-autolink-headings: 6.1.1
@@ -87,7 +87,7 @@ dependencies:
   plaiceholder: 2.5.0_sharp@0.31.2
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
-  react-github-calendar: 3.3.8_biqbaboplfbrettd7655fr4n2y
+  react-github-calendar: 3.4.0_biqbaboplfbrettd7655fr4n2y
   react-live-clock: 6.1.0_cysh7ruazm6wgnttwhdwswvlja
   react-use: 17.4.0_biqbaboplfbrettd7655fr4n2y
   rehype-pretty-code: 0.5.1_shiki@0.11.1
@@ -7571,8 +7571,8 @@ packages:
       strip-json-comments: 2.0.1
     dev: false
 
-  /react-activity-calendar/1.6.7_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-9uW49YW9xRrm1j7oxdlHV3N2TRciTNTLOOd4tG2hRkrWGM7SC6/18IWnnUOhqanN0C2GIkGu5pJ+//DrV7Gliw==}
+  /react-activity-calendar/1.7.0_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-iyUNhnYYM2zuSI5KUD4xjTbWH4wBFYFm7M1FwZ1J+g8jK7o48730n9v7OemcP++PouH9f4G/oVSGF4Nk3BBcnQ==}
     peerDependencies:
       react: ^17.0.0 || ^18.0.0
       react-dom: ^17.0.0 || ^18.0.0
@@ -7609,8 +7609,8 @@ packages:
       scheduler: 0.23.0
     dev: false
 
-  /react-github-calendar/3.3.8_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-YZEWirq15T33J1BKbmhVpWkTr6bs1Jf2eHczGuscsaqUB2moRhywwl53CpBuxVFGiIqhZJnzpDnrzI9WR6XMYw==}
+  /react-github-calendar/3.4.0_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-3HiUjZAivwcDhNdL3Nwz5MNSUolOwsIuyrBnq6fYfJJE7l0CONHKX9N0lJ/4wpJWZBBYMHOmvFM10sNCRPpYaQ==}
     peerDependencies:
       react: ^17.0.0 || ^18.0.0
       react-dom: ^17.0.0 || ^18.0.0
@@ -7620,7 +7620,7 @@ packages:
         optional: true
     dependencies:
       react: 18.2.0
-      react-activity-calendar: 1.6.7_biqbaboplfbrettd7655fr4n2y
+      react-activity-calendar: 1.7.0_biqbaboplfbrettd7655fr4n2y
       react-dom: 18.2.0_react@18.2.0
     dev: false
 
