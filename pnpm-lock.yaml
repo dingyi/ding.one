@@ -33,14 +33,14 @@ specifiers:
   next-plausible: 3.6.4
   next-pwa: 5.6.0
   next-restore-scroll: 1.2.1
-  next-seo: 5.14.1
+  next-seo: 5.15.0
   next-themes: 0.2.1
   next-usequerystate: 1.7.2
   plaiceholder: 2.5.0
   prettier: 2.8.0
   react: 18.2.0
   react-dom: 18.2.0
-  react-github-calendar: 3.3.8
+  react-github-calendar: 3.4.0
   react-live-clock: ^6.1.0
   react-use: 17.4.0
   rehype-autolink-headings: 6.1.1
@@ -81,13 +81,13 @@ dependencies:
   next-plausible: 3.6.4_6jx7hpii6hgsrmhxgqrmo3277u
   next-pwa: 5.6.0_6ix4vvgcgzwhdeomlumzdccatm
   next-restore-scroll: 1.2.1_vfotqvx6lgcbf3upbs6hgaza4q
-  next-seo: 5.14.1_6jx7hpii6hgsrmhxgqrmo3277u
+  next-seo: 5.15.0_6jx7hpii6hgsrmhxgqrmo3277u
   next-themes: 0.2.1_6jx7hpii6hgsrmhxgqrmo3277u
   next-usequerystate: 1.7.2_6jx7hpii6hgsrmhxgqrmo3277u
   plaiceholder: 2.5.0_sharp@0.31.2
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
-  react-github-calendar: 3.3.8_biqbaboplfbrettd7655fr4n2y
+  react-github-calendar: 3.4.0_biqbaboplfbrettd7655fr4n2y
   react-live-clock: 6.1.0_cysh7ruazm6wgnttwhdwswvlja
   react-use: 17.4.0_biqbaboplfbrettd7655fr4n2y
   rehype-pretty-code: 0.5.1_shiki@0.11.1
@@ -1733,7 +1733,7 @@ packages:
       '@motionone/easing': 10.14.0
       '@motionone/types': 10.14.0
       '@motionone/utils': 10.14.0
-      tslib: 2.4.1
+      tslib: 2.4.0
     dev: false
 
   /@motionone/dom/10.13.1:
@@ -1744,14 +1744,14 @@ packages:
       '@motionone/types': 10.14.0
       '@motionone/utils': 10.14.0
       hey-listen: 1.0.8
-      tslib: 2.4.1
+      tslib: 2.4.0
     dev: false
 
   /@motionone/easing/10.14.0:
     resolution: {integrity: sha512-2vUBdH9uWTlRbuErhcsMmt1jvMTTqvGmn9fHq8FleFDXBlHFs5jZzHJT9iw+4kR1h6a4SZQuCf72b9ji92qNYA==}
     dependencies:
       '@motionone/utils': 10.14.0
-      tslib: 2.4.1
+      tslib: 2.4.0
     dev: false
 
   /@motionone/generators/10.14.0:
@@ -1759,7 +1759,7 @@ packages:
     dependencies:
       '@motionone/types': 10.14.0
       '@motionone/utils': 10.14.0
-      tslib: 2.4.1
+      tslib: 2.4.0
     dev: false
 
   /@motionone/types/10.14.0:
@@ -1771,7 +1771,7 @@ packages:
     dependencies:
       '@motionone/types': 10.14.0
       hey-listen: 1.0.8
-      tslib: 2.4.1
+      tslib: 2.4.0
     dev: false
 
   /@next/env/10.2.3:
@@ -1963,7 +1963,7 @@ packages:
     engines: {node: '>= 8'}
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
-      fastq: 1.13.0
+      fastq: 1.14.0
 
   /@notionhq/client/1.0.4:
     resolution: {integrity: sha512-m7zZ5l3RUktayf1lRBV1XMb8HSKsmWTv/LZPqP7UGC1NMzOlc+bbTOPNQ4CP/c1P4cP61VWLb/zBq7a3c0nMaw==}
@@ -3504,7 +3504,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001435
+      caniuse-lite: 1.0.30001436
       colorette: 1.4.0
       electron-to-chromium: 1.4.284
       escalade: 3.1.1
@@ -3516,7 +3516,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001435
+      caniuse-lite: 1.0.30001436
       electron-to-chromium: 1.4.284
       node-releases: 2.0.6
       update-browserslist-db: 1.0.10_browserslist@4.21.4
@@ -3584,8 +3584,8 @@ packages:
       tslib: 2.4.1
     dev: false
 
-  /caniuse-lite/1.0.30001435:
-    resolution: {integrity: sha512-kdCkUTjR+v4YAJelyiDTqiu82BDr4W4CP5sgTA0ZBmqn30XfS2ZghPLMowik9TPhS+psWJiUNxsqLyurDbmutA==}
+  /caniuse-lite/1.0.30001436:
+    resolution: {integrity: sha512-ZmWkKsnC2ifEPoWUvSAIGyOYwT+keAaaWPHiQ9DfMqS1t6tfuyFYoWR78TeZtznkEQ64+vGXH9cZrElwR2Mrxg==}
     dev: false
 
   /ccount/2.0.1:
@@ -3965,7 +3965,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.1
     dependencies:
-      caniuse-lite: 1.0.30001435
+      caniuse-lite: 1.0.30001436
       postcss: 8.2.13
     dev: false
 
@@ -4943,8 +4943,8 @@ packages:
     resolution: {integrity: sha512-bijHueCGd0LqqNK9b5oCMHc0MluJAx0cwqASgbWMvkO01lCYgIhacVRLcaDz3QnyYIRNJRDwMb41VuT6pHJ91Q==}
     dev: false
 
-  /fastq/1.13.0:
-    resolution: {integrity: sha512-YpkpUnK8od0o1hmeSc7UUs/eB/vIPWJYjKck2QKIzAf71Vm1AAQ3EbuZB3g2JIy+pg+ERD0vqI79KyZiB2e2Nw==}
+  /fastq/1.14.0:
+    resolution: {integrity: sha512-eR2D+V9/ExcbF9ls441yIuN6TI2ED1Y2ZcA5BmMtJsOkWOFRJQ0Jt0g1UwqXJJVAb+V+umH5Dfr8oh4EVP7VVg==}
     dependencies:
       reusify: 1.0.4
 
@@ -6787,8 +6787,8 @@ packages:
       - webpack
     dev: false
 
-  /next-seo/5.14.1_6jx7hpii6hgsrmhxgqrmo3277u:
-    resolution: {integrity: sha512-NiJeQbxYP3z+EMp52q8k3Q+OfX2+Yv2WehERDj98r2wjXxL+woKpRBdsSVYolTD0Hm8IWs42SzaISE93RoQdOw==}
+  /next-seo/5.15.0_6jx7hpii6hgsrmhxgqrmo3277u:
+    resolution: {integrity: sha512-LGbcY91yDKGMb7YI+28n3g+RuChUkt6pXNpa8FkfKkEmNiJkeRDEXTnnjVtwT9FmMhG6NH8qwHTelGrlYm9rgg==}
     peerDependencies:
       next: ^8.1.1-canary.54 || >=9.0.0
       react: '>=16.0.0'
@@ -6853,7 +6853,7 @@ packages:
       browserify-zlib: 0.2.0
       browserslist: 4.16.6
       buffer: 5.6.0
-      caniuse-lite: 1.0.30001435
+      caniuse-lite: 1.0.30001436
       chalk: 2.4.2
       chokidar: 3.5.1
       constants-browserify: 1.0.0
@@ -6919,7 +6919,7 @@ packages:
     dependencies:
       '@next/env': 13.0.6
       '@swc/helpers': 0.4.14
-      caniuse-lite: 1.0.30001435
+      caniuse-lite: 1.0.30001436
       postcss: 8.4.14
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
@@ -7571,8 +7571,8 @@ packages:
       strip-json-comments: 2.0.1
     dev: false
 
-  /react-activity-calendar/1.6.7_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-9uW49YW9xRrm1j7oxdlHV3N2TRciTNTLOOd4tG2hRkrWGM7SC6/18IWnnUOhqanN0C2GIkGu5pJ+//DrV7Gliw==}
+  /react-activity-calendar/1.7.0_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-iyUNhnYYM2zuSI5KUD4xjTbWH4wBFYFm7M1FwZ1J+g8jK7o48730n9v7OemcP++PouH9f4G/oVSGF4Nk3BBcnQ==}
     peerDependencies:
       react: ^17.0.0 || ^18.0.0
       react-dom: ^17.0.0 || ^18.0.0
@@ -7609,8 +7609,8 @@ packages:
       scheduler: 0.23.0
     dev: false
 
-  /react-github-calendar/3.3.8_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-YZEWirq15T33J1BKbmhVpWkTr6bs1Jf2eHczGuscsaqUB2moRhywwl53CpBuxVFGiIqhZJnzpDnrzI9WR6XMYw==}
+  /react-github-calendar/3.4.0_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-3HiUjZAivwcDhNdL3Nwz5MNSUolOwsIuyrBnq6fYfJJE7l0CONHKX9N0lJ/4wpJWZBBYMHOmvFM10sNCRPpYaQ==}
     peerDependencies:
       react: ^17.0.0 || ^18.0.0
       react-dom: ^17.0.0 || ^18.0.0
@@ -7620,7 +7620,7 @@ packages:
         optional: true
     dependencies:
       react: 18.2.0
-      react-activity-calendar: 1.6.7_biqbaboplfbrettd7655fr4n2y
+      react-activity-calendar: 1.7.0_biqbaboplfbrettd7655fr4n2y
       react-dom: 18.2.0_react@18.2.0
     dev: false
 
@@ -8061,7 +8061,7 @@ packages:
       jest-worker: 26.6.2
       rollup: 2.79.1
       serialize-javascript: 4.0.0
-      terser: 5.16.0
+      terser: 5.16.1
     dev: false
 
   /rollup/2.79.1:
@@ -8324,6 +8324,7 @@ packages:
 
   /sourcemap-codec/1.4.8:
     resolution: {integrity: sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==}
+    deprecated: Please use @jridgewell/sourcemap-codec instead
     dev: false
 
   /space-separated-tokens/2.0.2:
@@ -8680,12 +8681,12 @@ packages:
       jest-worker: 27.5.1
       schema-utils: 3.1.1
       serialize-javascript: 6.0.0
-      terser: 5.16.0
+      terser: 5.16.1
       webpack: 5.75.0_esbuild@0.14.54
     dev: false
 
-  /terser/5.16.0:
-    resolution: {integrity: sha512-KjTV81QKStSfwbNiwlBXfcgMcOloyuRdb62/iLFPGBcVNF4EXjhdYBhYHmbJpiBrVxZhDvltE11j+LBQUxEEJg==}
+  /terser/5.16.1:
+    resolution: {integrity: sha512-xvQfyfA1ayT0qdK47zskQgRZeWLoOQ8JQ6mIgRGVNwZKdQMU+5FkCBjmv4QjcrTzyZquRw2FVtlJSRUmMKQslw==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
