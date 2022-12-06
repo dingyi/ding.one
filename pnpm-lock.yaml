@@ -30,7 +30,7 @@ specifiers:
   framer-motion: 7.6.18
   next: 13.0.6
   next-contentlayer: 0.2.9
-  next-plausible: 3.6.4
+  next-plausible: 3.6.5
   next-pwa: 5.6.0
   next-restore-scroll: 1.2.1
   next-seo: 5.15.0
@@ -78,7 +78,7 @@ dependencies:
   framer-motion: 7.6.18_biqbaboplfbrettd7655fr4n2y
   next: 13.0.6_672uxklweod7ene3nqtsh262ca
   next-contentlayer: 0.2.9_iyzttdtebgzmw3dlqai4xlsdte
-  next-plausible: 3.6.4_6jx7hpii6hgsrmhxgqrmo3277u
+  next-plausible: 3.6.5_6jx7hpii6hgsrmhxgqrmo3277u
   next-pwa: 5.6.0_6ix4vvgcgzwhdeomlumzdccatm
   next-restore-scroll: 1.2.1_vfotqvx6lgcbf3upbs6hgaza4q
   next-seo: 5.15.0_6jx7hpii6hgsrmhxgqrmo3277u
@@ -6738,8 +6738,8 @@ packages:
       - supports-color
     dev: false
 
-  /next-plausible/3.6.4_6jx7hpii6hgsrmhxgqrmo3277u:
-    resolution: {integrity: sha512-aHL4IL+gkkjs5ScB18LZ3LMEWXKR5VTvnMDs/fHNFHadOh23i37fD+VP5oAQLALR8Mde63l9JJljrw9DkvjWjQ==}
+  /next-plausible/3.6.5_6jx7hpii6hgsrmhxgqrmo3277u:
+    resolution: {integrity: sha512-eGsyie68xIyX+If1PSIJsgv7pkiMUm66Yt9gELl3kUvljaxoJOCwUEALGk5JHvhByGsBiRswkrGioDMthL3gfQ==}
     peerDependencies:
       next: ^11.1.0 || ^12.0.0 || ^13.0.0
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
