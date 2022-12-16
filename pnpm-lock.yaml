@@ -17,7 +17,7 @@ specifiers:
   '@types/react': 18.0.26
   '@vercel/analytics': ^0.1.6
   clsx: 1.2.1
-  cmdk: 0.1.20
+  cmdk: 0.1.21
   contentlayer: 0.2.9
   copy-to-clipboard: 3.3.3
   date-fns: 2.29.3
@@ -70,7 +70,7 @@ dependencies:
   '@stitches/react': 1.2.8_react@18.2.0
   '@vercel/analytics': 0.1.6_react@18.2.0
   clsx: 1.2.1
-  cmdk: 0.1.20_ib3m5ricvtkl2cll7qpr2f6lvq
+  cmdk: 0.1.21_ib3m5ricvtkl2cll7qpr2f6lvq
   contentlayer: 0.2.9_esbuild@0.14.54
   copy-to-clipboard: 3.3.3
   date-fns: 2.29.3
@@ -3720,8 +3720,8 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  /cmdk/0.1.20_ib3m5ricvtkl2cll7qpr2f6lvq:
-    resolution: {integrity: sha512-b05kPE+9jmGRibOf2h34d1ybCFfYYOiwsyylDtvhI0ptDSJ/gbPDQSq6DySL4b74ZnK/JH/WVP3UPuAYXRPypg==}
+  /cmdk/0.1.21_ib3m5ricvtkl2cll7qpr2f6lvq:
+    resolution: {integrity: sha512-O5oiYmoBdcoqmax4RMOsnJHrseaXlnkzfCSWgNdyBxneTaSCmUByBF5MliJbsveoHJsjkyL2uNUs2kTBBMmIaw==}
     peerDependencies:
       react: ^18.0.0
       react-dom: ^18.0.0
