@@ -9,6 +9,9 @@ import { DefaultSeo } from 'next-seo'
 import SEO from '../next-seo.config'
 import { globalStyles } from '@styles/global'
 import '@styles/reset.css'
+import { Albert_Sans } from '@next/font/google'
+
+const Albert = Albert_Sans({ subsets: ['latin'] })
 
 export default function App({ Component, pageProps }: AppProps) {
   globalStyles()
@@ -24,8 +27,10 @@ export default function App({ Component, pageProps }: AppProps) {
           defaultTheme="dark"
         >
           <DefaultSeo {...SEO} />
-          <Menu />
-          <Component {...pageProps} />
+          <main className={Albert.className}>
+            <Menu />
+            <Component {...pageProps} />
+          </main>
           <Analytics />
         </ThemeProvider>
       </PlausibleProvider>

@@ -3,6 +3,7 @@ import type { GetStaticProps, NextPage } from "next"
 import { queryTypes, useQueryState } from 'next-usequerystate'
 import { NextSeo } from 'next-seo'
 import Layout from "@components/Layouts/Global"
+import PageTile from "@components/PageTitle"
 import PageFooter from "@components/Layouts/PageFooter"
 import BookmarkTile from "@components/Tiles/BookmarkTile"
 import { Bookmark } from "lib/types"
@@ -46,7 +47,7 @@ const Reading: NextPage<Props> = ({ bookmarks: bookmarksData }) => {
     <>
       <Layout>
         <NextSeo title="Reading List" description="Lastest interesting articles I've saved and highlighted." />
-        <h1 className={util.header()}>Reading List</h1>
+        <PageTile>Reading List</PageTile>
         <p className={util.description()}>{description}</p>
         <div className={util.divider()}></div>
         <List>

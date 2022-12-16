@@ -1,5 +1,6 @@
 import { NextSeo } from 'next-seo'
 import Layout from "@components/Layouts/Global"
+import PageTile from "@components/PageTitle"
 import PageFooter from "@components/Layouts/PageFooter"
 import GearTile from "@components/Tiles/GearTile"
 const { Client } = require("@notionhq/client")
@@ -28,7 +29,7 @@ export default function Gear({ list }) {
     <>
       <Layout>
         <NextSeo title="Gear" description="" />
-        <h1 className={util.header()}>Gear</h1>
+        <PageTile>Gear</PageTile>
         <p className={util.description()}>{description}</p>
         <div className={util.divider()}></div>
         <Grid>

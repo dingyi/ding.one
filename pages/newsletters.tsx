@@ -1,5 +1,6 @@
 import { NextSeo } from 'next-seo'
 import Layout from "@components/Layouts/Global"
+import PageTile from "@components/PageTitle"
 import PageFooter from "@components/Layouts/PageFooter"
 import GridTile from "@components/Tiles/GridTile"
 const { Client } = require("@notionhq/client")
@@ -24,7 +25,7 @@ export default function Newsletters({ list }) {
     <>
       <Layout>
         <NextSeo title="Newsletters" description="What podcasts I listen nowdays." />
-        <h1 className={util.header()}>Newsletters</h1>
+        <PageTile>Newsletters</PageTile>
         <p className={util.description()}>
           I subscribed to tons of newsletters, these are the ones I really like and read a lot.
         </p>

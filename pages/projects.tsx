@@ -1,5 +1,6 @@
 import { NextSeo } from 'next-seo'
 import Layout from "@components/Layouts/Global"
+import PageTile from "@components/PageTitle"
 import * as util from '@styles/util'
 
 export default function Projects() {
@@ -11,7 +12,7 @@ export default function Projects() {
     <>
       <Layout>
         <NextSeo title="Projects" description="" />
-        <h1 className={util.header()}>Projects</h1>
+        <PageTile>Projects</PageTile>
         <p className={util.description()}>{description}</p>
         <div className={util.divider()}></div>
       </Layout>

@@ -1,6 +1,7 @@
 import { NextSeo } from 'next-seo'
 import Layout from "@components/Layouts/Global"
 import ExpTile from "@components/Tiles/ExpTile"
+import PageTile from "@components/PageTitle"
 import * as util from '@styles/util'
 import * as link from '@styles/link'
 
@@ -9,7 +10,7 @@ export default function About() {
     <>
       <Layout>
         <NextSeo title="About" description="Who am I and what I do." />
-        <h1 className={util.header()}>About</h1>
+        <PageTile>About</PageTile>
         <div className={util.inset()}>
           <p className={util.description()}>
             A product designer & design-focused engineer based in Shenzhen, China. With 10+ years of experience in digital design, front-end development and team management. More resume details on <a target="_blank" href="https://read.cv/dingyi" rel="noopener noreferrer">read.cv</a>. I'm looking for a new job, if you are interested, ping me.</p>

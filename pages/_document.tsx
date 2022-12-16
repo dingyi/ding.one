@@ -23,14 +23,6 @@ export default class Document extends NextDocument {
     return (
       <Html lang="en">
         <Head>
-          <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;400;500;600&display=swap" />
-          <link
-            rel="preload"
-            href="/fonts/Unbounded-Variable.woff2"
-            as="font"
-            type="font/woff2"
-            crossOrigin=""
-          />
           <Script defer data-domain="ding.one" src="/js/script.js"></Script>
         </Head>
         <body>

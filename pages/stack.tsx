@@ -1,5 +1,6 @@
 import { NextSeo } from 'next-seo'
 import Layout from "@components/Layouts/Global"
+import PageTile from "@components/PageTitle"
 import PageFooter from "@components/Layouts/PageFooter"
 import StackTile from "@components/Tiles/StackTile"
 const { Client } = require("@notionhq/client")
@@ -12,7 +13,7 @@ export default function Stack({ list }) {
     <>
       <Layout>
         <NextSeo title="Stack" description="A living document writing in Notion with everything that I'm using nowadays." />
-        <h1 className={util.header()}>Stack</h1>
+        <PageTile>Stack</PageTile>
         <p className={util.description()}>
           We live on tools, tools shape our tastes, and tools come and go frequently. This is a living document writing in Notion with everything that I'm using nowadays. Many engineers have a{" "}
           <a
