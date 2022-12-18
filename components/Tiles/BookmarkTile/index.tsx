@@ -74,10 +74,10 @@ export default function BookmarkTile(props: { bookmark: Bookmark }) {
         })}>
           <Image
             src={favicon}
+            unoptimized
             height={32}
             width={32}
             alt={bookmark.title}
-            unoptimized={true}
           />
         </div>
         <Meta>

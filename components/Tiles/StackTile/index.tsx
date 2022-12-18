@@ -99,10 +99,10 @@ export default function StackTile({
         <Image
           priority
           src={"/stack/" + title + ".png"}
+          unoptimized
           height={64}
           width={64}
           alt={title}
-          unoptimized={true}
         />
       </div>
 

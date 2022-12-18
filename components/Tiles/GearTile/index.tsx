@@ -85,6 +85,7 @@ export default function GearTile({ imageUrl, title, description, brand, url, pri
       <Product>
         <Image
           src={imageUrl}
+          unoptimized
           width={200}
           height={200}
           alt={title}

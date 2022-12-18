@@ -17,6 +17,7 @@ export default function Map() {
       <AppleMap>
         <Image
           src="/map.jpg"
+          unoptimized
           width={400}
           height={400}
           alt="My location at Shenzhen"
