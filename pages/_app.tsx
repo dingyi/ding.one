@@ -1,17 +1,17 @@
 import React from "react"
 import Head from "next/head"
 import { AppProps } from 'next/app'
-import { Analytics } from '@vercel/analytics/react'
 import Menu from "@components/Menu"
 import { ThemeProvider } from 'next-themes'
+import { Analytics } from '@vercel/analytics/react'
 import PlausibleProvider from 'next-plausible'
 import { DefaultSeo } from 'next-seo'
 import SEO from '../next-seo.config'
+import { Albert_Sans } from '@next/font/google'
 import { globalStyles } from '@styles/global'
 import '@styles/reset.css'
-import { Albert_Sans } from '@next/font/google'
 
-const Albert = Albert_Sans({ subsets: ['latin'] })
+const Albert = Albert_Sans()
 
 export default function App({ Component, pageProps }: AppProps) {
   globalStyles()

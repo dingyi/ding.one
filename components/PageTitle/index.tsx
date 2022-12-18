@@ -9,7 +9,7 @@ const Title = styled('h1', {
   transition: 'color 0.25s ease',
 })
 
-const unbounded = Unbounded({ subsets: ['latin'] })
+const unbounded = Unbounded()
 
 type ContainerProps = {
   children: React.ReactNode

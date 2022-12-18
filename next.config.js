@@ -34,8 +34,10 @@ module.exports = withPlausibleProxy()(
       ignoreBuildErrors: true,
     },
     experimental: {
-      legacyBrowsers: false,
       largePageDataBytes: 256 * 100000, // 12800KB by default
+      fontLoaders: [
+      { loader: '@next/font/google', options: { subsets: ['latin'] } }
+    ]
     },
     async redirects() {
       return [
