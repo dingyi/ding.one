@@ -27,7 +27,7 @@ specifiers:
   eslint-config-prettier: 8.5.0
   eslint-plugin-prettier: 4.2.1
   eslint-plugin-react: 7.31.11
-  framer-motion: 7.10.2
+  framer-motion: 8.0.2
   next: 13.0.7
   next-contentlayer: 0.2.9
   next-plausible: 3.6.5
@@ -75,7 +75,7 @@ dependencies:
   copy-to-clipboard: 3.3.3
   date-fns: 2.29.3
   dayjs: 1.11.7
-  framer-motion: 7.10.2_biqbaboplfbrettd7655fr4n2y
+  framer-motion: 8.0.2_biqbaboplfbrettd7655fr4n2y
   next: 13.0.7_672uxklweod7ene3nqtsh262ca
   next-contentlayer: 0.2.9_zftmsj3y5d6iagm3ptig6nj7oy
   next-plausible: 3.6.5_gvvct4imq5upoiloat43sswrza
@@ -5055,8 +5055,8 @@ packages:
       fetch-blob: 3.2.0
     dev: false
 
-  /framer-motion/7.10.2_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-2OAII9hjpMNz2Nbl2w09uKo7A0bD6xRtGnCZbPzuGGueucWgmSBLjAwzPhXwzCQWMpL3LU8jmXHjxAwIyjslxg==}
+  /framer-motion/8.0.2_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-xuIiQchVh/cLqUzzu5/8ok4o0nkwYPyIRtkDl8wDvrQUNRhSfRaZu1MMdzN0TjpBtG66oP03PSLO7Qtu1YqPrA==}
     peerDependencies:
       react: ^18.0.0
       react-dom: ^18.0.0
