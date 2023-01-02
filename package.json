@@ -1,6 +1,6 @@
 {
   "name": "ding.one",
-  "version": "2022.0.41",
+  "version": "2023.0.42",
   "description": "Product designer & design-focused engineer.",
   "author": "Ding <dingyi@me.com>",
   "private": "true",
@@ -21,7 +21,7 @@
   "dependencies": {
     "@acab/reset.css": "^0.5.3",
     "@calcom/embed-react": "1.0.9",
-    "@next/font": "^13.1.0",
+    "@next/font": "^13.1.1",
     "@notionhq/client": "1.0.4",
     "@plaiceholder/next": "2.5.0",
     "@radix-ui/colors": "0.1.8",
@@ -39,8 +39,8 @@
     "copy-to-clipboard": "3.3.3",
     "date-fns": "2.29.3",
     "dayjs": "1.11.7",
-    "framer-motion": "8.0.2",
-    "next": "13.1.0",
+    "framer-motion": "8.1.1",
+    "next": "13.1.1",
     "next-contentlayer": "0.2.9",
     "next-plausible": "3.6.5",
     "next-pwa": "5.6.0",
@@ -63,8 +63,8 @@
   },
   "devDependencies": {
     "@types/react": "18.0.26",
-    "eslint": "8.30.0",
-    "eslint-config-next": "13.1.0",
+    "eslint": "8.31.0",
+    "eslint-config-next": "13.1.1",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-react": "7.31.11",
