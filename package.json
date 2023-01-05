@@ -42,7 +42,7 @@
     "framer-motion": "8.1.1",
     "next": "13.1.1",
     "next-contentlayer": "0.2.9",
-    "next-plausible": "3.6.5",
+    "next-plausible": "3.7.0",
     "next-pwa": "5.6.0",
     "next-restore-scroll": "1.2.1",
     "next-seo": "5.15.0",
