@@ -24,13 +24,13 @@ specifiers:
   dayjs: 1.11.7
   eslint: 8.31.0
   eslint-config-next: 13.1.1
-  eslint-config-prettier: 8.5.0
+  eslint-config-prettier: 8.6.0
   eslint-plugin-prettier: 4.2.1
   eslint-plugin-react: 7.31.11
-  framer-motion: 8.1.1
+  framer-motion: 8.1.9
   next: 13.1.1
   next-contentlayer: 0.2.9
-  next-plausible: 3.6.5
+  next-plausible: 3.7.0
   next-pwa: 5.6.0
   next-restore-scroll: 1.2.1
   next-seo: 5.15.0
@@ -75,10 +75,10 @@ dependencies:
   copy-to-clipboard: 3.3.3
   date-fns: 2.29.3
   dayjs: 1.11.7
-  framer-motion: 8.1.1_biqbaboplfbrettd7655fr4n2y
+  framer-motion: 8.1.9_biqbaboplfbrettd7655fr4n2y
   next: 13.1.1_7xlrwlvvs7cv2obrs6a5y6oxxq
   next-contentlayer: 0.2.9_cagkiqxzdlgqb6ga5lnat7gtwm
-  next-plausible: 3.6.5_q76c2b4vyoegvsbrcwkfvimnai
+  next-plausible: 3.7.0_q76c2b4vyoegvsbrcwkfvimnai
   next-pwa: 5.6.0_gy46jkfeccj3c7czx6ytmy2fqe
   next-restore-scroll: 1.2.1_3fkjkrd3audxnith3e7fo4fnxi
   next-seo: 5.15.0_q76c2b4vyoegvsbrcwkfvimnai
@@ -101,8 +101,8 @@ devDependencies:
   '@types/react': 18.0.26
   eslint: 8.31.0
   eslint-config-next: 13.1.1_iukboom6ndih5an6iafl45j2fe
-  eslint-config-prettier: 8.5.0_eslint@8.31.0
-  eslint-plugin-prettier: 4.2.1_xtjuwoibeoaqavcvkna3ocxxbu
+  eslint-config-prettier: 8.6.0_eslint@8.31.0
+  eslint-plugin-prettier: 4.2.1_32m5uc2milwdw3tnkcq5del26y
   eslint-plugin-react: 7.31.11_eslint@8.31.0
   prettier: 2.8.1
   rehype-autolink-headings: 6.1.1
@@ -4545,8 +4545,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-config-prettier/8.5.0_eslint@8.31.0:
-    resolution: {integrity: sha512-obmWKLUNCnhtQRKc+tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX+AuPj1YSGSQIHl1pnDHZR0Q==}
+  /eslint-config-prettier/8.6.0_eslint@8.31.0:
+    resolution: {integrity: sha512-bAF0eLpLVqP5oEVUFKpMA+NnRFICwn9X8B5jrR9FcqnYBuPbqWEjTEspPWMj5ye6czoSLDweCzSo3Ko7gGrZaA==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
@@ -4663,7 +4663,7 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /eslint-plugin-prettier/4.2.1_xtjuwoibeoaqavcvkna3ocxxbu:
+  /eslint-plugin-prettier/4.2.1_32m5uc2milwdw3tnkcq5del26y:
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -4675,7 +4675,7 @@ packages:
         optional: true
     dependencies:
       eslint: 8.31.0
-      eslint-config-prettier: 8.5.0_eslint@8.31.0
+      eslint-config-prettier: 8.6.0_eslint@8.31.0
       prettier: 2.8.1
       prettier-linter-helpers: 1.0.0
     dev: true
@@ -5069,8 +5069,8 @@ packages:
       fetch-blob: 3.2.0
     dev: false
 
-  /framer-motion/8.1.1_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-xp1j5ejI9HcmldcfS1M33GKPWJMzMTNoHBQwOW5IkLbi3vF2Lj2h685l9GEWjrCSwHtdkK2TWp0yc6LqKZhgcg==}
+  /framer-motion/8.1.9_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-BPXdGhj3V/A1Ke3qDBIxBKvK1FPsbPqv12BA28fPptNvRjIRHPFxmw0WBC4rHOlGHUBxgg1DficZB1/uCpTTkQ==}
     peerDependencies:
       react: ^18.0.0
       react-dom: ^18.0.0
@@ -6771,8 +6771,8 @@ packages:
       - supports-color
     dev: false
 
-  /next-plausible/3.6.5_q76c2b4vyoegvsbrcwkfvimnai:
-    resolution: {integrity: sha512-eGsyie68xIyX+If1PSIJsgv7pkiMUm66Yt9gELl3kUvljaxoJOCwUEALGk5JHvhByGsBiRswkrGioDMthL3gfQ==}
+  /next-plausible/3.7.0_q76c2b4vyoegvsbrcwkfvimnai:
+    resolution: {integrity: sha512-YQ/b+BcPIZHOsQPB+YkAAzP4l9oELt3qKazPYvuNr5WRHRDknpyIkge4hf6aeuM+Wg4sdxaY7DfbbAUZlgREuw==}
     peerDependencies:
       next: ^11.1.0 || ^12.0.0 || ^13.0.0
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
