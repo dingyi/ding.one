@@ -12,7 +12,7 @@ specifiers:
   '@radix-ui/react-popover': 1.0.2
   '@radix-ui/react-tooltip': 1.0.2
   '@radix-ui/react-visually-hidden': ^1.0.1
-  '@raycast/utils': 1.4.14
+  '@raycast/utils': 1.4.15
   '@stitches/react': 1.2.8
   '@types/react': 18.0.26
   '@vercel/analytics': ^0.1.6
@@ -26,8 +26,8 @@ specifiers:
   eslint-config-next: 13.1.1
   eslint-config-prettier: 8.6.0
   eslint-plugin-prettier: 4.2.1
-  eslint-plugin-react: 7.31.11
-  framer-motion: 8.1.9
+  eslint-plugin-react: 7.32.0
+  framer-motion: 8.4.0
   next: 13.1.1
   next-contentlayer: 0.2.9
   next-plausible: 3.7.0
@@ -37,14 +37,14 @@ specifiers:
   next-themes: 0.2.1
   next-usequerystate: 1.7.2
   plaiceholder: 2.5.0
-  prettier: 2.8.1
+  prettier: 2.8.2
   react: 18.2.0
   react-dom: 18.2.0
   react-github-calendar: 3.4.0
   react-live-clock: ^6.1.1
   react-use: 17.4.0
   rehype-autolink-headings: 6.1.1
-  rehype-pretty-code: 0.6.0
+  rehype-pretty-code: 0.8.0
   rehype-slug: 5.1.0
   remark-gfm: 3.0.1
   sharp: 0.31.3
@@ -66,7 +66,7 @@ dependencies:
   '@radix-ui/react-popover': 1.0.2_ib3m5ricvtkl2cll7qpr2f6lvq
   '@radix-ui/react-tooltip': 1.0.2_ib3m5ricvtkl2cll7qpr2f6lvq
   '@radix-ui/react-visually-hidden': 1.0.1_biqbaboplfbrettd7655fr4n2y
-  '@raycast/utils': 1.4.14_@raycast+api@1.45.2
+  '@raycast/utils': 1.4.15_@raycast+api@1.45.2
   '@stitches/react': 1.2.8_react@18.2.0
   '@vercel/analytics': 0.1.6_react@18.2.0
   clsx: 1.2.1
@@ -75,7 +75,7 @@ dependencies:
   copy-to-clipboard: 3.3.3
   date-fns: 2.29.3
   dayjs: 1.11.7
-  framer-motion: 8.1.9_biqbaboplfbrettd7655fr4n2y
+  framer-motion: 8.4.0_biqbaboplfbrettd7655fr4n2y
   next: 13.1.1_7xlrwlvvs7cv2obrs6a5y6oxxq
   next-contentlayer: 0.2.9_cagkiqxzdlgqb6ga5lnat7gtwm
   next-plausible: 3.7.0_q76c2b4vyoegvsbrcwkfvimnai
@@ -90,7 +90,7 @@ dependencies:
   react-github-calendar: 3.4.0_biqbaboplfbrettd7655fr4n2y
   react-live-clock: 6.1.1_cysh7ruazm6wgnttwhdwswvlja
   react-use: 17.4.0_biqbaboplfbrettd7655fr4n2y
-  rehype-pretty-code: 0.6.0_shiki@0.12.1
+  rehype-pretty-code: 0.8.0_shiki@0.12.1
   sharp: 0.31.3
   shiki: 0.12.1
   swr: 2.0.0_react@18.2.0
@@ -102,9 +102,9 @@ devDependencies:
   eslint: 8.31.0
   eslint-config-next: 13.1.1_iukboom6ndih5an6iafl45j2fe
   eslint-config-prettier: 8.6.0_eslint@8.31.0
-  eslint-plugin-prettier: 4.2.1_32m5uc2milwdw3tnkcq5del26y
-  eslint-plugin-react: 7.31.11_eslint@8.31.0
-  prettier: 2.8.1
+  eslint-plugin-prettier: 4.2.1_iu5s7nk6dw7o3tajefwfiqfmge
+  eslint-plugin-react: 7.32.0_eslint@8.31.0
+  prettier: 2.8.2
   rehype-autolink-headings: 6.1.1
   rehype-slug: 5.1.0
   remark-gfm: 3.0.1
@@ -2867,8 +2867,8 @@ packages:
       react-reconciler: 0.28.0_react@18.1.0
     dev: false
 
-  /@raycast/utils/1.4.14_@raycast+api@1.45.2:
-    resolution: {integrity: sha512-fP6u0Jitb4pr4YfV3rahCUAlu3Ls8LOS0gCs/bX8/Gv/AYr9NrRAfBo8w86tf1Udo53JdbbW5nE558fp96KLEQ==}
+  /@raycast/utils/1.4.15_@raycast+api@1.45.2:
+    resolution: {integrity: sha512-p4zV6fZPqUWF76T04F6mAojx4pMYP5LXamewy+dER0vsyhuUx33bD/GBN3209QpMOY8LBAY94M9SNrLcFiAOVg==}
     peerDependencies:
       '@raycast/api': '>=1.42.0'
     dependencies:
@@ -4537,7 +4537,7 @@ packages:
       eslint-import-resolver-typescript: 3.5.2_ol7jqilc3wemtdbq3nzhywgxq4
       eslint-plugin-import: 2.26.0_eslint@8.31.0
       eslint-plugin-jsx-a11y: 6.6.1_eslint@8.31.0
-      eslint-plugin-react: 7.31.11_eslint@8.31.0
+      eslint-plugin-react: 7.32.0_eslint@8.31.0
       eslint-plugin-react-hooks: 4.6.0_eslint@8.31.0
       typescript: 4.9.4
     transitivePeerDependencies:
@@ -4663,7 +4663,7 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /eslint-plugin-prettier/4.2.1_32m5uc2milwdw3tnkcq5del26y:
+  /eslint-plugin-prettier/4.2.1_iu5s7nk6dw7o3tajefwfiqfmge:
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -4676,7 +4676,7 @@ packages:
     dependencies:
       eslint: 8.31.0
       eslint-config-prettier: 8.6.0_eslint@8.31.0
-      prettier: 2.8.1
+      prettier: 2.8.2
       prettier-linter-helpers: 1.0.0
     dev: true
 
@@ -4689,8 +4689,8 @@ packages:
       eslint: 8.31.0
     dev: true
 
-  /eslint-plugin-react/7.31.11_eslint@8.31.0:
-    resolution: {integrity: sha512-TTvq5JsT5v56wPa9OYHzsrOlHzKZKjV+aLgS+55NJP/cuzdiQPC7PfYoUjMoxlffKtvijpk7vA/jmuqRb9nohw==}
+  /eslint-plugin-react/7.32.0_eslint@8.31.0:
+    resolution: {integrity: sha512-vSBi1+SrPiLZCGvxpiZIa28fMEUaMjXtCplrvxcIxGzmFiYdsXQDwInEjuv5/i/2CTTxbkS87tE8lsQ0Qxinbw==}
     engines: {node: '>=4'}
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
@@ -5069,8 +5069,8 @@ packages:
       fetch-blob: 3.2.0
     dev: false
 
-  /framer-motion/8.1.9_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-BPXdGhj3V/A1Ke3qDBIxBKvK1FPsbPqv12BA28fPptNvRjIRHPFxmw0WBC4rHOlGHUBxgg1DficZB1/uCpTTkQ==}
+  /framer-motion/8.4.0_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-32ECxsAMrhFfpMnA/j3wXku//587kQe29emTGpIQsnh60mFSMTrnpIupAn5Bnk5qq4/OMNgWWCI6mnaFhsIu7w==}
     peerDependencies:
       react: ^18.0.0
       react-dom: ^18.0.0
@@ -7437,8 +7437,8 @@ packages:
       fast-diff: 1.2.0
     dev: true
 
-  /prettier/2.8.1:
-    resolution: {integrity: sha512-lqGoSJBQNJidqCHE80vqZJHWHRFoNYsSpP9AjFhlhi9ODCJA541svILes/+/1GM3VaL/abZi7cpFzOpdR9UPKg==}
+  /prettier/2.8.2:
+    resolution: {integrity: sha512-BtRV9BcncDyI2tsuS19zzhzoxD8Dh8LiCx7j7tHzrkz8GFXAexeWFdi22mjE1d16dftH2qNaytVxqiRTGlMfpw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
@@ -7930,8 +7930,8 @@ packages:
       unist-util-visit: 4.1.1
     dev: true
 
-  /rehype-pretty-code/0.6.0_shiki@0.12.1:
-    resolution: {integrity: sha512-VfntYoWYOBVURXYDdB8p/E1sZTm2W5ry89fJyY94WJAo1jUH/5sVhDC7cX5PPnksMyW9PYMxRLNfjkBpSgJrzQ==}
+  /rehype-pretty-code/0.8.0_shiki@0.12.1:
+    resolution: {integrity: sha512-Y1GsCe1uKxEgFUaOrT2DDoxRBEwraA2mJO2hVVnr5JUnVy3Qhj/hN4Fvsgacz0Z7hLCW2DpiR0g8fjsBizr/nw==}
     engines: {node: ^12.16.0 || >=13.2.0}
     peerDependencies:
       shiki: '*'
