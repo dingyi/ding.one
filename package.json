@@ -67,7 +67,7 @@
     "eslint-config-next": "13.1.2",
     "eslint-config-prettier": "8.6.0",
     "eslint-plugin-prettier": "4.2.1",
-    "eslint-plugin-react": "7.32.0",
+    "eslint-plugin-react": "7.32.1",
     "prettier": "2.8.2",
     "rehype-autolink-headings": "6.1.1",
     "rehype-slug": "5.1.0",
