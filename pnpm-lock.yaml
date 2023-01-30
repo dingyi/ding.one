@@ -27,7 +27,7 @@ specifiers:
   eslint-config-prettier: 8.6.0
   eslint-plugin-prettier: 4.2.1
   eslint-plugin-react: 7.32.1
-  framer-motion: 8.5.3
+  framer-motion: 8.5.5
   next: 13.1.5
   next-contentlayer: 0.3.0
   next-plausible: 3.7.1
@@ -75,7 +75,7 @@ dependencies:
   copy-to-clipboard: 3.3.3
   date-fns: 2.29.3
   dayjs: 1.11.7
-  framer-motion: 8.5.3_biqbaboplfbrettd7655fr4n2y
+  framer-motion: 8.5.5_biqbaboplfbrettd7655fr4n2y
   next: 13.1.5_pjwopsidmaokadturxaafygjp4
   next-contentlayer: 0.3.0_ln3qxpqqzm4p2ubnbzs3xzoc7e
   next-plausible: 3.7.1_s6zlkfvllybxhmcq5pkr2zsuza
@@ -2986,13 +2986,13 @@ packages:
     resolution: {integrity: sha512-9K4zoImiZc3HlIp6AVUDE4CWYx22a+lhSZMYNpbjW04+YF0KWj4pJXnEMjdnFTiQibFFmElcsasJXDbdI/EPhA==}
     dependencies:
       '@types/eslint': 8.4.10
-      '@types/estree': 0.0.51
+      '@types/estree': 1.0.0
     dev: false
 
   /@types/eslint/8.4.10:
     resolution: {integrity: sha512-Sl/HOqN8NKPmhWo2VBEPm0nvHnu2LL3v9vKo8MEq0EtbJ4eVzGPl41VNPvn5E1i5poMk4/XD8UriLHpJvEP/Nw==}
     dependencies:
-      '@types/estree': 0.0.51
+      '@types/estree': 1.0.0
       '@types/json-schema': 7.0.11
     dev: false
 
@@ -5135,8 +5135,8 @@ packages:
       fetch-blob: 3.2.0
     dev: false
 
-  /framer-motion/8.5.3_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-CkQHhGlldJptI0SGjmjUzseXCzi0lljDkToE7cANHRCs12F5I84ymdWvCi6HfIKkt6Ykq2RiDd3dGuYV0oMn2w==}
+  /framer-motion/8.5.5_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-5IDx5bxkjWHWUF3CVJoSyUVOtrbAxtzYBBowRE2uYI/6VYhkEBD+rbTHEGuUmbGHRj6YqqSfoG7Aa1cLyWCrBA==}
     peerDependencies:
       react: ^18.0.0
       react-dom: ^18.0.0
