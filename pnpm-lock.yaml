@@ -17,7 +17,7 @@ specifiers:
   '@types/react': 18.0.27
   '@vercel/analytics': ^0.1.8
   clsx: 1.2.1
-  cmdk: 0.1.21
+  cmdk: 0.1.22
   contentlayer: 0.3.0
   copy-to-clipboard: 3.3.3
   date-fns: 2.29.3
@@ -27,24 +27,24 @@ specifiers:
   eslint-config-prettier: 8.6.0
   eslint-plugin-prettier: 4.2.1
   eslint-plugin-react: 7.32.2
-  framer-motion: 8.5.5
+  framer-motion: 9.0.2
   next: 13.1.6
   next-contentlayer: 0.3.0
-  next-plausible: 3.7.1
+  next-plausible: 3.7.2
   next-pwa: 5.6.0
   next-restore-scroll: 1.2.1
   next-seo: 5.15.0
   next-themes: 0.2.1
   next-usequerystate: 1.7.2
   plaiceholder: 2.5.0
-  prettier: 2.8.3
+  prettier: 2.8.4
   react: 18.2.0
   react-dom: 18.2.0
   react-github-calendar: 3.4.0
-  react-live-clock: ^6.1.5
+  react-live-clock: ^6.1.9
   react-use: 17.4.0
   rehype-autolink-headings: 6.1.1
-  rehype-pretty-code: 0.9.2
+  rehype-pretty-code: 0.9.3
   rehype-slug: 5.1.0
   remark-gfm: 3.0.1
   sharp: 0.31.3
@@ -70,15 +70,15 @@ dependencies:
   '@stitches/react': 1.2.8_react@18.2.0
   '@vercel/analytics': 0.1.8_react@18.2.0
   clsx: 1.2.1
-  cmdk: 0.1.21_5ndqzdd6t4rivxsukjv3i3ak2q
+  cmdk: 0.1.22_5ndqzdd6t4rivxsukjv3i3ak2q
   contentlayer: 0.3.0_esbuild@0.17.5
   copy-to-clipboard: 3.3.3
   date-fns: 2.29.3
   dayjs: 1.11.7
-  framer-motion: 8.5.5_biqbaboplfbrettd7655fr4n2y
+  framer-motion: 9.0.2_biqbaboplfbrettd7655fr4n2y
   next: 13.1.6_pjwopsidmaokadturxaafygjp4
   next-contentlayer: 0.3.0_3mkdr3jyqjw7jzr42p6fulhhma
-  next-plausible: 3.7.1_3vryta7zmbcsw4rrqf4axjqggm
+  next-plausible: 3.7.2_3vryta7zmbcsw4rrqf4axjqggm
   next-pwa: 5.6.0_hatppwljrkxfelgekogncfbnu4
   next-restore-scroll: 1.2.1_hhrrucqyg4eysmfpujvov2ym5u
   next-seo: 5.15.0_3vryta7zmbcsw4rrqf4axjqggm
@@ -88,9 +88,9 @@ dependencies:
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-github-calendar: 3.4.0_biqbaboplfbrettd7655fr4n2y
-  react-live-clock: 6.1.5_xdaesttmltlhmhny5eevgqkup4
+  react-live-clock: 6.1.9_xdaesttmltlhmhny5eevgqkup4
   react-use: 17.4.0_biqbaboplfbrettd7655fr4n2y
-  rehype-pretty-code: 0.9.2_shiki@0.14.0
+  rehype-pretty-code: 0.9.3_shiki@0.14.0
   sharp: 0.31.3
   shiki: 0.14.0
   swr: 2.0.3_react@18.2.0
@@ -102,9 +102,9 @@ devDependencies:
   eslint: 8.33.0
   eslint-config-next: 13.1.6_4vsywjlpuriuw3tl5oq6zy5a64
   eslint-config-prettier: 8.6.0_eslint@8.33.0
-  eslint-plugin-prettier: 4.2.1_jqplj6qf3uqpxpu4gdyhwwasnq
+  eslint-plugin-prettier: 4.2.1_qa2thblfovmfepmgrc7z2owbo4
   eslint-plugin-react: 7.32.2_eslint@8.33.0
-  prettier: 2.8.3
+  prettier: 2.8.4
   rehype-autolink-headings: 6.1.1
   rehype-slug: 5.1.0
   remark-gfm: 3.0.1
@@ -3927,8 +3927,8 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  /cmdk/0.1.21_5ndqzdd6t4rivxsukjv3i3ak2q:
-    resolution: {integrity: sha512-O5oiYmoBdcoqmax4RMOsnJHrseaXlnkzfCSWgNdyBxneTaSCmUByBF5MliJbsveoHJsjkyL2uNUs2kTBBMmIaw==}
+  /cmdk/0.1.22_5ndqzdd6t4rivxsukjv3i3ak2q:
+    resolution: {integrity: sha512-F0ffliBO/U6SXKGRud9AjsNuINvfF+d9BVUgi/y2+v3TSBHVOmIXl43CWLEyEEIOwc2DTnlXvIQenhGAEpwW0Q==}
     peerDependencies:
       react: ^18.0.0
       react-dom: ^18.0.0
@@ -4732,7 +4732,7 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /eslint-plugin-prettier/4.2.1_jqplj6qf3uqpxpu4gdyhwwasnq:
+  /eslint-plugin-prettier/4.2.1_qa2thblfovmfepmgrc7z2owbo4:
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -4745,7 +4745,7 @@ packages:
     dependencies:
       eslint: 8.33.0
       eslint-config-prettier: 8.6.0_eslint@8.33.0
-      prettier: 2.8.3
+      prettier: 2.8.4
       prettier-linter-helpers: 1.0.0
     dev: true
 
@@ -5139,8 +5139,8 @@ packages:
       fetch-blob: 3.2.0
     dev: false
 
-  /framer-motion/8.5.5_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-5IDx5bxkjWHWUF3CVJoSyUVOtrbAxtzYBBowRE2uYI/6VYhkEBD+rbTHEGuUmbGHRj6YqqSfoG7Aa1cLyWCrBA==}
+  /framer-motion/9.0.2_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-n7ZdIUBrT1xklowQNRQ6/h54+3ysmz422CP0rrhjE1X2tshiJy0WWQ7tv6y/fcOSQd23htNA9vvbUFLYMQ5lEQ==}
     peerDependencies:
       react: ^18.0.0
       react-dom: ^18.0.0
@@ -6909,12 +6909,6 @@ packages:
     hasBin: true
     dev: false
 
-  /nanoid/4.0.0:
-    resolution: {integrity: sha512-IgBP8piMxe/gf73RTQx7hmnhwz0aaEXYakvqZyE302IXW3HyVNhdNGC+O2MwMAVhLEnvXlvKtGbtJf6wvHihCg==}
-    engines: {node: ^14 || ^16 || >=18}
-    hasBin: true
-    dev: false
-
   /napi-build-utils/1.0.2:
     resolution: {integrity: sha512-ONmRUqK7zj7DWX0D9ADe03wbwOBZxNAfF20PlGfCWQcD3+/MakShIHrMqx9YwPTfxDdF1zLeL+RGZiR9kGMLdg==}
     dev: false
@@ -6952,8 +6946,8 @@ packages:
       - supports-color
     dev: false
 
-  /next-plausible/3.7.1_3vryta7zmbcsw4rrqf4axjqggm:
-    resolution: {integrity: sha512-I4WjbuXPfQ3ijbzOC1lv1GNx6TTV0ZevR6YYs5vGZIyMz0z4LuN68x08a+ag2XNb1yy9dA1NkwV2hPzbfx8Gtw==}
+  /next-plausible/3.7.2_3vryta7zmbcsw4rrqf4axjqggm:
+    resolution: {integrity: sha512-9PqFiVtD1kZO5gHFYTcgilHhg2WhMzD6I4NK/RUh9DGavD1N11IhNAvyGLFmvB3f4FtHC9IoAsauYDtQBt+riA==}
     peerDependencies:
       next: ^11.1.0 || ^12.0.0 || ^13.0.0
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -7634,8 +7628,8 @@ packages:
       fast-diff: 1.2.0
     dev: true
 
-  /prettier/2.8.3:
-    resolution: {integrity: sha512-tJ/oJ4amDihPoufT5sM0Z1SKEuKay8LfVAMlbbhnnkvt6BUserZylqo2PN+p9KeljLr0OHa2rXHU1T8reeoTrw==}
+  /prettier/2.8.4:
+    resolution: {integrity: sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
@@ -7857,8 +7851,8 @@ packages:
   /react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
-  /react-live-clock/6.1.5_xdaesttmltlhmhny5eevgqkup4:
-    resolution: {integrity: sha512-0y764cYE1ZzD4x95RZqEbUpZ2pXc0MuhVJNSP2Y6VfMGPpNmUn6LXuwloDXDw/1yAXcwoWOMkcyIlkBUsaYklQ==}
+  /react-live-clock/6.1.9_xdaesttmltlhmhny5eevgqkup4:
+    resolution: {integrity: sha512-bIN14Z+pfjpgKK6k6SA8tYVIuE/0Jz3hT4TqsdaUM0cpM9rrtbdBDU52HV+GTsi1iC3uLYWgPzsiWUsCPwwvJQ==}
     peerDependencies:
       react: ^16.14.0 || ^17 || ^18
       react-moment: 1.1.3
@@ -8127,14 +8121,13 @@ packages:
       unist-util-visit: 4.1.2
     dev: true
 
-  /rehype-pretty-code/0.9.2_shiki@0.14.0:
-    resolution: {integrity: sha512-l369pvBK6ihBEuy2+VDpHU+zbbY8I+Z4LiyIOunHAt3xyw6selaOFKc/DnX94jI5OJb3+NgjbOxXx2yaAypjZw==}
+  /rehype-pretty-code/0.9.3_shiki@0.14.0:
+    resolution: {integrity: sha512-57i+ifrttqpeQxub0NZ2pRw0aiUPYeBpr234NLWfZ4BfbEaP+29+iCXB1rUMkzoPi6IBC4w4I93mUPgw36IajQ==}
     engines: {node: ^12.16.0 || >=13.2.0}
     peerDependencies:
       shiki: '*'
     dependencies:
       hash-obj: 4.0.0
-      nanoid: 4.0.0
       parse-numeric-range: 1.3.0
       shiki: 0.14.0
     dev: false
