@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@acab/reset.css': ^0.5.3
-  '@calcom/embed-react': 1.0.9
+  '@calcom/embed-react': 1.0.10
   '@next/font': ^13.1.6
   '@notionhq/client': 1.0.4
   '@plaiceholder/next': 2.5.0
@@ -56,7 +56,7 @@ specifiers:
 
 dependencies:
   '@acab/reset.css': 0.5.3
-  '@calcom/embed-react': 1.0.9_biqbaboplfbrettd7655fr4n2y
+  '@calcom/embed-react': 1.0.10_biqbaboplfbrettd7655fr4n2y
   '@next/font': 13.1.6
   '@notionhq/client': 1.0.4
   '@plaiceholder/next': 2.5.0_next@13.1.6+sharp@0.31.3
@@ -1304,11 +1304,11 @@ packages:
     resolution: {integrity: sha512-zf0tj0fUZzkWAu/f3Ftacbyg+tGhyRIfm1BvKa7I5CpjXO5Skg1Qtga3DrLhzzmsP7uT6NKTJ4BcrwoHIADOoA==}
     dev: false
 
-  /@calcom/embed-react/1.0.9_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-ByqZRcGWYNv6e0pSktiJFzWf1z/xUD+7Gs605JubqTYsjvVseXFFDJXjJzr5QrMdEKz1seFMPwKg2AgMzIPPFg==}
+  /@calcom/embed-react/1.0.10_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-gpcbHOyCS+AbYwf7x0Q1kqx6rcwuryrMrTn/LxKpTJxNeNVBwPJh0qQZjtaoLQhBDWy3LXgCCsf8FegZ+XXb6w==}
     peerDependencies:
-      react: ^18.1.0
-      react-dom: ^18.1.0
+      react: ^18.2.0
+      react-dom: ^18.2.0
     dependencies:
       '@calcom/embed-core': 1.1.2
       '@calcom/embed-snippet': 1.0.4
