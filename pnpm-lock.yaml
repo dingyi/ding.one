@@ -12,7 +12,7 @@ specifiers:
   '@radix-ui/react-popover': 1.0.3
   '@radix-ui/react-tooltip': 1.0.3
   '@radix-ui/react-visually-hidden': ^1.0.1
-  '@raycast/utils': 1.4.18
+  '@raycast/utils': 1.5.2
   '@stitches/react': 1.2.8
   '@types/react': 18.0.28
   '@vercel/analytics': ^0.1.10
@@ -66,7 +66,7 @@ dependencies:
   '@radix-ui/react-popover': 1.0.3_zula6vjvt3wdocc4mwcxqa6nzi
   '@radix-ui/react-tooltip': 1.0.3_zula6vjvt3wdocc4mwcxqa6nzi
   '@radix-ui/react-visually-hidden': 1.0.1_biqbaboplfbrettd7655fr4n2y
-  '@raycast/utils': 1.4.18_@raycast+api@1.48.3
+  '@raycast/utils': 1.5.2_@raycast+api@1.48.3
   '@stitches/react': 1.2.8_react@18.2.0
   '@vercel/analytics': 0.1.10_react@18.2.0
   clsx: 1.2.1
@@ -2832,8 +2832,8 @@ packages:
       react-reconciler: 0.28.0_react@18.1.0
     dev: false
 
-  /@raycast/utils/1.4.18_@raycast+api@1.48.3:
-    resolution: {integrity: sha512-Zk+Y3hYuVTYkWapxrFRxKUUnD6rI0yCDLlkzoMeNvFSZpWANjdC7wXrSnlbYOuhY6IX7oOEYM09DIvaQL8coCw==}
+  /@raycast/utils/1.5.2_@raycast+api@1.48.3:
+    resolution: {integrity: sha512-poi+/HeLsTrSyA4NOaXAzLJJJl6oxPpRV9lSEBwSSR/Fa6bmtdxykmBtQpYqbSUgGlosrqzzgniaTU/LdwHh+A==}
     peerDependencies:
       '@raycast/api': '>=1.42.0'
     dependencies:
