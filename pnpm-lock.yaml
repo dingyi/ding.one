@@ -49,7 +49,7 @@ specifiers:
   remark-gfm: 3.0.1
   sharp: 0.31.3
   shiki: 0.14.1
-  swr: 2.0.3
+  swr: 2.1.0
   tinykeys: 1.4.0
   typescript: 4.9.5
   use-onclickoutside: 0.4.1
@@ -93,7 +93,7 @@ dependencies:
   rehype-pretty-code: 0.9.4_shiki@0.14.1
   sharp: 0.31.3
   shiki: 0.14.1
-  swr: 2.0.3_react@18.2.0
+  swr: 2.1.0_react@18.2.0
   tinykeys: 1.4.0
   use-onclickoutside: 0.4.1_pmekkgnqduwlme35zpnqhenc34
 
@@ -8792,8 +8792,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  /swr/2.0.3_react@18.2.0:
-    resolution: {integrity: sha512-sGvQDok/AHEWTPfhUWXEHBVEXmgGnuahyhmRQbjl9XBYxT/MSlAzvXEKQpyM++bMPaI52vcWS2HiKNaW7+9OFw==}
+  /swr/2.1.0_react@18.2.0:
+    resolution: {integrity: sha512-4hYl5p3/KalQ1MORealM79g/DtLohmud6yyfXw5l4wjtFksYUnocRFudvyaoUtgj3FrVNK9lS25Av9dsZYvz0g==}
     engines: {pnpm: '7'}
     peerDependencies:
       react: ^16.11.0 || ^17.0.0 || ^18.0.0
