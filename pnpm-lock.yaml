@@ -47,7 +47,7 @@ specifiers:
   rehype-pretty-code: 0.9.4
   rehype-slug: 5.1.0
   remark-gfm: 3.0.1
-  sharp: 0.31.3
+  sharp: 0.32.0
   shiki: 0.14.1
   swr: 2.1.0
   tinykeys: 1.4.0
@@ -59,7 +59,7 @@ dependencies:
   '@calcom/embed-react': 1.0.10_biqbaboplfbrettd7655fr4n2y
   '@next/font': 13.2.4
   '@notionhq/client': 1.0.4
-  '@plaiceholder/next': 2.5.0_next@13.2.4+sharp@0.31.3
+  '@plaiceholder/next': 2.5.0_next@13.2.4+sharp@0.32.0
   '@radix-ui/colors': 0.1.8
   '@radix-ui/react-checkbox': 1.0.3_biqbaboplfbrettd7655fr4n2y
   '@radix-ui/react-dialog': 1.0.3_zula6vjvt3wdocc4mwcxqa6nzi
@@ -84,14 +84,14 @@ dependencies:
   next-seo: 5.15.0_ld2jel3hspngo3u5lti2kgl2sq
   next-themes: 0.2.1_ld2jel3hspngo3u5lti2kgl2sq
   next-usequerystate: 1.7.2_ld2jel3hspngo3u5lti2kgl2sq
-  plaiceholder: 2.5.0_sharp@0.31.3
+  plaiceholder: 2.5.0_sharp@0.32.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-github-calendar: 3.4.0_biqbaboplfbrettd7655fr4n2y
   react-live-clock: 6.1.13_xdaesttmltlhmhny5eevgqkup4
   react-use: 17.4.0_biqbaboplfbrettd7655fr4n2y
   rehype-pretty-code: 0.9.4_shiki@0.14.1
-  sharp: 0.31.3
+  sharp: 0.32.0
   shiki: 0.14.1
   swr: 2.1.0_react@18.2.0
   tinykeys: 1.4.0
@@ -2337,14 +2337,14 @@ packages:
       tslib: 2.5.0
     dev: true
 
-  /@plaiceholder/next/2.5.0_next@13.2.4+sharp@0.31.3:
+  /@plaiceholder/next/2.5.0_next@13.2.4+sharp@0.32.0:
     resolution: {integrity: sha512-vT8YtPpgQEKFtz0QiiCnH3NfyVlldYpnxR6X2sqCJvHk+pi/Be1nb62CdYQ7RoNePPcjBQoRDSPpZpGmg8mEdw==}
     peerDependencies:
       next: '>= 10.0.0'
       sharp: '>= 0.30.6'
     dependencies:
       next: 13.2.4_jzglnfsxer2pg4xkctzolekpve
-      sharp: 0.31.3
+      sharp: 0.32.0
     dev: false
 
   /@protobufjs/aspromise/1.1.2:
@@ -7134,8 +7134,8 @@ packages:
       semver: 7.3.8
     dev: false
 
-  /node-addon-api/5.1.0:
-    resolution: {integrity: sha512-eh0GgfEkpnoWDq+VY8OyvYhFEzBk6jIYbRKdIlyTiAXIVJ8PyBaKb0rp7oDtoddbdoHWhq8wwr+XZ81F1rpNdA==}
+  /node-addon-api/6.0.0:
+    resolution: {integrity: sha512-GyHvgPvUXBvAkXa0YvYnhilSB1A+FRYMpIVggKzPZqdaZfevZOuzfWzyvgzOwRLHBeo/MMswmJFsrNF4Nw1pmA==}
     dev: false
 
   /node-cache/5.1.2:
@@ -7522,7 +7522,7 @@ packages:
       find-up: 4.1.0
     dev: false
 
-  /plaiceholder/2.5.0_sharp@0.31.3:
+  /plaiceholder/2.5.0_sharp@0.32.0:
     resolution: {integrity: sha512-rygdNSWuYzs1GxxGjq2FiJdJB1AUaKhUHP/M7PIrSjAAGuoJC5ACiJx+cZZ+hDmMalxsxOMw0Sbbx3LF8jemGg==}
     peerDependencies:
       sharp: '>= 0.30.6'
@@ -7532,7 +7532,7 @@ packages:
       image-size: 1.0.2
       node-cache: 5.1.2
       node-fetch: 2.6.7_encoding@0.1.13
-      sharp: 0.31.3
+      sharp: 0.32.0
     dev: false
 
   /platform/1.3.6:
@@ -8387,14 +8387,14 @@ packages:
       safe-buffer: 5.2.1
     dev: false
 
-  /sharp/0.31.3:
-    resolution: {integrity: sha512-XcR4+FCLBFKw1bdB+GEhnUNXNXvnt0tDo4WsBsraKymuo/IAuPuCBVAL2wIkUw2r/dwFW5Q5+g66Kwl2dgDFVg==}
+  /sharp/0.32.0:
+    resolution: {integrity: sha512-yLAypVcqj1toSAqRSwbs86nEzfyZVDYqjuUX8grhFpeij0DDNagKJXELS/auegDBRDg1XBtELdOGfo2X1cCpeA==}
     engines: {node: '>=14.15.0'}
     requiresBuild: true
     dependencies:
       color: 4.2.3
       detect-libc: 2.0.1
-      node-addon-api: 5.1.0
+      node-addon-api: 6.0.0
       prebuild-install: 7.1.1
       semver: 7.3.8
       simple-get: 4.0.1

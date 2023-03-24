@@ -55,7 +55,7 @@
     "react-live-clock": "^6.1.13",
     "react-use": "17.4.0",
     "rehype-pretty-code": "0.9.4",
-    "sharp": "0.31.3",
+    "sharp": "0.32.0",
     "shiki": "0.14.1",
     "swr": "2.1.0",
     "tinykeys": "1.4.0",
