@@ -15,7 +15,7 @@ specifiers:
   '@raycast/utils': 1.5.2
   '@stitches/react': 1.2.8
   '@types/react': 18.0.37
-  '@vercel/analytics': ^0.1.11
+  '@vercel/analytics': ^1.0.0
   clsx: 1.2.1
   cmdk: 0.2.0
   contentlayer: 0.3.1
@@ -68,7 +68,7 @@ dependencies:
   '@radix-ui/react-visually-hidden': 1.0.2_biqbaboplfbrettd7655fr4n2y
   '@raycast/utils': 1.5.2_@raycast+api@1.49.3
   '@stitches/react': 1.2.8_react@18.2.0
-  '@vercel/analytics': 0.1.11_react@18.2.0
+  '@vercel/analytics': 1.0.0_react@18.2.0
   clsx: 1.2.1
   cmdk: 0.2.0_jf7puk66b2eiqxne3oe3xlxkou
   contentlayer: 0.3.1_esbuild@0.17.17
@@ -3104,8 +3104,8 @@ packages:
       eslint-visitor-keys: 3.4.0
     dev: true
 
-  /@vercel/analytics/0.1.11_react@18.2.0:
-    resolution: {integrity: sha512-mj5CPR02y0BRs1tN3oZcBNAX9a8NxsIUl9vElDPcqxnMfP0RbRc9fI9Ud7+QDg/1Izvt5uMumsr+6YsmVHcyuw==}
+  /@vercel/analytics/1.0.0_react@18.2.0:
+    resolution: {integrity: sha512-RQmj7pv82JwGDHrnKeRc6TtSw2U7rWNubc2IH0ernTzWTj02yr9zvIYiYJeztsBzrJtWv7m8Nz6vxxb+cdEtJw==}
     peerDependencies:
       react: ^16.8||^17||^18
     dependencies:
