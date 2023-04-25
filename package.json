@@ -35,7 +35,7 @@
     "@vercel/analytics": "^0.1.11",
     "clsx": "1.2.1",
     "cmdk": "0.2.0",
-    "contentlayer": "0.3.1",
+    "contentlayer": "0.3.2",
     "copy-to-clipboard": "3.3.3",
     "date-fns": "2.29.3",
     "dayjs": "1.11.7",
