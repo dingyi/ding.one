@@ -41,7 +41,7 @@
     "dayjs": "1.11.7",
     "framer-motion": "10.12.2",
     "next": "13.3.0",
-    "next-contentlayer": "0.3.1",
+    "next-contentlayer": "0.3.2",
     "next-plausible": "3.7.2",
     "next-pwa": "5.6.0",
     "next-restore-scroll": "1.2.1",
