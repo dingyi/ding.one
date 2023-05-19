@@ -63,7 +63,7 @@
   },
   "devDependencies": {
     "@types/react": "18.2.6",
-    "eslint": "8.40.0",
+    "eslint": "8.41.0",
     "eslint-config-next": "13.4.1",
     "eslint-config-prettier": "8.8.0",
     "eslint-plugin-prettier": "4.2.1",
