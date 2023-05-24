@@ -36,7 +36,7 @@ specifiers:
   next-seo: 6.0.0
   next-themes: 0.2.1
   next-usequerystate: 1.7.2
-  plaiceholder: 2.5.0
+  plaiceholder: 3.0.0
   prettier: 2.8.8
   react: 18.2.0
   react-dom: 18.2.0
@@ -84,7 +84,7 @@ dependencies:
   next-seo: 6.0.0_o6dt4yn4syzkhlixdxt4y57rzi
   next-themes: 0.2.1_o6dt4yn4syzkhlixdxt4y57rzi
   next-usequerystate: 1.7.2_o6dt4yn4syzkhlixdxt4y57rzi
-  plaiceholder: 2.5.0_sharp@0.32.1
+  plaiceholder: 3.0.0_sharp@0.32.1
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-github-calendar: 4.0.0_biqbaboplfbrettd7655fr4n2y
@@ -3593,10 +3593,6 @@ packages:
       readable-stream: 3.6.2
     dev: false
 
-  /blurhash/1.1.5:
-    resolution: {integrity: sha512-a+LO3A2DfxTaTztsmkbLYmUzUeApi0LZuKalwbNmqAHR6HhJGMt1qSV/R3wc+w4DL28holjqO3Bg74aUGavGjg==}
-    dev: false
-
   /bn.js/4.12.0:
     resolution: {integrity: sha512-c98Bf3tPniI+scsdk237ku1Dc3ujXQTSgyiPUDEOe7tRkhrqridvh8klBv0HCEso1OLOYcHuCv/cS6DNxKH+ZA==}
     dev: false
@@ -3925,11 +3921,6 @@ packages:
       string-width: 4.2.3
       strip-ansi: 6.0.1
       wrap-ansi: 7.0.0
-    dev: false
-
-  /clone/2.1.2:
-    resolution: {integrity: sha512-3Pe/CF1Nn94hyhIYpjtiLhdCoEoz0DqQ+988E9gmeEdQZlojxnOb74wctFyuwWQHzqyf9X7C7MG8juUpqBJT8w==}
-    engines: {node: '>=0.8'}
     dev: false
 
   /clsx/1.2.1:
@@ -5715,14 +5706,6 @@ packages:
     resolution: {integrity: sha512-MAb38BcSbH0eHNBxn7ql2NH/kX33OkB3lZ1BNdh7ENeRChHTYsTvWrMubiIAMNS2llXEEgZ1MUOBtXChP3kaFQ==}
     engines: {node: '>= 4'}
 
-  /image-size/1.0.2:
-    resolution: {integrity: sha512-xfOoWjceHntRb3qFCrh5ZFORYH8XCdYpASltMhZ/Q0KZiOwjdE/Yl2QCiWdwD+lygV5bMCvauzgu5PxBX/Yerg==}
-    engines: {node: '>=14.0.0'}
-    hasBin: true
-    dependencies:
-      queue: 6.0.2
-    dev: false
-
   /imagescript/1.2.16:
     resolution: {integrity: sha512-hhy8OVNymU+cYYj8IwCbdNlXJRoMr4HRd7+efkH32eBVfybVU/5SbzDYf3ZSiiF9ye/ghfBrI/ujec/nwl+fOQ==}
     engines: {node: '>=14.0.0'}
@@ -7296,13 +7279,6 @@ packages:
     resolution: {integrity: sha512-+eawOlIgy680F0kBzPUNFhMZGtJ1YmqM6l4+Crf4IkImjYrO/mqPwRMh352g23uIaQKFItcQ64I7KMaJxHgAVA==}
     dev: false
 
-  /node-cache/5.1.2:
-    resolution: {integrity: sha512-t1QzWwnk4sjLWaQAS8CHgOJ+RAfmHpxFWmc36IWTiWHQfs0w5JDMBS1b1ZxQteo0vVVuWJvIUKHDkkeK7vIGCg==}
-    engines: {node: '>= 8.0.0'}
-    dependencies:
-      clone: 2.1.2
-    dev: false
-
   /node-domexception/1.0.0:
     resolution: {integrity: sha512-/jKZoMpw0F8GRwl4/eLROPA3cfcXtLApP0QzLmUT/HuPCZWyB7IY9ZrMeKw2O/nFIqPQB3PVM9aYm0F312AXDQ==}
     engines: {node: '>=10.5.0'}
@@ -7322,19 +7298,6 @@ packages:
       encoding:
         optional: true
     dependencies:
-      whatwg-url: 5.0.0
-    dev: false
-
-  /node-fetch/2.6.7_encoding@0.1.13:
-    resolution: {integrity: sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==}
-    engines: {node: 4.x || >=6.0.0}
-    peerDependencies:
-      encoding: ^0.1.0
-    peerDependenciesMeta:
-      encoding:
-        optional: true
-    dependencies:
-      encoding: 0.1.13
       whatwg-url: 5.0.0
     dev: false
 
@@ -7702,16 +7665,11 @@ packages:
       find-up: 4.1.0
     dev: false
 
-  /plaiceholder/2.5.0_sharp@0.32.1:
-    resolution: {integrity: sha512-rygdNSWuYzs1GxxGjq2FiJdJB1AUaKhUHP/M7PIrSjAAGuoJC5ACiJx+cZZ+hDmMalxsxOMw0Sbbx3LF8jemGg==}
+  /plaiceholder/3.0.0_sharp@0.32.1:
+    resolution: {integrity: sha512-jwHxxHPnr1BwRzPCeZgEK2BMsEy2327sWynw3qb6XC/oGgGDUTPtR8pFxFQmNArhMBwhkUbUr5OPhhIJpCa8eQ==}
     peerDependencies:
       sharp: '>= 0.30.6'
     dependencies:
-      blurhash: 1.1.5
-      encoding: 0.1.13
-      image-size: 1.0.2
-      node-cache: 5.1.2
-      node-fetch: 2.6.7_encoding@0.1.13
       sharp: 0.32.1
     dev: false
 
@@ -7904,12 +7862,6 @@ packages:
 
   /queue-microtask/1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
-
-  /queue/6.0.2:
-    resolution: {integrity: sha512-iHZWu+q3IdFZFX36ro/lKBkSvfkztY5Y7HMiPlOUjhupPcG2JMfst2KKEpu5XndviX/3UhFbRngUPNKtgvtZiA==}
-    dependencies:
-      inherits: 2.0.4
-    dev: false
 
   /randombytes/2.1.0:
     resolution: {integrity: sha512-vYl3iOX+4CKUWuxGi9Ukhie6fsqXqS9FE2Zaic4tNFD2N2QQaXOMFbuKK4QmDHC0JO6B1Zp41J0LpT0oR68amQ==}
