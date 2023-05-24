@@ -39,7 +39,7 @@
     "copy-to-clipboard": "3.3.3",
     "date-fns": "2.30.0",
     "dayjs": "1.11.7",
-    "framer-motion": "10.12.12",
+    "framer-motion": "10.12.16",
     "next": "13.4.3",
     "next-contentlayer": "0.3.2",
     "next-plausible": "3.7.2",
