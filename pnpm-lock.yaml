@@ -5,7 +5,7 @@ specifiers:
   '@calcom/embed-react': 1.0.12
   '@next/font': ^13.4.3
   '@notionhq/client': 1.0.4
-  '@plaiceholder/next': 2.5.0
+  '@plaiceholder/next': 3.0.0
   '@radix-ui/colors': 0.1.8
   '@radix-ui/react-checkbox': 1.0.3
   '@radix-ui/react-dialog': 1.0.3
@@ -59,7 +59,7 @@ dependencies:
   '@calcom/embed-react': 1.0.12_biqbaboplfbrettd7655fr4n2y
   '@next/font': 13.4.3
   '@notionhq/client': 1.0.4
-  '@plaiceholder/next': 2.5.0_next@13.4.3+sharp@0.32.1
+  '@plaiceholder/next': 3.0.0_2dy27cseepej6izqoemf56u6eq
   '@radix-ui/colors': 0.1.8
   '@radix-ui/react-checkbox': 1.0.3_biqbaboplfbrettd7655fr4n2y
   '@radix-ui/react-dialog': 1.0.3_tqcjxml4rosq5qpg5cznikfcd4
@@ -2340,13 +2340,15 @@ packages:
       tslib: 2.5.2
     dev: true
 
-  /@plaiceholder/next/2.5.0_next@13.4.3+sharp@0.32.1:
-    resolution: {integrity: sha512-vT8YtPpgQEKFtz0QiiCnH3NfyVlldYpnxR6X2sqCJvHk+pi/Be1nb62CdYQ7RoNePPcjBQoRDSPpZpGmg8mEdw==}
+  /@plaiceholder/next/3.0.0_2dy27cseepej6izqoemf56u6eq:
+    resolution: {integrity: sha512-7UK/H1X64hwo2VaxOPKMXE+OY9IgmKLPsq/xKHZ+gU07oqQSfIWWIgpVVucMB3ZgVYah+68agR15BRuSxAuMHw==}
     peerDependencies:
       next: '>= 10.0.0'
+      plaiceholder: '>=3.0.0'
       sharp: '>= 0.30.6'
     dependencies:
       next: 13.4.3_lz4ss264vg4yuqlmg2ge5azx4i
+      plaiceholder: 2.5.0_sharp@0.32.1
       sharp: 0.32.1
     dev: false
 

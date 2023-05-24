@@ -23,7 +23,7 @@
     "@calcom/embed-react": "1.0.12",
     "@next/font": "^13.4.3",
     "@notionhq/client": "1.0.4",
-    "@plaiceholder/next": "2.5.0",
+    "@plaiceholder/next": "3.0.0",
     "@radix-ui/colors": "0.1.8",
     "@radix-ui/react-checkbox": "1.0.3",
     "@radix-ui/react-dialog": "1.0.3",
