@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@acab/reset.css': ^0.5.3
-  '@calcom/embed-react': 1.0.12
+  '@calcom/embed-react': 1.1.1
   '@next/font': ^13.4.3
   '@notionhq/client': 1.0.4
   '@plaiceholder/next': 2.5.0
@@ -56,7 +56,7 @@ specifiers:
 
 dependencies:
   '@acab/reset.css': 0.5.3
-  '@calcom/embed-react': 1.0.12_biqbaboplfbrettd7655fr4n2y
+  '@calcom/embed-react': 1.1.1_biqbaboplfbrettd7655fr4n2y
   '@next/font': 13.4.3
   '@notionhq/client': 1.0.4
   '@plaiceholder/next': 2.5.0_next@13.4.3+sharp@0.32.1
@@ -1305,26 +1305,26 @@ packages:
       to-fast-properties: 2.0.0
     dev: false
 
-  /@calcom/embed-core/1.1.5:
-    resolution: {integrity: sha512-iBVpTOemIq5bK5LiNFugnN9eK2CIVpejkylQw+nPBMttA6ypAlMf3SZmW7KsSjaeK9qYDxOoyvEwagsBygtPeA==}
+  /@calcom/embed-core/1.2.1:
+    resolution: {integrity: sha512-KDL1gjWiixDmaLRT/Ps7Y2MgXfe1NPkVr9UG/VkkJnIVxBz8M0tLBdGTRZpLzwVpsN7VsK/Wb1p9dZ8SYTKitw==}
     dev: false
 
-  /@calcom/embed-react/1.0.12_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-JQb+WFvD+wMmOZIGSePvh6MHbg36tY2dA0q2LtB8ak2id6isvogrUPh0dSveiFYY0dd/xfPoNaiWwH3B8cmqcw==}
+  /@calcom/embed-react/1.1.1_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-K27CYyrHKzkc7kWNhLnrZPh0+uJy2VAab9Z8e6jKylYNWBraiAb9zyx8hOFcAMpHHOHXb1XBN76HLm3Ug7Js3A==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@calcom/embed-core': 1.1.5
-      '@calcom/embed-snippet': 1.0.7
+      '@calcom/embed-core': 1.2.1
+      '@calcom/embed-snippet': 1.0.9
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     dev: false
 
-  /@calcom/embed-snippet/1.0.7:
-    resolution: {integrity: sha512-OV/O9IvQ5xTVWkIqIPkJmdjA3X9AnpJH1dYEB7IVjy5wOCwpikruHAabEStrR4KVVTNn/jtskhavZgmOwQ5vHQ==}
+  /@calcom/embed-snippet/1.0.9:
+    resolution: {integrity: sha512-x8/RZxYUQ3uPZButjHWiZ5Kz00+Y9v+NK2XEklnKC2JslDEzRU+KV/g8Lk5aF/xweHSioKwVLa5xBmrfR9deKg==}
     dependencies:
-      '@calcom/embed-core': 1.1.5
+      '@calcom/embed-core': 1.2.1
     dev: false
 
   /@contentlayer/cli/0.3.2_esbuild@0.17.19:
