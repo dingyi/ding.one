@@ -50,7 +50,7 @@ specifiers:
   sharp: 0.32.1
   shiki: 0.14.2
   swr: 2.1.5
-  tinykeys: 2.0.0
+  tinykeys: 2.1.0
   typescript: 5.1.3
   use-onclickoutside: 0.4.1
 
@@ -94,7 +94,7 @@ dependencies:
   sharp: 0.32.1
   shiki: 0.14.2
   swr: 2.1.5_react@18.2.0
-  tinykeys: 2.0.0
+  tinykeys: 2.1.0
   use-onclickoutside: 0.4.1_j4swkgacdxrhexoapez3itylte
 
 devDependencies:
@@ -9328,8 +9328,8 @@ packages:
       setimmediate: 1.0.5
     dev: false
 
-  /tinykeys/2.0.0:
-    resolution: {integrity: sha512-jY+PTFGIOuMD/38o11uMJQmF9RlItzG3ihj///q+FFQVjLePGtkmSbIOIgeHO5EqqEuLh5ahyREL/GkqTEWkEg==}
+  /tinykeys/2.1.0:
+    resolution: {integrity: sha512-/MESnqBD1xItZJn5oGQ4OsNORQgJfPP96XSGoyu4eLpwpL0ifO0SYR5OD76u0YMhMXsqkb0UqvI9+yXTh4xv8Q==}
     dev: false
 
   /titleize/3.0.0:
