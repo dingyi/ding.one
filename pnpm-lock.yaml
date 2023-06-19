@@ -6,7 +6,7 @@ specifiers:
   '@next/font': ^13.4.4
   '@notionhq/client': 1.0.4
   '@plaiceholder/next': 3.0.0
-  '@radix-ui/colors': 0.1.8
+  '@radix-ui/colors': 0.1.9
   '@radix-ui/react-checkbox': 1.0.4
   '@radix-ui/react-dialog': 1.0.4
   '@radix-ui/react-popover': 1.0.6
@@ -60,7 +60,7 @@ dependencies:
   '@next/font': 13.4.4
   '@notionhq/client': 1.0.4
   '@plaiceholder/next': 3.0.0_tntcyoszcyotkn2z7rxunafmma
-  '@radix-ui/colors': 0.1.8
+  '@radix-ui/colors': 0.1.9
   '@radix-ui/react-checkbox': 1.0.4_qov4cjxi5tqn7nekji4kvvduvu
   '@radix-ui/react-dialog': 1.0.4_qov4cjxi5tqn7nekji4kvvduvu
   '@radix-ui/react-popover': 1.0.6_qov4cjxi5tqn7nekji4kvvduvu
@@ -2446,8 +2446,8 @@ packages:
     resolution: {integrity: sha512-Vvn3zZrhQZkkBE8LSuW3em98c0FwgO4nxzv6OdSxPKJIEKY2bGbHn+mhGIPerzI4twdxaP8/0+06HBpwf345Lw==}
     dev: false
 
-  /@radix-ui/colors/0.1.8:
-    resolution: {integrity: sha512-jwRMXYwC0hUo0mv6wGpuw254Pd9p/R6Td5xsRpOmaWkUHlooNWqVcadgyzlRumMq3xfOTXwJReU0Jv+EIy4Jbw==}
+  /@radix-ui/colors/0.1.9:
+    resolution: {integrity: sha512-Vxq944ErPJsdVepjEUhOLO9ApUVOocA63knc+V2TkJ09D/AVOjiMIgkca/7VoYgODcla0qbSIBjje0SMfZMbAw==}
     dev: false
 
   /@radix-ui/primitive/1.0.0:
