@@ -44,7 +44,7 @@ specifiers:
   react-live-clock: ^6.1.13
   react-use: 17.4.0
   rehype-autolink-headings: 6.1.1
-  rehype-pretty-code: 0.9.7
+  rehype-pretty-code: 0.10.0
   rehype-slug: 5.1.0
   remark-gfm: 3.0.1
   sharp: 0.32.1
@@ -90,7 +90,7 @@ dependencies:
   react-github-calendar: 4.0.0_biqbaboplfbrettd7655fr4n2y
   react-live-clock: 6.1.13_xdaesttmltlhmhny5eevgqkup4
   react-use: 17.4.0_biqbaboplfbrettd7655fr4n2y
-  rehype-pretty-code: 0.9.7_shiki@0.14.2
+  rehype-pretty-code: 0.10.0_shiki@0.14.2
   sharp: 0.32.1
   shiki: 0.14.2
   swr: 2.1.5_react@18.2.0
@@ -8463,11 +8463,11 @@ packages:
       unist-util-visit: 4.1.2
     dev: true
 
-  /rehype-pretty-code/0.9.7_shiki@0.14.2:
-    resolution: {integrity: sha512-QBYciToqn6osk7G1mnXXSfjpszB4H/ZoyS8STvr57W/dNkaRBhXhcfgzahjFB880h10xwsL8oxgDvDCpracsfg==}
-    engines: {node: ^12.16.0 || >=13.2.0}
+  /rehype-pretty-code/0.10.0_shiki@0.14.2:
+    resolution: {integrity: sha512-qCD071Y+vUxEy9yyrATPk2+W9q7qCbzZgtc9suZhu75bmRQvOlBhJt4d3WvqSMTamkKoFkvqtCjyAk+ggH+aXQ==}
+    engines: {node: '>=16'}
     peerDependencies:
-      shiki: '*'
+      shiki: 0.x
     dependencies:
       '@types/hast': 2.3.4
       hash-obj: 4.0.0
