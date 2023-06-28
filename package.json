@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@acab/reset.css": "^0.5.3",
-    "@calcom/embed-react": "1.1.1",
+    "@calcom/embed-react": "1.2.2",
     "@next/font": "^13.4.7",
     "@notionhq/client": "1.0.4",
     "@plaiceholder/next": "3.0.0",
