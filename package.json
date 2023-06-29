@@ -72,7 +72,7 @@
     "rehype-autolink-headings": "6.1.1",
     "rehype-slug": "5.1.0",
     "remark-gfm": "3.0.1",
-    "typescript": "5.1.3"
+    "typescript": "5.1.6"
   },
   "packageManager": "pnpm@8.6.2"
 }
