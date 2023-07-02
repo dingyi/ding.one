@@ -51,7 +51,7 @@
     "plaiceholder": "3.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-github-calendar": "4.0.0",
+    "react-github-calendar": "4.0.1",
     "react-live-clock": "^6.1.14",
     "react-use": "17.4.0",
     "rehype-pretty-code": "0.10.0",
