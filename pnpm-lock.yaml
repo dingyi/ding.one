@@ -21,8 +21,8 @@ dependencies:
     specifier: 3.0.0
     version: 3.0.0(next@13.5.2)(plaiceholder@3.0.0)(sharp@0.32.6)
   '@radix-ui/colors':
-    specifier: 1.0.1
-    version: 1.0.1
+    specifier: 2.1.0
+    version: 2.1.0
   '@radix-ui/react-checkbox':
     specifier: 1.0.4
     version: 1.0.4(@types/react@18.2.22)(react-dom@18.2.0)(react@18.2.0)
@@ -2456,8 +2456,8 @@ packages:
     resolution: {integrity: sha512-Vvn3zZrhQZkkBE8LSuW3em98c0FwgO4nxzv6OdSxPKJIEKY2bGbHn+mhGIPerzI4twdxaP8/0+06HBpwf345Lw==}
     dev: false
 
-  /@radix-ui/colors@1.0.1:
-    resolution: {integrity: sha512-xySw8f0ZVsAEP+e7iLl3EvcBXX7gsIlC1Zso/sPBW9gIWerBTgz6axrjU+MZ39wD+WFi5h5zdWpsg3+hwt2Qsg==}
+  /@radix-ui/colors@2.1.0:
+    resolution: {integrity: sha512-gcBnxjS2u2c6thQz/9K1+Pt2ZYcm5WKU4SLi0emYkRmYbVUw+37rlc5wgLtYOsSsRP9nxVtbJJYj6WVO7UUmZg==}
     dev: false
 
   /@radix-ui/primitive@1.0.0:
