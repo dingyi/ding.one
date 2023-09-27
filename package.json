@@ -19,7 +19,7 @@
     "url": "https://github.com/dingyi/ding.one"
   },
   "dependencies": {
-    "@acab/reset.css": "^0.7.0",
+    "@acab/reset.css": "^0.8.0",
     "@calcom/embed-react": "1.3.0",
     "@next/font": "^13.5.2",
     "@notionhq/client": "1.0.4",
