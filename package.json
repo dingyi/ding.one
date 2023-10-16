@@ -74,5 +74,5 @@
     "remark-gfm": "4.0.0",
     "typescript": "5.2.2"
   },
-  "packageManager": "pnpm@8.6.5"
+  "packageManager": "pnpm@8.9.2"
 }
