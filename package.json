@@ -40,7 +40,7 @@
     "date-fns": "2.30.0",
     "dayjs": "1.11.10",
     "framer-motion": "10.16.4",
-    "next": "13.5.2",
+    "next": "13.5.6",
     "next-contentlayer": "0.3.4",
     "next-plausible": "3.11.1",
     "next-pwa": "5.6.0",
@@ -64,7 +64,7 @@
   "devDependencies": {
     "@types/react": "18.2.22",
     "eslint": "8.50.0",
-    "eslint-config-next": "13.5.2",
+    "eslint-config-next": "13.5.6",
     "eslint-config-prettier": "9.0.0",
     "eslint-plugin-prettier": "5.0.0",
     "eslint-plugin-react": "7.33.2",
