@@ -22,7 +22,7 @@
     "@acab/reset.css": "^0.8.0",
     "@calcom/embed-react": "1.3.0",
     "@next/font": "^14.1.0",
-    "@notionhq/client": "1.0.4",
+    "@notionhq/client": "2.2.14",
     "@plaiceholder/next": "3.0.0",
     "@radix-ui/colors": "3.0.0",
     "@radix-ui/react-checkbox": "1.0.4",
