@@ -34,7 +34,7 @@
     "@stitches/react": "1.2.8",
     "@vercel/analytics": "^1.1.2",
     "clsx": "2.1.0",
-    "cmdk": "0.2.0",
+    "cmdk": "0.2.1",
     "contentlayer": "0.3.4",
     "copy-to-clipboard": "3.3.3",
     "date-fns": "3.3.1",
