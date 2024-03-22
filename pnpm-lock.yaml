@@ -39,8 +39,8 @@ dependencies:
     specifier: ^1.0.3
     version: 1.0.3(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
   '@raycast/utils':
-    specifier: 1.11.1
-    version: 1.11.1(@raycast/api@1.66.1)
+    specifier: 1.13.4
+    version: 1.13.4(@raycast/api@1.70.2)
   '@stitches/react':
     specifier: 1.2.8
     version: 1.2.8(react@18.2.0)
@@ -3364,8 +3364,8 @@ packages:
       '@babel/runtime': 7.23.9
     dev: false
 
-  /@raycast/api@1.66.1(@types/react@18.2.48):
-    resolution: {integrity: sha512-lFM5dxEeIumaACBONFbG37wBTxxcVRksqx23kWb4/S69aj3rXFB2Vun3pTGXaPU1lD4PFJ0I0qMskqM5pxuPXA==}
+  /@raycast/api@1.70.2(@types/react@18.2.48):
+    resolution: {integrity: sha512-EEGAuKwtkt7fx42G8DG04Hvu8cLNiRkoYUFw2bZty5MY1bKl1aUVIDomkHA2Ph1FPDLHuKUymPQj8OW+7DsdNQ==}
     hasBin: true
     requiresBuild: true
     peerDependencies:
@@ -3384,12 +3384,12 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@raycast/utils@1.11.1(@raycast/api@1.66.1):
-    resolution: {integrity: sha512-Ci+bwltwZAsXGvXrMzym9xW5R7EVMgAQLudO4CZ/PWjNcNyXHxKT25CiCHDLEEK3vZj/V+TRURM6T3XYf6EgGg==}
+  /@raycast/utils@1.13.4(@raycast/api@1.70.2):
+    resolution: {integrity: sha512-ed06ao4GriBQpXQgsAgYjJBaiu58j1jRBA0e2mYVO0CcGCQ/ouoRHN9NXgjm5DyfDGhI1M8nhvXvnae7/Ujnng==}
     peerDependencies:
-      '@raycast/api': '>=1.52.0'
+      '@raycast/api': '>=1.69.0'
     dependencies:
-      '@raycast/api': 1.66.1(@types/react@18.2.48)
+      '@raycast/api': 1.70.2(@types/react@18.2.48)
       content-type: 1.0.5
       cross-fetch: 3.1.8
       dequal: 2.0.3
