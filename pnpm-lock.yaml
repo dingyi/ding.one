@@ -39,8 +39,8 @@ dependencies:
     specifier: ^1.0.3
     version: 1.0.3(@types/react@18.2.48)(react-dom@18.2.0)(react@18.2.0)
   '@raycast/utils':
-    specifier: 1.11.1
-    version: 1.11.1(@raycast/api@1.66.1)
+    specifier: 1.15.0
+    version: 1.15.0(@raycast/api@1.72.1)
   '@stitches/react':
     specifier: 1.2.8
     version: 1.2.8(react@18.2.0)
@@ -3364,8 +3364,8 @@ packages:
       '@babel/runtime': 7.23.9
     dev: false
 
-  /@raycast/api@1.66.1(@types/react@18.2.48):
-    resolution: {integrity: sha512-lFM5dxEeIumaACBONFbG37wBTxxcVRksqx23kWb4/S69aj3rXFB2Vun3pTGXaPU1lD4PFJ0I0qMskqM5pxuPXA==}
+  /@raycast/api@1.72.1(@types/react@18.2.48):
+    resolution: {integrity: sha512-jTwwdh9kFN/bGOgtbU3Xnzer2VFyEdjaixoiV7PqJf5TSG4CEj1j/HCS1AIOd+X5TNRPv9EtjqBEpoE8bIlSxg==}
     hasBin: true
     requiresBuild: true
     peerDependencies:
@@ -3384,18 +3384,20 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@raycast/utils@1.11.1(@raycast/api@1.66.1):
-    resolution: {integrity: sha512-Ci+bwltwZAsXGvXrMzym9xW5R7EVMgAQLudO4CZ/PWjNcNyXHxKT25CiCHDLEEK3vZj/V+TRURM6T3XYf6EgGg==}
+  /@raycast/utils@1.15.0(@raycast/api@1.72.1):
+    resolution: {integrity: sha512-fVHT+9S0EotXGlWH779wSZMpGHGc13kSpA/m5CBUwkd1MRtWWbSuMs5ObJ46KRBAAYJQBSnm4eDck935WtUONQ==}
     peerDependencies:
-      '@raycast/api': '>=1.52.0'
+      '@raycast/api': '>=1.69.0'
     dependencies:
-      '@raycast/api': 1.66.1(@types/react@18.2.48)
+      '@raycast/api': 1.72.1(@types/react@18.2.48)
       content-type: 1.0.5
       cross-fetch: 3.1.8
       dequal: 2.0.3
       media-typer: 1.1.0
       object-hash: 3.0.0
       signal-exit: 4.1.0
+      stream-chain: 2.2.5
+      stream-json: 1.8.0
     transitivePeerDependencies:
       - encoding
     dev: false
@@ -9390,6 +9392,10 @@ packages:
       readable-stream: 3.6.2
     dev: false
 
+  /stream-chain@2.2.5:
+    resolution: {integrity: sha512-1TJmBx6aSWqZ4tx7aTpBDXK0/e2hhcNSTV8+CbFJtDjbb+I1mZ8lHit0Grw9GRT+6JbIrrDd8esncgBi8aBXGA==}
+    dev: false
+
   /stream-http@2.8.3:
     resolution: {integrity: sha512-+TSkfINHDo4J+ZobQLWiMouQYB+UVYFttRA94FpEzzJ7ZdqcL4uUUQ7WkdkI4DSozGmgBUE/a47L+38PenXhUw==}
     dependencies:
@@ -9407,6 +9413,12 @@ packages:
       inherits: 2.0.4
       readable-stream: 3.6.2
       xtend: 4.0.2
+    dev: false
+
+  /stream-json@1.8.0:
+    resolution: {integrity: sha512-HZfXngYHUAr1exT4fxlbc1IOce1RYxp2ldeaf97LYCOPSoOqY/1Psp7iGvpb+6JIOgkra9zDYnPX01hGAHzEPw==}
+    dependencies:
+      stream-chain: 2.2.5
     dev: false
 
   /stream-parser@0.3.1:
