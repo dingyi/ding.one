@@ -90,8 +90,8 @@ dependencies:
     specifier: 0.2.1
     version: 0.2.1(next@14.1.0)(react-dom@18.2.0)(react@18.2.0)
   next-usequerystate:
-    specifier: 1.15.4
-    version: 1.15.4(next@14.1.0)
+    specifier: 1.17.4
+    version: 1.17.4(next@14.1.0)
   plaiceholder:
     specifier: 3.0.0
     version: 3.0.0(sharp@0.33.2)
@@ -7841,8 +7841,8 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /next-usequerystate@1.15.4(next@14.1.0):
-    resolution: {integrity: sha512-KFBieLdUh4mg3wV8lB6vVm85c+EIYNF+MX0QtwpBzpp8HWfPKRaHFuVlWdLcCpyFKoJiN5yMewG8x+xo7uH0FQ==}
+  /next-usequerystate@1.17.4(next@14.1.0):
+    resolution: {integrity: sha512-d+X6k9tppgVGm+ZWlEqIBnQbXHQ3tNo5ZkQw6ouxtftVpCOiKXMpozcR4UZU9Ck64W2Mhb8wqWIlzrxqjvE3ww==}
     peerDependencies:
       next: '>=13.4 <14.0.2 || ^14.0.3'
     dependencies:
