@@ -33,6 +33,7 @@
     "@raycast/utils": "1.18.1",
     "@stitches/react": "1.2.8",
     "@vercel/analytics": "^1.4.1",
+    "@vercel/speed-insights": "^1.1.0",
     "clsx": "2.1.1",
     "cmdk": "1.0.4",
     "copy-to-clipboard": "3.3.3",

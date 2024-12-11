@@ -4,6 +4,7 @@ import { AppProps } from 'next/app'
 import Menu from "@components/Menu"
 import { ThemeProvider } from 'next-themes'
 import { Analytics } from '@vercel/analytics/react'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import PlausibleProvider from 'next-plausible'
 import { DefaultSeo } from 'next-seo'
 import SEO from '../next-seo.config'
@@ -32,6 +33,7 @@ export default function App({ Component, pageProps }: AppProps) {
             <Component {...pageProps} />
           </main>
           <Analytics />
+          <SpeedInsights />
         </ThemeProvider>
       </PlausibleProvider>
     </>
