@@ -61,7 +61,7 @@
     "use-onclickoutside": "0.4.1"
   },
   "devDependencies": {
-    "@types/react": "19.0.1",
+    "@types/react": "19.0.2",
     "eslint": "9.16.0",
     "eslint-config-next": "15.1.0",
     "eslint-config-prettier": "9.1.0",
