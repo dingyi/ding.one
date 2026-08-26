@@ -48,8 +48,8 @@
     "next-themes": "0.4.4",
     "next-usequerystate": "1.20.0",
     "plaiceholder": "3.0.0",
-    "react": "19.0.0",
-    "react-dom": "19.0.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
     "react-github-calendar": "4.5.1",
     "react-live-clock": "^6.1.25",
     "react-use": "17.6.0",
@@ -61,7 +61,7 @@
     "use-onclickoutside": "0.4.1"
   },
   "devDependencies": {
-    "@types/react": "19.0.1",
+    "@types/react": "19.2.18",
     "eslint": "9.16.0",
     "eslint-config-next": "15.1.0",
     "eslint-config-prettier": "9.1.0",
