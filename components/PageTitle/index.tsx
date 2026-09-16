@@ -1,4 +1,4 @@
-import { Unbounded } from '@next/font/google'
+import { Unbounded } from 'next/font/google'
 import { styled } from 'stitches.config'
 
 const Title = styled('h1', {
@@ -9,7 +9,7 @@ const Title = styled('h1', {
   transition: 'color 0.25s ease',
 })
 
-const unbounded = Unbounded()
+const unbounded = Unbounded({ subsets: ['latin'] })
 
 type ContainerProps = {
   children: React.ReactNode
