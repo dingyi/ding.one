@@ -4,6 +4,10 @@ const PER_PAGE = 50
 
 export const fetchBookmarks = async (page = 0): Promise<Bookmark[]> => {
 
+  if (!process.env.RAINDROP_COLLECTION || !process.env.RAINDROP_TOKEN) {
+    return []
+  }
+
   const req = await fetch(
     `https://api.raindrop.io/rest/v1/raindrops/${process.env.RAINDROP_COLLECTION}?sort=-created&search=type:link&perpage=${PER_PAGE}&page=${page}`,
     {
