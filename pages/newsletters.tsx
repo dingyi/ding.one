@@ -60,6 +60,9 @@ export default function Newsletters({ list }) {
 }
 //notion API
 export async function getStaticProps() {
+  if (!process.env.NOTION_API_KEY) {
+    return { props: { list: [] } }
+  }
   const notion = new Client({ auth: process.env.NOTION_API_KEY })
 
   const response = await notion.databases.query({

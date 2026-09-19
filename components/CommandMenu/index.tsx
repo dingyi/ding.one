@@ -1,7 +1,7 @@
 import React from "react"
 import { useRouter } from "next/router"
 import { Command } from "cmdk"
-import tinykeys from "tinykeys"
+import { tinykeys } from "tinykeys"
 import useOnClickOutside from "use-onclickoutside"
 import { useTheme } from "next-themes"
 import Home from "@ui/Icons/home"
