@@ -55,6 +55,11 @@ export default function Stack({ list }) {
 }
 //notion API
 export async function getStaticProps() {
+  if (!process.env.NOTION_API_KEY) {
+    // No Notion credentials (e.g. in CI): render an empty list instead of failing the build.
+    return { props: { list: [] }, revalidate: 60 }
+  }
+
   const notion = new Client({ auth: process.env.NOTION_API_KEY })
 
   const response = await notion.databases.query({
