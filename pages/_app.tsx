@@ -8,11 +8,11 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 import PlausibleProvider from 'next-plausible'
 import { DefaultSeo } from 'next-seo'
 import SEO from '../next-seo.config'
-import { Albert_Sans } from '@next/font/google'
+import { Albert_Sans } from 'next/font/google'
 import { globalStyles } from '@styles/global'
 import '@styles/reset.css'
 
-const Albert = Albert_Sans()
+const Albert = Albert_Sans({ subsets: ['latin'] })
 
 export default function App({ Component, pageProps }: AppProps) {
   globalStyles()

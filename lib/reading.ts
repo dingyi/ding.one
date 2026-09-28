@@ -3,6 +3,11 @@ import { Bookmark } from "lib/types"
 const PER_PAGE = 50
 
 export const fetchReading = async (page = 0): Promise<Bookmark[]> => {
+  if (!process.env.RAINDROP_TOKEN || !process.env.RAINDROP_COLLECTION) {
+    // No Raindrop credentials (e.g. in CI): return an empty list instead of failing the build.
+    return []
+  }
+
 
   const req = await fetch(
     `https://api.raindrop.io/rest/v1/raindrops/${process.env.RAINDROP_COLLECTION}?sort=-created&search=type:article&perpage=${PER_PAGE}&page=${page}`,
