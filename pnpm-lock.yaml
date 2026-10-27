@@ -14,9 +14,6 @@ importers:
       '@calcom/embed-react':
         specifier: 1.5.1
         version: 1.5.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
-      '@next/font':
-        specifier: ^14.2.15
-        version: 14.2.15(next@15.1.0(@babel/core@7.26.0)(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))
       '@notionhq/client':
         specifier: 1.0.4
         version: 1.0.4(encoding@0.1.13)
@@ -903,11 +900,6 @@ packages:
 
   '@next/eslint-plugin-next@15.1.0':
     resolution: {integrity: sha512-+jPT0h+nelBT6HC9ZCHGc7DgGVy04cv4shYdAe6tKlEbjQUtwU3LzQhzbDHQyY2m6g39m6B0kOFVuLGBrxxbGg==}
-
-  '@next/font@14.2.15':
-    resolution: {integrity: sha512-QopYhBmCDDrNDynbi+ZD1hDZXmQXVFo7TmAFp4DQgO/kogz1OLbQ92hPigJbj572eZ3GaaVxNIyYVn3/eAsehg==}
-    peerDependencies:
-      next: '*'
 
   '@next/polyfill-module@10.2.3':
     resolution: {integrity: sha512-OkeY4cLhzfYbXxM4fd+6V4s5pTPuyfKSlavItfNRA6PpS7t1/R6YjO7S7rB8tu1pbTGuDHGIdE1ioDv15bAbDQ==}
@@ -5441,10 +5433,6 @@ snapshots:
   '@next/eslint-plugin-next@15.1.0':
     dependencies:
       fast-glob: 3.3.1
-
-  '@next/font@14.2.15(next@15.1.0(@babel/core@7.26.0)(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))':
-    dependencies:
-      next: 15.1.0(@babel/core@7.26.0)(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
 
   '@next/polyfill-module@10.2.3': {}
 
