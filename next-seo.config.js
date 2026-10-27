@@ -2,14 +2,15 @@
 
 const title = 'Ding'
 const description = 'Product designer & design-focused engineer.'
-const siteUrl = 'https://ding.one'
+// Homepage origin. pages/_app.tsx replaces canonical and openGraph.url per route.
+export const siteUrl = 'https://ding.one'
 
 export default {
   title: title,
   titleTemplate: "Ding – %s",
   defaultTitle: "Ding",
   description: description,
-  canonical: "https://ding.one",
+  canonical: siteUrl,
   openGraph: {
     type: 'website',
     locale: 'en_US',
