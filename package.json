@@ -38,7 +38,7 @@
     "cmdk": "1.0.4",
     "copy-to-clipboard": "3.3.3",
     "date-fns": "4.1.0",
-    "dayjs": "1.11.13",
+    "dayjs": "1.11.23",
     "framer-motion": "11.13.5",
     "next": "15.1.0",
     "next-plausible": "3.12.4",
